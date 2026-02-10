@@ -1,0 +1,15 @@
+</main><!-- /#main -->
+
+<!----==== footer area ====----->
+
+<footer class="footer">
+    
+</footer>
+
+</div><!-- /#wrapper -->
+<?php
+wp_footer();
+?>
+</body>
+
+</html>

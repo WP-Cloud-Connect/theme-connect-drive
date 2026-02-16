@@ -1,10 +1,12 @@
 <?php
 
-class Connect_Drive_Enqueue {
+class Connect_Drive_Enqueue
+{
 
 	private static $instance = null;
 
-	public function __construct() {
+	public function __construct()
+	{
 		add_action('wp_enqueue_scripts', [$this, 'frontend_assets']);
 		add_action('admin_enqueue_scripts', [$this, 'admin_enqueue_scripts']);
 	}
@@ -15,7 +17,8 @@ class Connect_Drive_Enqueue {
 	 *
 	 * @since v1.0
 	 */
-	function frontend_assets($hook) {
+	function frontend_assets($hook)
+	{
 		$theme_version = wp_get_theme()->get('Version');
 
 		$page_template = get_page_template_slug();
@@ -32,6 +35,8 @@ class Connect_Drive_Enqueue {
 			wp_enqueue_style('slick', get_theme_file_uri('assets/vendor/slick/slick.css'), array(), $theme_version);
 			wp_enqueue_style('lity', get_theme_file_uri('assets/vendor/lity/lity.min.css'), array(), $theme_version);
 
+			wp_enqueue_style('home', get_theme_file_uri('assets/css/home.css'), array(), $theme_version, 'all');
+
 			// Common Scripts.
 			wp_enqueue_script('slick', get_theme_file_uri('assets/vendor/slick/slick.min.js'), array(), $theme_version, true);
 			wp_enqueue_script('counter', get_theme_file_uri('assets/vendor/counter/jquery.counterup.min.js'), array(), $theme_version, true);
@@ -39,6 +44,7 @@ class Connect_Drive_Enqueue {
 			wp_enqueue_script('lity', get_theme_file_uri('assets/vendor/lity/lity.min.js'), array(), $theme_version, true);
 		}
 
+		wp_enqueue_script('slicknav', get_theme_file_uri('assets/vendor/slicknav/slicknav.min.css'), array(), $theme_version);
 		wp_enqueue_style('main', get_theme_file_uri('assets/css/main.css'), array(), $theme_version, 'all');
 
 		if (is_rtl()) {
@@ -47,7 +53,9 @@ class Connect_Drive_Enqueue {
 
 		wp_enqueue_style('style', get_stylesheet_uri(), array(), $theme_version);
 
+		wp_enqueue_script('slicknav-js', get_theme_file_uri('assets/vendor/slicknav/jquery.slicknav.min.js'), array(), $theme_version, true);
 		wp_enqueue_script('main', get_theme_file_uri('assets/js/frontend.js'), array('jquery'), $theme_version, true);
+
 
 		wp_localize_script('main', 'connectDrive', [
 			'ajax_url'   => admin_url('admin-ajax.php'),
@@ -73,9 +81,10 @@ class Connect_Drive_Enqueue {
 	 * Admin Assets
 	 * @since 1.0.72
 	 */
-	function admin_enqueue_scripts($hook) {
+	function admin_enqueue_scripts($hook)
+	{
 		$theme_version = wp_get_theme()->get('Version');
-		
+
 		wp_enqueue_script('main', get_theme_file_uri('assets/js/admin.js'), array('jquery'), $theme_version, true);
 	}
 
@@ -84,7 +93,8 @@ class Connect_Drive_Enqueue {
 	 * Summary of instance
 	 * @return Connect_Drive
 	 */
-	public static function instance() {
+	public static function instance()
+	{
 		if (null === self::$instance) {
 			self::$instance = new self;
 		}

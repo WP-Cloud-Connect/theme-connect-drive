@@ -1,3 +1,80 @@
-header{
-  
+.site-header {
+  // background: linear-gradient(135deg, #00AC47 0%, #2BCB9A 50%, #4ED1B3 100%);
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: auto;
+  background: transparent;
+  backdrop-filter: inherit;
+  // background: #f5f5f5;
+  z-index: 99;
+  padding: 1rem 0px;
+  transition: transform 0.25s ease-in-out;
+  .main-menu {
+    // padding: 15px 0;
+    justify-content: space-between;
+    align-items: center;
+    .img-fluid {
+      width: 180px;
+      height: 50px;
+    }
+    .menu-items {
+      align-items: center;
+      gap: 20px;
+      #menu {
+        display: flex;
+        gap: 20px;
+        li {
+          a {
+            text-decoration: none;
+            color: $p_color;
+            font-size: 16px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 7px;
+          }
+          .sub-menu {
+            background: #fff;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 10px;
+            padding: 10px 20px;
+            display: none;
+            position: absolute;
+            z-index: 1;
+            width: 200px;
+            li {
+              padding: 5px 0;
+              a {
+                text-decoration: none;
+                color: $p_color;
+                font-size: 16px;
+                font-weight: 500;
+              }
+            }
+          }
+          &:hover {
+            color: $color_primary;
+            .sub-menu {
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
 }
+
+/**---------- Scrolling Header Css start----------**/
+.fixed-header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1330;
+  background-color: #dfe6fe;
+  box-shadow: 0 13px 22px -5px rgba(0, 0, 0, 0.06);
+  transition: transform 0.25s ease-in-out;
+  padding: 0 0 3px;
+}
+/**---------- Scrolling Header Css end----------**/

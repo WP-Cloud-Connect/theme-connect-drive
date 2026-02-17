@@ -1,30 +1,55 @@
 .site-header {
-  // background: linear-gradient(135deg, #00AC47 0%, #2BCB9A 50%, #4ED1B3 100%);
   position: absolute;
   left: 0;
   right: 0;
   width: auto;
   background: transparent;
   backdrop-filter: inherit;
-  // background: #f5f5f5;
   z-index: 99;
   padding: 1rem 0px;
   transition: transform 0.25s ease-in-out;
   .main-menu {
-    // padding: 15px 0;
     justify-content: space-between;
     align-items: center;
+
     .img-fluid {
       width: 180px;
       height: 50px;
     }
+
     .menu-items {
       align-items: center;
+      margin-left: auto;
       gap: 20px;
       #menu {
         display: flex;
         gap: 20px;
+
         li {
+          &.menu-item-has-children {
+            > a {
+              display: flex;
+              align-items: center;
+              gap: 10px;
+
+              &::after {
+                content: "";
+                background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSI3IiB2aWV3Qm94PSIwIDAgMTIgNyIgZmlsbD0ibm9uZSI+CiAgPHBhdGggZD0iTTEwLjc1IDAuNzVMNS43NSA1Ljc1TDAuNzUgMC43NSIgc3Ryb2tlPSIjMEYxNzJBIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPg==");
+                height: 7px;
+                width: 12px;
+                display: block;
+                background-repeat: no-repeat;
+                transition: all 0.3s ease-in-out;
+              }
+
+              &:hover {
+                &::after {
+                  rotate: 180deg;
+                }
+              }
+            }
+          }
+
           a {
             text-decoration: none;
             color: $p_color;
@@ -34,6 +59,7 @@
             align-items: center;
             gap: 7px;
           }
+
           .sub-menu {
             background: #fff;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -57,6 +83,86 @@
             color: $color_primary;
             .sub-menu {
               display: block;
+            }
+          }
+        }
+      }
+
+      @media only screen and (max-width: 991px) {
+        display: none;
+      }
+    }
+
+    .collapse-menu {
+      display: none;
+
+      @media only screen and (max-width: 991px) {
+        display: block;
+      }
+
+      span {
+        &.collapse-icon {
+          padding: 6px 20px;
+          background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIj48cGF0aCBkPSJNMjAgN0g0bTE2IDVING0xNiA1SDQiIHN0cm9rZT0iIzFjMjc0YyIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48L3N2Zz4=");
+          background-repeat: no-repeat;
+          background-position: center center;
+
+          &.active {
+            background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDEyIDEyIiBmaWxsPSJub25lIj48cGF0aCBkPSJNMTEuMjUgMTEuMjVjLS40Mi40Mi0xLjA4LjQyLTEuNSAwbC05LTlhMS4wNSAxLjA1IDAgMCAxIDAtMS41IDEuMDUgMS4wNSAwIDAgMSAxLjUgMGw5IDljLjQyLjQyLjQyIDEuMDggMCAxLjUiIGZpbGw9IiMxYzI3NGMiLz48cGF0aCBkPSJtMTEuMjUgMi4yNS05IDljLS40Mi40Mi0xLjA4LjQyLTEuNSAwYTEuMDUgMS4wNSAwIDAgMSAwLTEuNWw5LTlhMS4wNSAxLjA1IDAgMCAxIDEuNSAwYy40Mi40Mi40MiAxLjA4IDAgMS41IiBmaWxsPSIjMWMyNzRjIi8+PC9zdmc+");
+          }
+        }
+      }
+    }
+  }
+
+  .mobile-menu {
+    display: none;
+    background: #fff;
+    padding: 10px;
+
+    &.open {
+      display: block;
+    }
+
+    ul {
+      &.navbar-nav {
+        li {
+          &.menu-item-has-children {
+            > a {
+              display: flex;
+              align-items: center;
+              gap: 10px;
+
+              &::after {
+                content: "";
+                background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMiIgaGVpZ2h0PSI3IiB2aWV3Qm94PSIwIDAgMTIgNyIgZmlsbD0ibm9uZSI+CiAgPHBhdGggZD0iTTEwLjc1IDAuNzVMNS43NSA1Ljc1TDAuNzUgMC43NSIgc3Ryb2tlPSIjMEYxNzJBIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPg==");
+                height: 7px;
+                width: 12px;
+                display: block;
+                background-repeat: no-repeat;
+                transition: all 0.3s ease-in-out;
+              }
+            }
+
+            ul {
+              &.sub-menu {
+                display: none;
+                margin-left: 10px;
+              }
+            }
+
+            &.active {
+              > a {
+                &::after {
+                  rotate: 180deg;
+                }
+              }
+
+              ul {
+                &.sub-menu {
+                  display: block;
+                }
+              }
             }
           }
         }

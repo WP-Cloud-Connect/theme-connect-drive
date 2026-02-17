@@ -22,7 +22,7 @@
 
             <!-- Resources Menu -->
             <div class="footer-menu-head">
-                <h4><?php _e('Resources', 'softlab'); ?></h4>
+                <h4><?php _e('Resources', 'connect-drive'); ?></h4>
                 <div class="footer-menu">
                     <a href="">Blog</a>
                     <?php
@@ -39,7 +39,7 @@
 
             <!-- Support Menu -->
             <div class="footer-menu-head ">
-                <h4><?php _e('Support', 'softlab'); ?></h4>
+                <h4><?php _e('Support', 'connect-drive'); ?></h4>
                 <div class="footer-menu">
                     <a href="">Blog</a>
                     <?php
@@ -56,7 +56,7 @@
 
             <!-- Newsletter -->
             <div class="footer-menu-head">
-                <h4><?php _e('Subscribe to Our Newsletter', 'softlab'); ?></h4>
+                <h4><?php _e('Subscribe to Our Newsletter', 'connect-drive'); ?></h4>
                 <div class="news-letter-form">
                     <form>
                         <input type="email" name="email" id="email" class="news-letter-input" required placeholder="Enter your email">
@@ -73,7 +73,7 @@
                 <i class="fa-brands fa-facebook-messenger"></i>
             </a>
             <div class="on-hover-text">
-                <p class="hover-text"><?php _e('Live Chat', 'softlab'); ?></p>
+                <p class="hover-text"><?php _e('Live Chat', 'connect-drive'); ?></p>
             </div>
         </div>
         <!-- Footer messenger end-->

@@ -11,7 +11,7 @@ if ( get_the_author_meta( 'description' ) ) :
 			<h2>
 				<?php
 					echo get_avatar( get_the_author_meta( 'user_email' ), apply_filters( 'softlab_author_bio_avatar_size', 48 ) ) . '&nbsp;';
-					printf( esc_html__( 'About %s', 'softlab' ), get_the_author() );
+					printf( esc_html__( 'About %s', 'connect-drive' ), get_the_author() );
 				?>
 			</h2>
 			<div class="author-description">
@@ -20,7 +20,7 @@ if ( get_the_author_meta( 'description' ) ) :
 			<div class="author-links">
 				<?php
 					if ( ! empty( get_the_author_meta( 'user_url' ) ) ) :
-						printf( '<a href="%s" class="www btn btn-secondary btn-sm">' . esc_html__( 'Website', 'softlab' ) . '</a>', esc_url( get_the_author_meta( 'user_url' ) ) );
+						printf( '<a href="%s" class="www btn btn-secondary btn-sm">' . esc_html__( 'Website', 'connect-drive' ) . '</a>', esc_url( get_the_author_meta( 'user_url' ) ) );
 					endif;
 
 					// Add new Profile fields for Users in functions.php

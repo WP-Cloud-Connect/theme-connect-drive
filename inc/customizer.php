@@ -19,7 +19,7 @@ function connect_drive_customize( $wp_customize ) {
 	$wp_customize->add_section(
 		'theme_header_section',
 		array(
-			'title'    => __( 'Header', 'softlab' ),
+			'title'    => __( 'Header', 'connect-drive' ),
 			'priority' => 1000,
 		)
 	);
@@ -40,8 +40,8 @@ function connect_drive_customize( $wp_customize ) {
 			$wp_customize,
 			'header_logo',
 			array(
-				'label'       => __( 'Upload Header Logo', 'softlab' ),
-				'description' => __( 'Height: &gt;80px', 'softlab' ),
+				'label'       => __( 'Upload Header Logo', 'connect-drive' ),
+				'description' => __( 'Height: &gt;80px', 'connect-drive' ),
 				'section'     => 'theme_header_section',
 				'settings'    => 'header_logo',
 				'priority'    => 1,
@@ -61,12 +61,12 @@ function connect_drive_customize( $wp_customize ) {
 		'navbar_scheme',
 		array(
 			'type'     => 'radio',
-			'label'    => __( 'Navbar Scheme', 'softlab' ),
+			'label'    => __( 'Navbar Scheme', 'connect-drive' ),
 			'section'  => 'theme_header_section',
 			'choices'  => array(
-				'navbar-light bg-light'  => __( 'Default', 'softlab' ),
-				'navbar-dark bg-dark'    => __( 'Dark', 'softlab' ),
-				'navbar-dark bg-primary' => __( 'Primary', 'softlab' ),
+				'navbar-light bg-light'  => __( 'Default', 'connect-drive' ),
+				'navbar-dark bg-dark'    => __( 'Dark', 'connect-drive' ),
+				'navbar-dark bg-primary' => __( 'Primary', 'connect-drive' ),
 			),
 			'settings' => 'navbar_scheme',
 			'priority' => 1,
@@ -85,12 +85,12 @@ function connect_drive_customize( $wp_customize ) {
 		'navbar_position',
 		array(
 			'type'     => 'radio',
-			'label'    => __( 'Navbar', 'softlab' ),
+			'label'    => __( 'Navbar', 'connect-drive' ),
 			'section'  => 'theme_header_section',
 			'choices'  => array(
-				'static'       => __( 'Static', 'softlab' ),
-				'fixed_top'    => __( 'Fixed to top', 'softlab' ),
-				'fixed_bottom' => __( 'Fixed to bottom', 'softlab' ),
+				'static'       => __( 'Static', 'connect-drive' ),
+				'fixed_top'    => __( 'Fixed to top', 'connect-drive' ),
+				'fixed_bottom' => __( 'Fixed to bottom', 'connect-drive' ),
 			),
 			'settings' => 'navbar_position',
 			'priority' => 2,
@@ -109,7 +109,7 @@ function connect_drive_customize( $wp_customize ) {
 		'search_enabled',
 		array(
 			'type'     => 'checkbox',
-			'label'    => __( 'Show Searchfield?', 'softlab' ),
+			'label'    => __( 'Show Searchfield?', 'connect-drive' ),
 			'section'  => 'theme_header_section',
 			'settings' => 'search_enabled',
 			'priority' => 3,

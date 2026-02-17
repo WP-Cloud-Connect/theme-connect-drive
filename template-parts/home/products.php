@@ -2,16 +2,16 @@
 
 $products = [
 	'integrate-google-drive' => [
-		'title'       => __('Integrate Google Drive', 'softlab'),
-		'description' => __('Seamlessly integrate Google Drive with your WordPress website using the most reliable and user-friendly cloud storage solution.', 'softlab'),
+		'title'       => __('Integrate Google Drive', 'connect-drive'),
+		'description' => __('Seamlessly integrate Google Drive with your WordPress website using the most reliable and user-friendly cloud storage solution.', 'connect-drive'),
 		'image'       => get_template_directory_uri() . '/assets/images/home/products/integrate-google-drive-icon.png',
 		'active_users'        => '8000<span class="">+ active users</span>',
 		'active_icon'        => '<i class="fa-solid fa-users"></i>',
 	],
 
 	'radio-player' => [
-		'title'       => __('Radio Player', 'softlab'),
-		'description' => __('Turn your WordPress site into a fully functional radio station with our powerful and customizable Radio Player plugin.', 'softlab'),
+		'title'       => __('Radio Player', 'connect-drive'),
+		'description' => __('Turn your WordPress site into a fully functional radio station with our powerful and customizable Radio Player plugin.', 'connect-drive'),
 		'image'       => get_template_directory_uri() . '/assets/images/home/products/radio-icon.png',
 		'active_users'        => '7000<span class="">+ active users</span>',
 		'active_icon'        => '<i class="fa-solid fa-users"></i>',
@@ -30,15 +30,15 @@ $products = [
 	// ],
 
 	'dracula-dark-mode' => [
-		'title'       => __('Dracula Dark Mode', 'softlab'),
-		'description' => __('Give your website a sleek and modern look with our intelligent dark mode solution to improve accessibility, reduce eye strain with a single click.', 'softlab'),
+		'title'       => __('Dracula Dark Mode', 'connect-drive'),
+		'description' => __('Give your website a sleek and modern look with our intelligent dark mode solution to improve accessibility, reduce eye strain with a single click.', 'connect-drive'),
 		'image'       => get_template_directory_uri() . '/assets/images/home/products/dracula-icon.png',
 		'active_users'        => '4000<span class="">+ active users</span>',
 		'active_icon'        => '<i class="fa-solid fa-users"></i>',
 	],
 	'essential-addons-for-contact-form-7' => [
-		'title'       => __('Essential Addons <span class="e-addons-title">for Contact Form 7</span>', 'softlab'),
-		'description' => __('Supercharge Contact Form 7 with advanced features and styling options. Such as, conditional logic, custom layouts, multi-step forms, and more.', 'softlab'),
+		'title'       => __('Essential Addons <span class="e-addons-title">for Contact Form 7</span>', 'connect-drive'),
+		'description' => __('Supercharge Contact Form 7 with advanced features and styling options. Such as, conditional logic, custom layouts, multi-step forms, and more.', 'connect-drive'),
 		'image'       => get_template_directory_uri() . '/assets/images/home/products/essential-addons-for-contact-form-7-icon.png',
 		'active_users'        => '1000<span class="">+ active users</span>',
 		'active_icon'        => '<i class="fa-solid fa-users"></i>',
@@ -67,8 +67,8 @@ $products = [
 		<div class="row">
 			<div class="col-lg-5 m-auto">
 				<div class="products-head  text-center">
-					<h4 class="sub-hedding-title"><?php _e('Our Solutions', 'softlab'); ?></h4>
-					<p class="sub-hedding-description"><?php _e('Empower your business with our next level solutions.', 'softlab'); ?></p>
+					<h4 class="sub-hedding-title"><?php _e('Our Solutions', 'connect-drive'); ?></h4>
+					<p class="sub-hedding-description"><?php _e('Empower your business with our next level solutions.', 'connect-drive'); ?></p>
 
 					<div class="products-vector">
 						<img class="img-fluid"

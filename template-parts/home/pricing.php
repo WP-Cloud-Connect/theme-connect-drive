@@ -125,7 +125,7 @@ $lifetime_pro_features = [
                                     </defs>
                                 </svg>
 
-                                <h5><?php _e('Personal', 'softlab'); ?> <svg xmlns="http://www.w3.org/2000/svg" width="9" height="6" viewBox="0 0 9 6" fill="none">
+                                <h5><?php _e('Personal', 'connect-drive'); ?> <svg xmlns="http://www.w3.org/2000/svg" width="9" height="6" viewBox="0 0 9 6" fill="none">
                                         <path d="M3.07637 6C2.86424 6 2.65211 5.9215 2.49017 5.76356L0.242909 3.57192C-0.0809696 3.25606 -0.0809696 2.7444 0.242909 2.42946C0.566787 2.1136 1.09048 2.11268 1.41436 2.42854L3.07637 4.04941L6.98564 0.236897C7.30952 -0.0789656 7.83321 -0.0789656 8.15709 0.236897C8.48097 0.552759 8.48097 1.06442 8.15709 1.38028L3.66257 5.76356C3.50063 5.9215 3.2885 6 3.07637 6Z" fill="url(#paint0_linear_27_2976)" />
                                         <defs>
                                             <linearGradient id="paint0_linear_27_2976" x1="8.4" y1="5.48077" x2="0.271715" y2="0.279994" gradientUnits="userSpaceOnUse">
@@ -149,7 +149,7 @@ $lifetime_pro_features = [
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M5 10C4.99 7.242 2.75527 5.00927 0 5.00927C2.76145 5.00927 5 2.76655 5 0C5.00991 2.758 7.24473 4.99073 10 4.99073C7.23855 4.99073 5 7.23345 5 10Z" fill="white" />
                                 </svg>
-                                <h5><?php _e('Essentials', 'softlab'); ?> <svg xmlns="http://www.w3.org/2000/svg" width="9" height="6" viewBox="0 0 9 6" fill="none">
+                                <h5><?php _e('Essentials', 'connect-drive'); ?> <svg xmlns="http://www.w3.org/2000/svg" width="9" height="6" viewBox="0 0 9 6" fill="none">
                                         <path d="M3.07637 6C2.86424 6 2.65211 5.9215 2.49017 5.76356L0.242909 3.57192C-0.0809696 3.25606 -0.0809696 2.7444 0.242909 2.42946C0.566787 2.1136 1.09048 2.11268 1.41436 2.42854L3.07637 4.04941L6.98564 0.236897C7.30952 -0.0789656 7.83321 -0.0789656 8.15709 0.236897C8.48097 0.552759 8.48097 1.06442 8.15709 1.38028L3.66257 5.76356C3.50063 5.9215 3.2885 6 3.07637 6Z" fill="url(#paint0_linear_27_2976)" />
                                         <defs>
                                             <linearGradient id="paint0_linear_27_2976" x1="8.4" y1="5.48077" x2="0.271715" y2="0.279994" gradientUnits="userSpaceOnUse">
@@ -185,7 +185,7 @@ $lifetime_pro_features = [
                                         </clipPath>
                                     </defs>
                                 </svg>
-                                <h5><?php _e('Professional', 'softlab'); ?> <svg xmlns="http://www.w3.org/2000/svg" width="9" height="6" viewBox="0 0 9 6" fill="none">
+                                <h5><?php _e('Professional', 'connect-drive'); ?> <svg xmlns="http://www.w3.org/2000/svg" width="9" height="6" viewBox="0 0 9 6" fill="none">
                                         <path d="M3.07637 6C2.86424 6 2.65211 5.9215 2.49017 5.76356L0.242909 3.57192C-0.0809696 3.25606 -0.0809696 2.7444 0.242909 2.42946C0.566787 2.1136 1.09048 2.11268 1.41436 2.42854L3.07637 4.04941L6.98564 0.236897C7.30952 -0.0789656 7.83321 -0.0789656 8.15709 0.236897C8.48097 0.552759 8.48097 1.06442 8.15709 1.38028L3.66257 5.76356C3.50063 5.9215 3.2885 6 3.07637 6Z" fill="url(#paint0_linear_27_2976)" />
                                         <defs>
                                             <linearGradient id="paint0_linear_27_2976" x1="8.4" y1="5.48077" x2="0.271715" y2="0.279994" gradientUnits="userSpaceOnUse">
@@ -232,7 +232,7 @@ $lifetime_pro_features = [
                                         </clipPath>
                                     </defs>
                                 </svg>
-                                <h5><?php _e('Business', 'softlab'); ?> <svg xmlns="http://www.w3.org/2000/svg" width="9" height="6" viewBox="0 0 9 6" fill="none">
+                                <h5><?php _e('Business', 'connect-drive'); ?> <svg xmlns="http://www.w3.org/2000/svg" width="9" height="6" viewBox="0 0 9 6" fill="none">
                                         <path d="M3.07637 6C2.86424 6 2.65211 5.9215 2.49017 5.76356L0.242909 3.57192C-0.0809696 3.25606 -0.0809696 2.7444 0.242909 2.42946C0.566787 2.1136 1.09048 2.11268 1.41436 2.42854L3.07637 4.04941L6.98564 0.236897C7.30952 -0.0789656 7.83321 -0.0789656 8.15709 0.236897C8.48097 0.552759 8.48097 1.06442 8.15709 1.38028L3.66257 5.76356C3.50063 5.9215 3.2885 6 3.07637 6Z" fill="url(#paint0_linear_27_2976)" />
                                         <defs>
                                             <linearGradient id="paint0_linear_27_2976" x1="8.4" y1="5.48077" x2="0.271715" y2="0.279994" gradientUnits="userSpaceOnUse">
@@ -281,7 +281,7 @@ $lifetime_pro_features = [
                                         </clipPath>
                                     </defs>
                                 </svg>
-                                <h5><?php _e('Enterprise', 'softlab'); ?> <svg xmlns="http://www.w3.org/2000/svg" width="9" height="6" viewBox="0 0 9 6" fill="none">
+                                <h5><?php _e('Enterprise', 'connect-drive'); ?> <svg xmlns="http://www.w3.org/2000/svg" width="9" height="6" viewBox="0 0 9 6" fill="none">
                                         <path d="M3.07637 6C2.86424 6 2.65211 5.9215 2.49017 5.76356L0.242909 3.57192C-0.0809696 3.25606 -0.0809696 2.7444 0.242909 2.42946C0.566787 2.1136 1.09048 2.11268 1.41436 2.42854L3.07637 4.04941L6.98564 0.236897C7.30952 -0.0789656 7.83321 -0.0789656 8.15709 0.236897C8.48097 0.552759 8.48097 1.06442 8.15709 1.38028L3.66257 5.76356C3.50063 5.9215 3.2885 6 3.07637 6Z" fill="url(#paint0_linear_27_2976)" />
                                         <defs>
                                             <linearGradient id="paint0_linear_27_2976" x1="8.4" y1="5.48077" x2="0.271715" y2="0.279994" gradientUnits="userSpaceOnUse">

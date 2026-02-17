@@ -44,7 +44,6 @@ class Connect_Drive_Enqueue
 			wp_enqueue_script('lity', get_theme_file_uri('assets/vendor/lity/lity.min.js'), array(), $theme_version, true);
 		}
 
-		wp_enqueue_script('slicknav', get_theme_file_uri('assets/vendor/slicknav/slicknav.min.css'), array(), $theme_version);
 		wp_enqueue_style('main', get_theme_file_uri('assets/css/main.css'), array(), $theme_version, 'all');
 
 		if (is_rtl()) {
@@ -53,7 +52,6 @@ class Connect_Drive_Enqueue
 
 		wp_enqueue_style('style', get_stylesheet_uri(), array(), $theme_version);
 
-		wp_enqueue_script('slicknav-js', get_theme_file_uri('assets/vendor/slicknav/jquery.slicknav.min.js'), array(), $theme_version, true);
 		wp_enqueue_script('main', get_theme_file_uri('assets/js/frontend.js'), array('jquery'), $theme_version, true);
 
 

@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-lg-6 m-auto">
                 <div class="our-blog-head  text-center">
-                    <h4 class="sub-hedding-title"><?php _e('Latest Blog & News', 'softlab'); ?></h4>
-                    <p class="sub-hedding-description"><?php _e('Read the latest updates about us, which new Features coming to help your website.', 'softlab'); ?></p>
+                    <h4 class="sub-hedding-title"><?php _e('Latest Blog & News', 'connect-drive'); ?></h4>
+                    <p class="sub-hedding-description"><?php _e('Read the latest updates about us, which new Features coming to help your website.', 'connect-drive'); ?></p>
                 </div>
             </div>
         </div>
@@ -61,7 +61,7 @@
                                     <div class="our-blog-content-butt d-flex justify-content-between align-items-center">
                                         <span class="blog-item-meta-time"><i class="fa-solid fa-clock"></i><?php echo softlab_get_reading_time(); ?></span>
                                         <a href="<?php the_permalink(); ?>" class="read-more">
-                                            <?php _e('View Post', 'softlab'); ?>
+                                            <?php _e('View Post', 'connect-drive'); ?>
                                             <i class="fas fa-arrow-right"></i>
                                         </a>
                                     </div>

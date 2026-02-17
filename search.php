@@ -8,7 +8,7 @@ get_header();
 if ( have_posts() ) :
 ?>	
 	<header class="page-header">
-		<h1 class="page-title" style="display:none;"><?php printf( esc_html__( 'Search Results for: %s', 'softlab' ), get_search_query() ); ?></h1>
+		<h1 class="page-title" style="display:none;"><?php printf( esc_html__( 'Search Results for: %s', 'connect-drive' ), get_search_query() ); ?></h1>
 	</header>
 <?php
 	get_template_part( 'archive', 'loop' );
@@ -20,9 +20,9 @@ else :
 			<div class="col-lg-8 m-auto">
 				<article id="post-0" class="post no-results not-found text-center">
 					<header class="entry-header">
-						<h1 class="entry-title"><?php esc_html_e( 'Nothing Found', 'softlab' ); ?></h1>
+						<h1 class="entry-title"><?php esc_html_e( 'Nothing Found', 'connect-drive' ); ?></h1>
 					</header><!-- /.entry-header -->
-					<p><?php esc_html_e( 'Sorry, but nothing matched your search criteria. Please try again with some different keywords.', 'softlab' ); ?></p>
+					<p><?php esc_html_e( 'Sorry, but nothing matched your search criteria. Please try again with some different keywords.', 'connect-drive' ); ?></p>
 					<?php
 						get_search_form();
 					?>

@@ -118,8 +118,8 @@ if (! function_exists('connect_drive_content_nav')) :
         if ($wp_query->max_num_pages > 1) :
 ?>
             <div id="<?php echo esc_attr($nav_id); ?>" class="d-flex mb-4 justify-content-between">
-                <div><?php next_posts_link('<span aria-hidden="true">&larr;</span> ' . esc_html__('Older posts', 'softlab')); ?></div>
-                <div><?php previous_posts_link(esc_html__('Newer posts', 'softlab') . ' <span aria-hidden="true">&rarr;</span>'); ?></div>
+                <div><?php next_posts_link('<span aria-hidden="true">&larr;</span> ' . esc_html__('Older posts', 'connect-drive')); ?></div>
+                <div><?php previous_posts_link(esc_html__('Newer posts', 'connect-drive') . ' <span aria-hidden="true">&rarr;</span>'); ?></div>
             </div><!-- /.d-flex -->
 <?php
         else :

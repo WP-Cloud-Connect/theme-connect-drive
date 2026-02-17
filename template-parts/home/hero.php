@@ -4,7 +4,7 @@
 
             <div class="hero-content">
                 <h1 class="hedding-title">
-                    <?php _e('All-in-One Connect Drive Integration for WordPress', 'softlab') ?>
+                    <?php _e('All-in-One Connect Drive Integration for WordPress', 'connect-drive') ?>
                 </h1>
 
 
@@ -18,11 +18,11 @@
                 <?php } ?>
 
                 <p class="hedding-description">
-                    <?php _e('Connect Drive is a cutting-edge plugin that enables you to access your essential Connect Drive files and folders directly from your WordPress website. Designed for users with no coding experience, this plugin allows you to easily browse, manage, embed, display, upload, download, search, play, and share your Connect Drive content seamlessly on your WordPress site.', 'softlab'); ?>
+                    <?php _e('Connect Drive is a cutting-edge plugin that enables you to access your essential Connect Drive files and folders directly from your WordPress website. Designed for users with no coding experience, this plugin allows you to easily browse, manage, embed, display, upload, download, search, play, and share your Connect Drive content seamlessly on your WordPress site.', 'connect-drive'); ?>
                 </p>
                 <div class="button-area">
-                    <a href="#" class="btn btn-primary "> <?php _e('Get Started', 'softlab'); ?> </a>
-                    <a href="#" class="free-btn-primary "> <?php _e('Try For Free', 'softlab'); ?> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                    <a href="#" class="btn btn-primary "> <?php _e('Get Started', 'connect-drive'); ?> </a>
+                    <a href="#" class="free-btn-primary "> <?php _e('Try For Free', 'connect-drive'); ?> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <path d="M10.5 3.75L15.75 9M15.75 9L10.5 14.25M15.75 9L2.25 9" stroke="url(#paint0_linear_60_639)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             <defs>
                                 <linearGradient id="paint0_linear_60_639" x1="15.75" y1="13.3413" x2="2.06413" y2="5.29946" gradientUnits="userSpaceOnUse">

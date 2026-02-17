@@ -1544,7 +1544,7 @@
 
   .use-item {
     background-color: #fff;
-    border: 1px solid #0062e7;
+    border: 1px solid #0062e745;
     border-radius: 16px;
     padding: 15px;
     width: 45%;
@@ -1617,12 +1617,12 @@
       height: 40px;
       line-height: 40px;
       background: #fff;
-      border: 1px solid #0062e7;
+      border: 1px solid #0062e745;
       border-radius: 50%;
       text-align: center;
       font-size: 20px;
       font-weight: 500;
-      color: #0062e7;
+      color: #2D7CFF;
     }
 
     &::after {
@@ -1634,8 +1634,8 @@
       width: 20px;
       height: 20px;
       background: #fff;
-      border-top: 1px solid #0062e7;
-      border-right: 1px solid #0062e7;
+      border-top: 1px solid #0062e745;
+      border-right: 1px solid #0062e745;
       transform: rotate(45deg);
     }
   }
@@ -1660,12 +1660,12 @@
       height: 40px;
       line-height: 40px;
       background: #fff;
-      border: 1px solid #0062e7;
+      border: 1px solid #0062e745;
       border-radius: 50%;
       text-align: center;
       font-size: 20px;
       font-weight: 500;
-      color: #0062e7;
+      color: #2D7CFF;
     }
 
     &::after {
@@ -1677,8 +1677,8 @@
       width: 20px;
       height: 20px;
       background: #fff;
-      border-top: 1px solid #0062e7;
-      border-right: 1px solid #0062e7;
+      border-top: 1px solid #0062e745;
+      border-right: 1px solid #0062e745;
       transform: rotate(135deg);
     }
   }
@@ -1703,12 +1703,12 @@
       height: 40px;
       line-height: 40px;
       background: #fff;
-      border: 1px solid #0062e7;
+      border: 1px solid #0062e745;
       border-radius: 50%;
       text-align: center;
       font-size: 20px;
       font-weight: 500;
-      color: #0062e7;
+      color: #2D7CFF;
     }
 
     &::after {
@@ -1720,8 +1720,8 @@
       width: 20px;
       height: 20px;
       background: #fff;
-      border-bottom: 1px solid #0062e7;
-      border-left: 1px solid #0062e7;
+      border-bottom: 1px solid #0062e745;
+      border-left: 1px solid #0062e745;
       transform: rotate(45deg);
     }
   }
@@ -1745,12 +1745,12 @@
       height: 40px;
       line-height: 40px;
       background: #fff;
-      border: 1px solid #0062e7;
+      border: 1px solid #0062e745;
       border-radius: 50%;
       text-align: center;
       font-size: 20px;
       font-weight: 500;
-      color: #0062e7;
+      color: #2D7CFF;
     }
 
     &::after {
@@ -1762,8 +1762,8 @@
       width: 20px;
       height: 20px;
       background: #fff;
-      border-top: 1px solid #0062e7;
-      border-right: 1px solid #0062e7;
+      border-top: 1px solid #0062e745;
+      border-right: 1px solid #0062e745;
       transform: rotate(135deg);
     }
   }
@@ -1788,12 +1788,12 @@
       height: 40px;
       line-height: 40px;
       background: #fff;
-      border: 1px solid #0062e7;
+      border: 1px solid #0062e745;
       border-radius: 50%;
       text-align: center;
       font-size: 20px;
       font-weight: 500;
-      color: #0062e7;
+      color: #2D7CFF;
     }
 
     &::after {
@@ -1805,8 +1805,8 @@
       width: 20px;
       height: 20px;
       background: #fff;
-      border-top: 1px solid #0062e7;
-      border-right: 1px solid #0062e7;
+      border-top: 1px solid #0062e745;
+      border-right: 1px solid #0062e745;
       transform: rotate(45deg);
     }
   }
@@ -1831,12 +1831,12 @@
       height: 40px;
       line-height: 40px;
       background: #fff;
-      border: 1px solid #0062e7;
+      border: 1px solid #0062e745;
       border-radius: 50%;
       text-align: center;
       font-size: 20px;
       font-weight: 500;
-      color: #0062e7;
+      color: #0062e745;
     }
   }
 
@@ -2109,7 +2109,9 @@
   padding: 5rem 0;
 
   .section-head {
-    h2 {
+    max-width: 700px;
+    margin: auto;
+    .sub-hedding-title {
       font-weight: 700;
       font-size: 3.5rem;
       line-height: 120%;
@@ -2120,8 +2122,8 @@
       }
     }
 
-    p {
-      margin: 2rem 0;
+    .sub-hedding-description {
+      margin: 2rem 0 4rem 0;
       font-weight: 400;
       font-size: 1rem;
       color: #5c5c5c;

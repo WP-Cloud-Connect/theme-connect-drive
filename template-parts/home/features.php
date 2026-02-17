@@ -284,6 +284,98 @@ $main_features_items = [
 						</div>
 					<?php } ?>
 					<p class="feature-description"><?php echo $feature['description']; ?></p>
+
+					<?php if ('page-builder' == $key) { ?>
+						<div class="feature-integrations">
+							<span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<path d="M9 11.9979L11 13.9976L15 9.99829M21 11.9979C21 13.1796 20.7672 14.3498 20.3149 15.4415C19.8626 16.5332 19.1997 17.5252 18.364 18.3608C17.5282 19.1964 16.5361 19.8592 15.4442 20.3114C14.3522 20.7636 13.1819 20.9964 12 20.9964C10.8181 20.9964 9.64778 20.7636 8.55585 20.3114C7.46392 19.8592 6.47177 19.1964 5.63604 18.3608C4.80031 17.5252 4.13738 16.5332 3.68508 15.4415C3.23279 14.3498 3 13.1796 3 11.9979C3 9.61141 3.94821 7.32263 5.63604 5.63509C7.32387 3.94756 9.61305 2.99951 12 2.99951C14.3869 2.99951 16.6761 3.94756 18.364 5.63509C20.0518 7.32263 21 9.61141 21 11.9979Z" stroke="url(#paint0_linear_1_1566)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									<defs>
+										<linearGradient id="paint0_linear_1_1566" x1="21" y1="19.439" x2="0.69435" y2="10.1571" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#1C6BCB" />
+											<stop offset="1" stop-color="#2D7CFF" />
+										</linearGradient>
+									</defs>
+								</svg> Classic Editor</span>
+							<span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<path d="M9 11.9979L11 13.9976L15 9.99829M21 11.9979C21 13.1796 20.7672 14.3498 20.3149 15.4415C19.8626 16.5332 19.1997 17.5252 18.364 18.3608C17.5282 19.1964 16.5361 19.8592 15.4442 20.3114C14.3522 20.7636 13.1819 20.9964 12 20.9964C10.8181 20.9964 9.64778 20.7636 8.55585 20.3114C7.46392 19.8592 6.47177 19.1964 5.63604 18.3608C4.80031 17.5252 4.13738 16.5332 3.68508 15.4415C3.23279 14.3498 3 13.1796 3 11.9979C3 9.61141 3.94821 7.32263 5.63604 5.63509C7.32387 3.94756 9.61305 2.99951 12 2.99951C14.3869 2.99951 16.6761 3.94756 18.364 5.63509C20.0518 7.32263 21 9.61141 21 11.9979Z" stroke="url(#paint0_linear_1_1566)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									<defs>
+										<linearGradient id="paint0_linear_1_1566" x1="21" y1="19.439" x2="0.69435" y2="10.1571" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#1C6BCB" />
+											<stop offset="1" stop-color="#2D7CFF" />
+										</linearGradient>
+									</defs>
+								</svg> Gutenberg</span>
+							<span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<path d="M9 11.9979L11 13.9976L15 9.99829M21 11.9979C21 13.1796 20.7672 14.3498 20.3149 15.4415C19.8626 16.5332 19.1997 17.5252 18.364 18.3608C17.5282 19.1964 16.5361 19.8592 15.4442 20.3114C14.3522 20.7636 13.1819 20.9964 12 20.9964C10.8181 20.9964 9.64778 20.7636 8.55585 20.3114C7.46392 19.8592 6.47177 19.1964 5.63604 18.3608C4.80031 17.5252 4.13738 16.5332 3.68508 15.4415C3.23279 14.3498 3 13.1796 3 11.9979C3 9.61141 3.94821 7.32263 5.63604 5.63509C7.32387 3.94756 9.61305 2.99951 12 2.99951C14.3869 2.99951 16.6761 3.94756 18.364 5.63509C20.0518 7.32263 21 9.61141 21 11.9979Z" stroke="url(#paint0_linear_1_1566)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									<defs>
+										<linearGradient id="paint0_linear_1_1566" x1="21" y1="19.439" x2="0.69435" y2="10.1571" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#1C6BCB" />
+											<stop offset="1" stop-color="#2D7CFF" />
+										</linearGradient>
+									</defs>
+								</svg> Elementor</span>
+							<span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<path d="M9 11.9979L11 13.9976L15 9.99829M21 11.9979C21 13.1796 20.7672 14.3498 20.3149 15.4415C19.8626 16.5332 19.1997 17.5252 18.364 18.3608C17.5282 19.1964 16.5361 19.8592 15.4442 20.3114C14.3522 20.7636 13.1819 20.9964 12 20.9964C10.8181 20.9964 9.64778 20.7636 8.55585 20.3114C7.46392 19.8592 6.47177 19.1964 5.63604 18.3608C4.80031 17.5252 4.13738 16.5332 3.68508 15.4415C3.23279 14.3498 3 13.1796 3 11.9979C3 9.61141 3.94821 7.32263 5.63604 5.63509C7.32387 3.94756 9.61305 2.99951 12 2.99951C14.3869 2.99951 16.6761 3.94756 18.364 5.63509C20.0518 7.32263 21 9.61141 21 11.9979Z" stroke="url(#paint0_linear_1_1566)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									<defs>
+										<linearGradient id="paint0_linear_1_1566" x1="21" y1="19.439" x2="0.69435" y2="10.1571" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#1C6BCB" />
+											<stop offset="1" stop-color="#2D7CFF" />
+										</linearGradient>
+									</defs>
+								</svg> Divi Page Builder</span>
+						</div>
+					<?php } if ('media-library' == $key) { ?>
+						<div class="feature-integrations">
+							<span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<path d="M9 11.9979L11 13.9976L15 9.99829M21 11.9979C21 13.1796 20.7672 14.3498 20.3149 15.4415C19.8626 16.5332 19.1997 17.5252 18.364 18.3608C17.5282 19.1964 16.5361 19.8592 15.4442 20.3114C14.3522 20.7636 13.1819 20.9964 12 20.9964C10.8181 20.9964 9.64778 20.7636 8.55585 20.3114C7.46392 19.8592 6.47177 19.1964 5.63604 18.3608C4.80031 17.5252 4.13738 16.5332 3.68508 15.4415C3.23279 14.3498 3 13.1796 3 11.9979C3 9.61141 3.94821 7.32263 5.63604 5.63509C7.32387 3.94756 9.61305 2.99951 12 2.99951C14.3869 2.99951 16.6761 3.94756 18.364 5.63509C20.0518 7.32263 21 9.61141 21 11.9979Z" stroke="url(#paint0_linear_1_1566)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									<defs>
+										<linearGradient id="paint0_linear_1_1566" x1="21" y1="19.439" x2="0.69435" y2="10.1571" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#1C6BCB" />
+											<stop offset="1" stop-color="#2D7CFF" />
+										</linearGradient>
+									</defs>
+								</svg> Google Drive as Media Attachment</span>
+							<span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<path d="M9 11.9979L11 13.9976L15 9.99829M21 11.9979C21 13.1796 20.7672 14.3498 20.3149 15.4415C19.8626 16.5332 19.1997 17.5252 18.364 18.3608C17.5282 19.1964 16.5361 19.8592 15.4442 20.3114C14.3522 20.7636 13.1819 20.9964 12 20.9964C10.8181 20.9964 9.64778 20.7636 8.55585 20.3114C7.46392 19.8592 6.47177 19.1964 5.63604 18.3608C4.80031 17.5252 4.13738 16.5332 3.68508 15.4415C3.23279 14.3498 3 13.1796 3 11.9979C3 9.61141 3.94821 7.32263 5.63604 5.63509C7.32387 3.94756 9.61305 2.99951 12 2.99951C14.3869 2.99951 16.6761 3.94756 18.364 5.63509C20.0518 7.32263 21 9.61141 21 11.9979Z" stroke="url(#paint0_linear_1_1566)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									<defs>
+										<linearGradient id="paint0_linear_1_1566" x1="21" y1="19.439" x2="0.69435" y2="10.1571" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#1C6BCB" />
+											<stop offset="1" stop-color="#2D7CFF" />
+										</linearGradient>
+									</defs>
+								</svg> Auto Cloud Sync</span>
+							<span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<path d="M9 11.9979L11 13.9976L15 9.99829M21 11.9979C21 13.1796 20.7672 14.3498 20.3149 15.4415C19.8626 16.5332 19.1997 17.5252 18.364 18.3608C17.5282 19.1964 16.5361 19.8592 15.4442 20.3114C14.3522 20.7636 13.1819 20.9964 12 20.9964C10.8181 20.9964 9.64778 20.7636 8.55585 20.3114C7.46392 19.8592 6.47177 19.1964 5.63604 18.3608C4.80031 17.5252 4.13738 16.5332 3.68508 15.4415C3.23279 14.3498 3 13.1796 3 11.9979C3 9.61141 3.94821 7.32263 5.63604 5.63509C7.32387 3.94756 9.61305 2.99951 12 2.99951C14.3869 2.99951 16.6761 3.94756 18.364 5.63509C20.0518 7.32263 21 9.61141 21 11.9979Z" stroke="url(#paint0_linear_1_1566)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									<defs>
+										<linearGradient id="paint0_linear_1_1566" x1="21" y1="19.439" x2="0.69435" y2="10.1571" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#1C6BCB" />
+											<stop offset="1" stop-color="#2D7CFF" />
+										</linearGradient>
+									</defs>
+								</svg> Upload to Google Drive</span>
+							<span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<path d="M9 11.9979L11 13.9976L15 9.99829M21 11.9979C21 13.1796 20.7672 14.3498 20.3149 15.4415C19.8626 16.5332 19.1997 17.5252 18.364 18.3608C17.5282 19.1964 16.5361 19.8592 15.4442 20.3114C14.3522 20.7636 13.1819 20.9964 12 20.9964C10.8181 20.9964 9.64778 20.7636 8.55585 20.3114C7.46392 19.8592 6.47177 19.1964 5.63604 18.3608C4.80031 17.5252 4.13738 16.5332 3.68508 15.4415C3.23279 14.3498 3 13.1796 3 11.9979C3 9.61141 3.94821 7.32263 5.63604 5.63509C7.32387 3.94756 9.61305 2.99951 12 2.99951C14.3869 2.99951 16.6761 3.94756 18.364 5.63509C20.0518 7.32263 21 9.61141 21 11.9979Z" stroke="url(#paint0_linear_1_1566)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									<defs>
+										<linearGradient id="paint0_linear_1_1566" x1="21" y1="19.439" x2="0.69435" y2="10.1571" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#1C6BCB" />
+											<stop offset="1" stop-color="#2D7CFF" />
+										</linearGradient>
+									</defs>
+								</svg> Import from Google Drive</span>
+							<span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+									<path d="M9 11.9979L11 13.9976L15 9.99829M21 11.9979C21 13.1796 20.7672 14.3498 20.3149 15.4415C19.8626 16.5332 19.1997 17.5252 18.364 18.3608C17.5282 19.1964 16.5361 19.8592 15.4442 20.3114C14.3522 20.7636 13.1819 20.9964 12 20.9964C10.8181 20.9964 9.64778 20.7636 8.55585 20.3114C7.46392 19.8592 6.47177 19.1964 5.63604 18.3608C4.80031 17.5252 4.13738 16.5332 3.68508 15.4415C3.23279 14.3498 3 13.1796 3 11.9979C3 9.61141 3.94821 7.32263 5.63604 5.63509C7.32387 3.94756 9.61305 2.99951 12 2.99951C14.3869 2.99951 16.6761 3.94756 18.364 5.63509C20.0518 7.32263 21 9.61141 21 11.9979Z" stroke="url(#paint0_linear_1_1566)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									<defs>
+										<linearGradient id="paint0_linear_1_1566" x1="21" y1="19.439" x2="0.69435" y2="10.1571" gradientUnits="userSpaceOnUse">
+											<stop stop-color="#1C6BCB" />
+											<stop offset="1" stop-color="#2D7CFF" />
+										</linearGradient>
+									</defs>
+								</svg> Replace with Google Drive</span>
+
+						</div>
+
+					<?php } ?>
+
 					<div class="features-button flex">
 						<a href="/connect-drive-<?php echo $key; ?>" class="feature-demo-btn">View demo</a>
 

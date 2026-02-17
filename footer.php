@@ -21,23 +21,41 @@
             </div>
 
             <!-- Resources Menu -->
-            <div class="footer-menu-head" >
+            <div class="footer-menu-head">
                 <h4><?php _e('Resources', 'softlab'); ?></h4>
                 <div class="footer-menu">
                     <a href="">Blog</a>
+                    <?php
+                    wp_nav_menu(
+                        array(
+                            'theme_location' => 'footer-menu-resources',
+                            'container'      => '',
+                            'menu_class'     => 'navbar-nav ms-auto',
+                        )
+                    );
+                    ?>
                 </div>
             </div>
 
             <!-- Support Menu -->
-            <div class="footer-menu-head " >
-               <h4><?php _e('Support', 'softlab'); ?></h4>
+            <div class="footer-menu-head ">
+                <h4><?php _e('Support', 'softlab'); ?></h4>
                 <div class="footer-menu">
                     <a href="">Blog</a>
+                    <?php
+                    wp_nav_menu(
+                        array(
+                            'theme_location' => 'footer-menu-support',
+                            'container'      => '',
+                            'menu_class'     => 'navbar-nav ms-auto',
+                        )
+                    );
+                    ?>
                 </div>
             </div>
 
             <!-- Newsletter -->
-            <div class="footer-menu-head" >
+            <div class="footer-menu-head">
                 <h4><?php _e('Subscribe to Our Newsletter', 'softlab'); ?></h4>
                 <div class="news-letter-form">
                     <form>

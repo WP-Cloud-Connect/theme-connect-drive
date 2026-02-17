@@ -169,18 +169,20 @@
       }
     }
   }
-}
 
-/**---------- Scrolling Header Css start----------**/
-.fixed-header {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  z-index: 1330;
-  background-color: #dfe6fe;
-  box-shadow: 0 13px 22px -5px rgba(0, 0, 0, 0.06);
-  transition: transform 0.25s ease-in-out;
-  padding: 0 0 3px;
+  &.fixed-header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1330;
+    background-color: #dfe6fe;
+    box-shadow: 0 13px 22px -5px rgba(0, 0, 0, 0.06);
+    transition: transform 0.25s ease-in-out;
+    padding: 0 0 3px;
+
+    &.logged-in{
+      top: 32px;
+    }
+  }
 }
-/**---------- Scrolling Header Css end----------**/

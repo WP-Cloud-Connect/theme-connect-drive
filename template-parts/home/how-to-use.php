@@ -36,24 +36,24 @@ $how_to_use_description = 'Enhance your productivity by installing the Connect D
 
 
 
-<section id="how-to-use">
+<section id="connect-drive__how-to-use">
     <div class="container">
-        <div class="how-to-use-head text-center">
-            <h3><?php echo $how_to_use_heading; ?></h3>
-            <p><?php echo $how_to_use_description; ?></p>
+        <div class="how-to-use__head text-center">
+            <h3 class="how-to-use__title"><?php echo $how_to_use_heading; ?></h3>
+            <p class="how-to-use__description"><?php echo $how_to_use_description; ?></p>
         </div>
 
 
         <div class="row justify-center">
             <?php foreach ($howtouses as $key => $howtouse) { ?>
 
-                <div class="use-item flex align-center  how-to-use-<?php echo $key; ?>">
+                <div class="how-to-use__item flex align-center  how-to-use__<?php echo $key; ?>">
                     <div class="use-img">
                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-drive/how-to-use//<?php echo $key; ?>-icons.png" alt="<?php echo $howtouse['title']; ?>">
                     </div>
-                    <div class="use-text">
-                        <h4><?php echo $howtouse['title']; ?></h4>
-                        <p><?php echo $howtouse['description']; ?></p>
+                    <div class="how-to-use__item-text">
+                        <h4 class="how-to-use__item-title"><?php echo $howtouse['title']; ?></h4>
+                        <p class="how-to-use__item-description"><?php echo $howtouse['description']; ?></p>
                     </div>
                 </div>
             <?php } ?>

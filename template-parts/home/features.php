@@ -1,5 +1,5 @@
 <?php
-
+// features
 $features = [
 	// 'google-photos' => [
 	// 	'title'       => 'Google Photos Integration',
@@ -28,10 +28,7 @@ $features = [
 
 ];
 
-?>
-
-<?php
-
+// forms 
 $forms = [
 	'page-builder' => [
 		'title'       => 'Popular Page Builder Support',
@@ -47,9 +44,7 @@ $forms = [
 
 ];
 
-?>
-<?php
-
+// modules
 $main_features_items = [
 	'file-browser'  => [
 		'title'       => 'File Browser',
@@ -169,22 +164,22 @@ $main_features_items = [
 ?>
 
 <!-- /// Modules -->
-<section id="feature" class="connect-drive-modules">
+<section id="connect-drive__feature" class="connect-drive-modules">
 	<div class="container">
 
-		<div class="section-head text-center">
-			<h1>Amazing Connect-Drive <br><span>Modules Features.</span></h1>
-			<p>Best and most productive integrations for Connect-Drive. Learn how to connect with us.</p>
+		<div class="connect-drive-feature__head text-center">
+			<h2 class="connect-drive-feature__title">Amazing Connect-Drive <br><span>Modules Features.</span></h2>
+			<p class="connect-drive-feature__description">Best and most productive integrations for Connect-Drive. Learn how to connect with us.</p>
 		</div>
 
-		<div class="features-wrapper">
+		<div class="connect-drive-features-wrapper">
 			<!-- Tab Buttons -->
-			<div class="feature-tab-button-area text-center">
+			<div class="connect-drive-features__tabs text-center">
 				<?php
 				$first_key = array_key_first($main_features_items);
 				foreach ($main_features_items as $key => $main_features_item) {
 				?>
-					<button class="feature-tab-btn tab-btn-<?php echo $key; ?> <?php echo $key === $first_key ? 'active' : ''; ?>"
+					<button class="connect-drive-features__tab__btn tab-btn-<?php echo $key; ?> <?php echo $key === $first_key ? 'active' : ''; ?>"
 						data-target="<?php echo $key; ?>">
 						<div class="tab-icon">
 							<?php echo $main_features_item['icon']; ?>
@@ -197,17 +192,24 @@ $main_features_items = [
 			</div>
 
 			<!-- Feature Content Area -->
-			<div class="feature-content-wrapper">
+			<div class="connect-drive-features-content-wrapper">
 				<?php
 				$first_key = array_key_first($main_features_items);
 				foreach ($main_features_items as $key => $main_features_item) {
 				?>
-					<div class="feature-tab-content <?php echo $key === $first_key ? 'active' : ''; ?>"
+					<div class="connect-drive-features__content__main <?php echo $key === $first_key ? 'active' : ''; ?>"
 						id="feature-<?php echo $key; ?>">
-						<div class="feature-content ">
-							<h3 class="feature-title"><?php echo $main_features_item['title']; ?></h3>
-							<p class="feature-description"><?php echo $main_features_item['description']; ?></p>
-							<div class="features-button flex">
+						<div class="connect-drive-features__content">
+							<h3 class="connect-drive-features__content__title"><?php echo $main_features_item['title']; ?></h3>
+							<?php if (wp_is_mobile()) { ?>
+								<div class="feature-imgs-mobile">
+									<img class="img-fluid"
+										src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-drive/features/<?php echo $key; ?>-illustration.png"
+										alt="<?php echo $main_features_item['title']; ?>">
+								</div>
+							<?php } ?>
+							<p class="connect-drive-features__content__description"><?php echo $main_features_item['description']; ?></p>
+							<div class="connect-drive-features-button flex">
 								<a href="/connect-drive-<?php echo $key; ?>" class="feature-demo-btn">View demo</a>
 								<a href="<?php echo $main_features_item['video']; ?>" data-lity class="feature-video-btn">
 									<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
@@ -233,11 +235,13 @@ $main_features_items = [
 								</a>
 							</div>
 						</div>
-						<div class="feature-imgs">
-							<img class="img-fluid"
-								src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-drive/features/<?php echo $key; ?>-illustration.png"
-								alt="<?php echo $main_features_item['title']; ?>">
-						</div>
+						<?php if (! wp_is_mobile()) { ?>
+							<div class="feature-imgs">
+								<img class="img-fluid"
+									src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-drive/features/<?php echo $key; ?>-illustration.png"
+									alt="<?php echo $main_features_item['title']; ?>">
+							</div>
+						<?php } ?>
 					</div>
 				<?php } ?>
 			</div>
@@ -247,12 +251,12 @@ $main_features_items = [
 </section>
 
 <!-- /// Features -->
-<section id="feature" class="connect-drive-features">
+<section id="connect-drive__feature" class="connect-drive-features">
 	<div class="container">
 
-		<div class="section-head text-center">
-			<h1>Connect-Drive <span>Features</span> That Scale Effortlessly</h1>
-			<p>Built to adapt as you grow, without slowing down performance or productivity.</p>
+		<div class="connect-drive-feature__head text-center">
+			<h2 class="connect-drive-feature__title">Connect-Drive <span>Features</span> That Scale Effortlessly</h2>
+			<p class="connect-drive-feature__description">Built to adapt as you grow, without slowing down performance or productivity.</p>
 		</div>
 
 		<?php
@@ -264,13 +268,13 @@ $main_features_items = [
 		?>
 			<div class=" feature-item align-center feature-<?php echo $key; ?> <?php echo ! $is_odd ? 'flex-row-reverse' : '' ?>">
 
-
-				<div class="feature-item-img d-flex <?php echo $is_odd ? 'justify-content-start' : 'justify-content-end'; ?>">
-					<img class="img-fluid"
-						src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-drive/features/<?php echo $key; ?>-illustration.png"
-						alt="<?php echo $feature['title']; ?>">
-				</div>
-
+				<?php if (! wp_is_mobile()) { ?>
+					<div class="feature-item-img d-flex <?php echo $is_odd ? 'justify-content-start' : 'justify-content-end'; ?>">
+						<img class="img-fluid"
+							src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-drive/features/<?php echo $key; ?>-illustration.png"
+							alt="<?php echo $feature['title']; ?>">
+					</div>
+				<?php } ?>
 
 
 				<div class="feature-item-content">
@@ -324,7 +328,8 @@ $main_features_items = [
 									</defs>
 								</svg> Divi Page Builder</span>
 						</div>
-					<?php } if ('media-library' == $key) { ?>
+					<?php }
+					if ('media-library' == $key) { ?>
 						<div class="feature-integrations">
 							<span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
 									<path d="M9 11.9979L11 13.9976L15 9.99829M21 11.9979C21 13.1796 20.7672 14.3498 20.3149 15.4415C19.8626 16.5332 19.1997 17.5252 18.364 18.3608C17.5282 19.1964 16.5361 19.8592 15.4442 20.3114C14.3522 20.7636 13.1819 20.9964 12 20.9964C10.8181 20.9964 9.64778 20.7636 8.55585 20.3114C7.46392 19.8592 6.47177 19.1964 5.63604 18.3608C4.80031 17.5252 4.13738 16.5332 3.68508 15.4415C3.23279 14.3498 3 13.1796 3 11.9979C3 9.61141 3.94821 7.32263 5.63604 5.63509C7.32387 3.94756 9.61305 2.99951 12 2.99951C14.3869 2.99951 16.6761 3.94756 18.364 5.63509C20.0518 7.32263 21 9.61141 21 11.9979Z" stroke="url(#paint0_linear_1_1566)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -415,13 +420,13 @@ $main_features_items = [
 </section>
 
 <!-- /// forms -->
-<section id="feature" class="connect-drive-forms">
+<section id="connect-drive__feature" class="connect-drive-forms">
 	<div class="container">
 
 
-		<div class="section-head text-center">
-			<h1>Powerful <span>Integrations</span> to Make Life Easy</h1>
-			<p>Connect Drive integrates with your favorite platforms to automate workflows and boost productivity.</p>
+		<div class="connect-drive-feature__head text-center">
+			<h2 class="connect-drive-feature__title">Powerful <span>Integrations</span> to Make Life Easy</h2>
+			<p class="connect-drive-feature__subtitle">Connect Drive integrates with your favorite platforms to automate workflows and boost productivity.</p>
 		</div>
 
 		<?php
@@ -435,18 +440,18 @@ $main_features_items = [
 		?>
 			<div class=" feature-item align-center feature-<?php echo $key; ?> <?php echo ! $is_odd ? 'flex-row-reverse' : '' ?>">
 
-
-				<div class="feature-item-img d-flex <?php echo $is_odd ? 'justify-content-start' : 'justify-content-end'; ?>">
-					<img class="img-fluid"
-						src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-drive/features/<?php echo $key; ?>-illustration.png"
-						alt="<?php echo $form['title']; ?>">
-				</div>
-
+				<?php if (! wp_is_mobile()) { ?>
+					<div class="feature-item-img d-flex <?php echo $is_odd ? 'justify-content-start' : 'justify-content-end'; ?>">
+						<img class="img-fluid"
+							src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-drive/features/<?php echo $key; ?>-illustration.png"
+							alt="<?php echo $form['title']; ?>">
+					</div>
+				<?php } ?>
 				<div class="feature-item-content">
 
 					<h3 class="feature-title"><?php echo $form['title']; ?></h3>
 					<?php if (wp_is_mobile()) { ?>
-						<div class="feature-item-img-mobile">
+						<div class="feature-item-img">
 							<img class="img-fluid"
 								src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-drive/features/<?php echo $key; ?>-illustration.png"
 								alt="<?php echo $form['title']; ?>">
@@ -643,16 +648,16 @@ $main_features_items = [
 	</div>
 </section>
 
-<section id="woocommerce-support" class="woocommerce-support">
+<section id="woocommerce-support" class="connect-drive-woocommerce-support">
 	<div class="container">
-		<div class="feature-head text-center">
-			<h1>WooCommerce Support</h1>
-			<p>You can serve your downloadable product's files directly from Google Drive, and also you can let
+		<div class="connect-drive-woocommerce-support__head text-center">
+			<h2 class="connect-drive-woocommerce-support__title">WooCommerce Support</h2>
+			<p class="connect-drive-woocommerce-support__description">You can serve your downloadable product's files directly from Google Drive, and also you can let
 				your customers upload files to your Google Drive account when they purchase your products.</p>
 		</div>
 
 
-		<div class="woocommerce-img text-center">
+		<div class="connect-drive__woocommerce-img text-center">
 			<img class="img-fluid"
 				src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-drive/support-img.png"
 				alt="support-img">

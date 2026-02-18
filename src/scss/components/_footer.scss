@@ -3,14 +3,16 @@
   background: #0c2a59;
   padding-top: 60px;
   padding-bottom: 0;
-  .banner-wrap {
-    display: flex;
+  .footer-item__wrap {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
     align-items: start;
     justify-content: space-between;
-    * {
-      flex: 1;
-      box-sizing: border-box;
-    }
+    // * {
+    //   flex: 1;
+    //   box-sizing: border-box;
+    // }
     .footer-main {
       .footer-logo {
         a {
@@ -201,7 +203,12 @@
       cursor: pointer;
       width: 50px;
       height: 50px;
-      background: linear-gradient(305deg, #0062e7 15.98%, #2889f4 53.38%, #45a6fe 83.1%);
+      background: linear-gradient(
+        305deg,
+        #0062e7 15.98%,
+        #2889f4 53.38%,
+        #45a6fe 83.1%
+      );
       border-radius: 50%;
       box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
       display: flex;
@@ -321,7 +328,9 @@
 
   @media (max-width: 767px) {
     padding-top: 30px;
-
+    .footer-item__wrap {
+       grid-template-columns: repeat(1, 2fr);
+    }
     .footer-contant {
       p {
         padding-right: 0;

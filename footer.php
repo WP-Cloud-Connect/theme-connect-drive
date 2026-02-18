@@ -3,9 +3,9 @@
 <!----==== footer area ====----->
 
 <footer class="footer">
-    <div class="container">
+    <div class="container ">
 
-        <div class="footer-top banner-wrap">
+        <div class="footer-top footer-item__wrap">
             <div class="footer-main ">
                 <div class="footer-logo">
                     <a href="<?php echo home_url() ?>">
@@ -87,7 +87,7 @@
             </div>
 
             <div class="footer-copyright flex">
-                <p>© <?php echo date('Y'); ?> SoftLab. All rights reserved.</p>
+                <p>© <?php echo date('Y'); ?> Connect Drive. All rights reserved.</p>
                 <?php
                 $socials = [
                     'facebook'  => [

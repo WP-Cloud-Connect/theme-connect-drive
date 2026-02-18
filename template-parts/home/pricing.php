@@ -91,13 +91,13 @@ $lifetime_pro_features = [
 
 ?>
 
-<section id="pricing-hero">
+<section id="connect-drive-pricing__hero">
     <div class="container">
 
         <div class="row align-items-center">
-            <div class="hero-content text-center">
-                <h2>Simple Pricing, Unbeatable Value</h2>
-                <p>Join 10000+ User's Happy Community</p>
+            <div class="connect-drive-pricing__hero-content text-center">
+                <h4 class="connect-drive-pricing__hero-title">Simple Pricing, Unbeatable Value</h4>
+                <p class="connect-drive-pricing__hero-description">Join 10000+ User's Happy Community</p>
             </div>
         </div>
 

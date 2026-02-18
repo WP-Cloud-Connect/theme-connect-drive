@@ -47,20 +47,20 @@ $testimonials = [
 <section id="connect-drive-testimonial" class="connect-drive-testimonial">
 	<div class="container">
 
-		<div class="section-head  text-center">
-			<h4 class="sub-hedding-title"><?php _e('Loved by Businesses Like Yours!', 'connect-drive'); ?></h4>
-			<p class="sub-hedding-description"><?php _e('See, how our users all over the world are getting benefit from using our products.', 'connect-drive'); ?></p>
+		<div class="connect-drive-testimonial__head  text-center">
+			<h4 class="connect-drive-testimonial__heading-title"><?php _e('Loved by Businesses Like Yours!', 'connect-drive'); ?></h4>
+			<p class="connect-drive-testimonial__heading-description"><?php _e('See, how our users all over the world are getting benefit from using our products.', 'connect-drive'); ?></p>
 		</div>
 
-		<div class="row">
+		<div class="connect-drive-testimonial__slider">
 			<?php foreach ($testimonials as $key => $testimonial) { ?>
 
 
 				<div class="slider-item test-item-<?php echo $key; ?>">
-					<div class="connect-drive-testimonial-user-main">
-						<span class="connect-drive-testimonial-title"><?php echo $testimonial['title']; ?></span>
+					<div class="connect-drive-testimonial__user-main">
+						<span class="connect-drive-testimonial__title"><?php echo $testimonial['title']; ?></span>
 					</div>
-					<div class="connect-drive-testimonial-rating">
+					<div class="connect-drive-testimonial__rating">
 						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="19" viewBox="0 0 20 19" fill="none">
 							<path d="M10 15.27L16.18 19L14.54 11.97L20 7.24L12.81 6.63L10 0L7.19 6.63L0 7.24L5.46 11.97L3.82 19L10 15.27Z" fill="#FDD264" />
 						</svg>
@@ -79,13 +79,13 @@ $testimonials = [
 
 					</div>
 
-					<div class="connect-drive-testimonial-content">
+					<div class="connect-drive-testimonial__content">
 
-						<p class="connect-drive-testimonial-desc"><?php echo wp_trim_words($testimonial['description'], 34, "..."); ?></p>
+						<p class="connect-drive-testimonial__desc"><?php echo wp_trim_words($testimonial['description'], 34, "..."); ?></p>
 
-						<div class="connect-drive-testimonial-user-text flex align-center">
+						<div class="connect-drive-testimonial__user-text flex align-center">
 							<img class="img-fluid " src="<?php echo $testimonial['image']; ?>" alt="">
-							<span class="connect-drive-testimonial-name"><?php echo $testimonial['name']; ?></span>
+							<span class="connect-drive-testimonial__name"><?php echo $testimonial['name']; ?></span>
 						</div>
 					</div>
 

@@ -27,7 +27,7 @@
 
     <div id="wrapper">
 
-        <header class="site-header navbar-transparent">
+        <header class="site-header navbar-transparent <?php echo is_user_logged_in() ? esc_attr('logged-in') : ''; ?>">
             <div class="container">
                 <div class="main-menu flex">
                     <a href="<?php echo home_url(); ?>">

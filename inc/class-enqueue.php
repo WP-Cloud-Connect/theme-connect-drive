@@ -44,6 +44,11 @@ class Connect_Drive_Enqueue
 			wp_enqueue_script('lity', get_theme_file_uri('assets/vendor/lity/lity.min.js'), array(), $theme_version, true);
 		}
 
+		//pricing page assets
+		if (is_page('connect-drive-pricing')) {
+			wp_enqueue_style('pricing', get_theme_file_uri('assets/css/pricing.css'), array(), $theme_version, 'all');
+		}
+
 		wp_enqueue_style('main', get_theme_file_uri('assets/css/main.css'), array(), $theme_version, 'all');
 
 		if (is_rtl()) {

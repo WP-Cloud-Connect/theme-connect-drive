@@ -24,7 +24,6 @@
             <div class="footer-menu-head">
                 <h4><?php _e('Resources', 'connect-drive'); ?></h4>
                 <div class="footer-menu">
-                    <a href="">Blog</a>
                     <?php
                     wp_nav_menu(
                         array(
@@ -41,7 +40,6 @@
             <div class="footer-menu-head ">
                 <h4><?php _e('Support', 'connect-drive'); ?></h4>
                 <div class="footer-menu">
-                    <a href="">Blog</a>
                     <?php
                     wp_nav_menu(
                         array(

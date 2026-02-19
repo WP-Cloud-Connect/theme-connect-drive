@@ -235,13 +235,11 @@ $main_features_items = [
 								</a>
 							</div>
 						</div>
-						<?php if (! wp_is_mobile()) { ?>
-							<div class="feature-imgs">
-								<img class="img-fluid"
-									src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-drive/features/<?php echo $key; ?>-illustration.png"
-									alt="<?php echo $main_features_item['title']; ?>">
-							</div>
-						<?php } ?>
+						<div class="feature-imgs">
+							<img class="img-fluid"
+								src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-drive/features/<?php echo $key; ?>-illustration.png"
+								alt="<?php echo $main_features_item['title']; ?>">
+						</div>
 					</div>
 				<?php } ?>
 			</div>
@@ -268,13 +266,12 @@ $main_features_items = [
 		?>
 			<div class=" feature-item align-center feature-<?php echo $key; ?> <?php echo ! $is_odd ? 'flex-row-reverse' : '' ?>">
 
-				<?php if (! wp_is_mobile()) { ?>
-					<div class="feature-item-img d-flex <?php echo $is_odd ? 'justify-content-start' : 'justify-content-end'; ?>">
-						<img class="img-fluid"
-							src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-drive/features/<?php echo $key; ?>-illustration.png"
-							alt="<?php echo $feature['title']; ?>">
-					</div>
-				<?php } ?>
+
+				<div class="feature-item-img d-flex <?php echo $is_odd ? 'justify-content-start' : 'justify-content-end'; ?>">
+					<img class="img-fluid"
+						src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-drive/features/<?php echo $key; ?>-illustration.png"
+						alt="<?php echo $feature['title']; ?>">
+				</div>
 
 
 				<div class="feature-item-content">
@@ -440,18 +437,16 @@ $main_features_items = [
 		?>
 			<div class=" feature-item align-center feature-<?php echo $key; ?> <?php echo ! $is_odd ? 'flex-row-reverse' : '' ?>">
 
-				<?php if (! wp_is_mobile()) { ?>
-					<div class="feature-item-img d-flex <?php echo $is_odd ? 'justify-content-start' : 'justify-content-end'; ?>">
-						<img class="img-fluid"
-							src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-drive/features/<?php echo $key; ?>-illustration.png"
-							alt="<?php echo $form['title']; ?>">
-					</div>
-				<?php } ?>
+				<div class="feature-item-img d-flex <?php echo $is_odd ? 'justify-content-start' : 'justify-content-end'; ?>">
+					<img class="img-fluid"
+						src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-drive/features/<?php echo $key; ?>-illustration.png"
+						alt="<?php echo $form['title']; ?>">
+				</div>
 				<div class="feature-item-content">
 
 					<h3 class="feature-title"><?php echo $form['title']; ?></h3>
 					<?php if (wp_is_mobile()) { ?>
-						<div class="feature-item-img">
+						<div class="feature-item-img-mobile">
 							<img class="img-fluid"
 								src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-drive/features/<?php echo $key; ?>-illustration.png"
 								alt="<?php echo $form['title']; ?>">

@@ -6,7 +6,7 @@
   background: transparent;
   backdrop-filter: inherit;
   z-index: 99;
-  padding: 1rem 0px;
+  padding: 0 0 1rem 0px;
   transition: transform 0.25s ease-in-out;
   .main-menu {
     justify-content: space-between;
@@ -227,7 +227,7 @@
   //         color: #fff;
 
   //         &:hover {
-  //           background: #ee5913;
+  //           background: $color_primary;
   //           color: #fff;
   //         }
   //       }
@@ -380,7 +380,7 @@
     background: transparent;
     border: none;
     cursor: pointer;
-    padding: 10px;
+    padding: 0px;
     z-index: 1000;
   }
 
@@ -441,6 +441,10 @@
         #menu {
           display: inline-block !important;
           li {
+            a {
+              color: #fff !important;
+              margin-bottom: 15px;
+            }
             &.menu-item-has-children {
               > a {
                 color: #fff !important;
@@ -503,9 +507,9 @@
     }
 
     .mobile-close-btn #close_btn:hover {
-      background: #ee5913;
+      background: $color_primary;
       color: #fff;
-      border-color: #ee5913;
+      border-color: $color_primary;
     }
 
     .button-area {
@@ -517,7 +521,7 @@
       align-items: center;
       gap: 10px;
       padding: 12px 24px;
-      background: #ee5913;
+      background: $color_primary;
       color: #fff;
       text-decoration: none;
       border-radius: 5px;
@@ -525,7 +529,7 @@
     }
 
     .buy-now-button:hover {
-      background: #d44d0f;
+      background: $color_primary;
       color: #fff;
     }
   }
@@ -574,7 +578,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 0;
+    padding: 9px 0 0 0;
   }
 
   &.fixed-header {
@@ -588,7 +592,7 @@
     transition: transform 0.25s ease-in-out;
     padding: 0 0 3px;
 
-    &.logged-in{
+    &.logged-in {
       top: 32px;
     }
   }

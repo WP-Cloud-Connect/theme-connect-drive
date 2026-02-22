@@ -411,7 +411,7 @@ $main_features_items = [
 		} ?>
 
 		<div class="integration-btn text-center">
-			<a href="/connect-drive-integrations/" class="feature-integration-btn">See All Features</a>
+			<a href="/connect-drive-features/" class="feature-integration-btn">See All Features</a>
 		</div>
 	</div>
 </section>
@@ -638,7 +638,7 @@ $main_features_items = [
 			$i++;
 		} ?>
 		<div class="integration-btn text-center">
-			<a href="/connect-drive-integrations/" class="feature-integration-btn">See All Integrations</a>
+			<a href="/connect-drive-integration/" class="feature-integration-btn">See All Integrations</a>
 		</div>
 	</div>
 </section>

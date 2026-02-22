@@ -33,16 +33,16 @@
 	];
 	?>
 
- <section id="features">
+ <section id="connect-drive-features">
  	<div class="container">
- 		<div class="section-header">
- 			<h2>Choose the best plan that fits your needs</h2>
- 			<p>we've created several packages with different features in them. These are priced according to the value they deliver.</p>
+ 		<div class="connect-drive-features__header">
+ 			<h2 class="connect-drive-features__title">Choose the best plan that fits your needs</h2>
+ 			<p class="connect-drive-features__description">we've created several packages with different features in them. These are priced according to the value they deliver.</p>
  		</div>
 
- 		<div class="features-wrapper">
- 			<div class="features-header">
- 				<h5>Features</h5>
+ 		<div class="connect-drive-features-wrapper">
+ 			<div class="connect-drive-features-wrapper__header">
+ 				<h5 class="connect-drive-features-wrapper__title">Features</h5>
  				<span class="feature-type type-free">FREE</span>
  				<span class="feature-type type-pro">PRO</span>
  			</div>

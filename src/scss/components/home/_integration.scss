@@ -1,0 +1,374 @@
+/**---------- Hero Area ----------**/
+.hero-section {
+  background: linear-gradient(180deg, #e9f2ff 0%, #f7fbff 100%);
+  padding: 160px 0 100px 0;
+  .hero-section__main {
+    align-items: center;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .hero-content {
+    // width: 50%;
+    position: relative;
+
+    .hero-content__title {
+      font-size: 4rem;
+      margin-bottom: 1.5rem;
+      font-weight: 600;
+      line-height: 120%;
+      font-family: "Inter", sans-serif;
+
+      span {
+        // background: linear-gradient(147deg, #78F 11.6%, #6E6DFF 89.24%);
+        // background-clip: text;
+        // -webkit-background-clip: text;
+        // -webkit-text-fill-color: transparent;
+        color: #6e6dff;
+        background: url("../images/home/solutions-border.png") no-repeat left
+          center;
+        padding: 12px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+    }
+
+    .hero-content__description {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+      line-height: 160%;
+      font-family: "Inter", sans-serif;
+    }
+
+    .hero-content__button__area {
+      display: flex;
+      gap: 20px;
+      a {
+        width: max-content;
+        svg {
+            margin-left: 10px;
+            margin-right: 0;
+        }
+      }
+    }
+  }
+
+  .hero-image {
+    // width: 45%;
+    display: block;
+    position: relative;
+    text-align: end;
+
+    img {
+      width: 80%;
+      position: relative;
+    }
+  }
+
+  @media (min-width: 1200px) and (max-width: 1399.98px) {
+    //Tablet
+    padding: 110px 0 60px 0;
+    .hero-section__main {
+      padding: 0 20px;
+    }
+    .hero-content {
+      .hero-content__title {
+        font-size: 2.6rem;
+      }
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    //Tablet
+    padding: 110px 0 60px 0;
+    .hero-section__main {
+      padding: 0 20px;
+    }
+    .hero-content {
+      .hero-content__title {
+        font-size: 2.4rem;
+      }
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    //Tablet
+    padding: 110px 0 60px 0;
+    .hero-content {
+      .hero-content__title {
+        font-size: 2.2rem;
+      }
+      .hero-content__description {
+        font-size: 0.9rem;
+      }
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    padding: 100px 0 70px 0;
+    .hero-section__main {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+    .hero-content {
+      width: 100%;
+      text-align: center;
+
+      .hero-content__title {
+        font-size: 1.5rem;
+
+        img {
+          width: 109px;
+        }
+      }
+      .hero-content__description {
+        font-size: 0.9rem;
+      }
+      .hero-content__button__area {
+        justify-content: center;
+      }
+      .view-products-btn {
+        padding: 11px 15px;
+        margin: auto;
+      }
+
+      .hedding-description {
+        font-size: 1rem;
+        margin-bottom: 30px;
+      }
+
+      .hero-content__image-mobile {
+        display: block;
+        .hero-image__play__btn {
+          top: 50%;
+          left: 50%;
+          width: 70px;
+          height: 70px;
+        }
+      }
+    }
+
+    .hero-image {
+      display: none;
+    }
+
+    .mb-5 {
+      margin-bottom: 1.5rem !important;
+    }
+  }
+}
+
+
+/**---------- connect drive features scss ----------**/
+.connect-drive-features {
+  padding: 60px 0;
+  .connect-drive-feature__head {
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    .connect-drive-feature__title {
+      font-weight: 700;
+      font-size: 3rem;
+      line-height: 120%;
+      color: #111;
+      span {
+        color: $color_primary;
+      }
+    }
+    .connect-drive-feature__description {
+      margin: 20px 0 40px 0;
+      font-size: 1rem;
+      color: #5c5c5c;
+    }
+  }
+  .connect-drive-feature__main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+    text-align: center;
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 80%;
+      height: 80%;
+      transform: translate(-50%, -50%);
+      background: url("../images/connect-drive/shadow.png") no-repeat 0 0;
+      background-size: cover;
+      z-index: -1;
+    }
+    .connect-drive-feature__content {
+      border-radius: 20px;
+      border: 1px solid #bdccff;
+      background: #fff;
+      padding: 40px 20px 20px 20px;
+      .feature-item__icon {
+        img {
+          width: auto;
+          height: auto;
+        }
+      }
+      .feature-sub-title {
+        color: #151826;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 120%;
+        margin-top: 30px;
+        margin-bottom: 15px;
+      }
+      .feature-sub-description {
+        color: #5c637e;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 160%;
+      }
+    }
+  }
+}
+
+
+/**---------- cta area scss ----------**/
+.connect-drive-cta {
+  background: linear-gradient(
+    90deg,
+    #9f7eff 1.23%,
+    #8c89ff 16.9%,
+    rgba(92, 113, 255, 0.91) 29.72%,
+    rgba(43, 89, 255, 0.8) 42.08%,
+    #5d8bfd 57.78%,
+    #729bff 69.61%,
+    #f76d83 100%
+  );
+  padding: 80px 0;
+  .connect-drive-cta__wrapper {
+    // width: 1000px;
+    margin: auto;
+    .connect-drive-cta__content {
+      .connect-drive-cta__title {
+        margin-bottom: 1rem;
+        font-weight: 700;
+        font-size: 2.5rem;
+        color: #fff;
+      }
+
+      .connect-drive-cta__description {
+        margin-bottom: 0;
+        font-weight: 400;
+        font-size: 1rem;
+        color: #f9faff;
+        padding-right: 0;
+        max-width: 600px;
+        margin: auto;
+      }
+    }
+
+    .cta-actions {
+      margin-top: 50px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      a {
+        text-decoration: none;
+        padding: 15px 36px;
+        border-radius: 5px;
+        font-weight: 600;
+        font-size: 0.9rem;
+        display: flex;
+        align-items: center;
+        svg {
+          margin-right: 10px;
+        }
+        i {
+          margin-right: 10px;
+        }
+      }
+
+      .bt {
+        background-color: #2b59ff;
+        color: #fff;
+        transition: all linear 0.4s;
+
+        &:hover {
+          background-color: #fff;
+          color: #2b59ff;
+          transition: all linear 0.4s;
+          box-shadow: 0px 4px 10px rgb(0 0 0 / 10%);
+        }
+      }
+
+      .bt1 {
+        background-color: #fff;
+        color: #2b59ff;
+        margin-left: 40px;
+        transition: all linear 0.4s;
+
+        &:hover {
+          background-color: #2b59ff;
+          color: #fff;
+          transition: all linear 0.4s;
+          box-shadow: 0px 4px 10px rgb(0 0 0 / 10%);
+          svg {
+            path {
+              fill: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    padding: 40px 0;
+    .connect-drive-cta__wrapper {
+      .connect-drive-cta__content {
+        .connect-drive-cta__title {
+          font-size: 2rem;
+        }
+        .connect-drive-cta__description {
+          font-size: 0.9rem;
+        }
+      }
+      .cta-actions {
+        margin-top: 30px;
+
+        a {
+          padding: 10px 24px;
+        }
+
+        .bt1 {
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    padding: 30px 0 30px 0;
+    .connect-drive-cta__wrapper {
+      .connect-drive-cta__content {
+        .connect-drive-cta__title {
+          font-size: 1.5rem;
+        }
+
+        .connect-drive-cta__description {
+          padding-right: 0;
+          font-size: 0.9rem;
+        }
+      }
+
+      .cta-actions {
+        margin-top: 1.5rem !important;
+
+        a {
+          padding: 10px 24px;
+        }
+
+        .bt1 {
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+}
+/**---------- cta area scss end ----------**/

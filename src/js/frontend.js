@@ -9,12 +9,29 @@ import "./components/sticky-banner";
 
       //Handle to top button
       $(".to-top").on("click", app.handleToTop);
+      
 
       //Init Fun Fact Counter
       app.initFunFactCounter();
 
       // Handle mobile menu close
       app.handleMobileMenuClose();
+
+      // handle menu active class
+      $("li").on("click", app.handleMenuActiveClass);
+    },
+
+    /**
+     * Handles the mobile menu active class functionality. Removes the
+     * "active" class from all mobile menu items and adds it to the
+     * currently clicked item.
+     *
+     * @since 1.0.0
+     */
+    handleMenuActiveClass: function () {
+      //  $(".search-form").addClass("active");
+        $("a").removeClass("active");
+        $(this).addClass("active");
     },
 
     /**
@@ -83,6 +100,8 @@ import "./components/sticky-banner";
      * @since 1.0.0
      */
     initFunFactCounter: function () {
+      if (!$(".counter").length) return;
+
       $(".counter").counterUp({
         delay: 16,
         time: 1500,

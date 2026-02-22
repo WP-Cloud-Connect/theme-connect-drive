@@ -49,6 +49,16 @@ class Connect_Drive_Enqueue
 			wp_enqueue_style('pricing', get_theme_file_uri('assets/css/pricing.css'), array(), $theme_version, 'all');
 		}
 
+		// connect drive features page assets
+		if (is_page('connect-drive-features')) {
+			wp_enqueue_style('features', get_theme_file_uri('assets/css/features.css'), array(), $theme_version, 'all');
+		}
+
+		//connect drive integration page assets
+		if (is_page('connect-drive-integration')) {
+			wp_enqueue_style('integration', get_theme_file_uri('assets/css/integration.css'), array(), $theme_version, 'all');
+		}
+
 		wp_enqueue_style('main', get_theme_file_uri('assets/css/main.css'), array(), $theme_version, 'all');
 
 		if (is_rtl()) {

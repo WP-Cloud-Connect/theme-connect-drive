@@ -7,6 +7,12 @@
                     <?php _e('Advanced Connect Drive Integration Ecosystem', 'connect-drive') ?>
                 </h1>
 
+                <?php if (wp_is_mobile()) { ?>
+                    <div class="hero-content__image-mobile text-center mb-5">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-drive/integration/integration-hero-image.png" alt="" class="img-fluid w-75 w-md-100">
+                    </div>
+                <?php } ?>
+
                 <p class="hero-content__description">
                     <?php _e('Connect Drive is a cutting-edge plugin that enables you to access your essential Connect Drive files and folders directly from your WordPress website. Designed for users with no coding experience, this plugin allows you to easily browse, manage, embed, display, upload, download, search, play, and share your Connect Drive content seamlessly on your WordPress site.', 'connect-drive'); ?>
                 </p>

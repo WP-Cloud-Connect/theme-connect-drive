@@ -24,7 +24,7 @@ class Connect_Drive_Enqueue
 		$page_template = get_page_template_slug();
 		$file_name     = basename($page_template, '.php');
 
-		if (! is_user_logged_in()) {
+		if (! is_user_logged_in() && ! is_singular('docs') && ! is_page('docs') && ! is_archive('docs-category')) {
 			wp_dequeue_style('dashicons');
 			wp_deregister_style('dashicons');
 		}
@@ -59,6 +59,31 @@ class Connect_Drive_Enqueue
 			wp_enqueue_style('integration', get_theme_file_uri('assets/css/integration.css'), array(), $theme_version, 'all');
 		}
 
+		//contact us page assets
+		if (is_page('contact')) {
+			wp_enqueue_style('contact', get_theme_file_uri('assets/css/contact.css'), array(), $theme_version, 'all');
+		}
+		//privacy policy page assets
+		if (is_page('privacy-policy')) {
+			wp_enqueue_style('privacy-policy', get_theme_file_uri('assets/css/privacy-policy.css'), array(), $theme_version, 'all');
+		}
+		//refund policy page assets
+		if (is_page('refund-policy')) {
+			wp_enqueue_style('refund-policy', get_theme_file_uri('assets/css/refund-policy.css'), array(), $theme_version, 'all');
+		}
+		//blog page assets
+		// if (is_page('blog-page')) {
+		// 	wp_enqueue_style('blog', get_theme_file_uri('assets/css/blog.css'), array(), $theme_version, 'all');
+		// }
+		// Blog page assets
+		// if (is_home()) {
+		// 	wp_enqueue_style('blog', get_theme_file_uri('assets/css/blog.css'), array(), $theme_version, 'all');
+		// }
+		// Single page assets
+		if (is_single()) {
+			wp_enqueue_style('single', get_theme_file_uri('assets/css/single.css'), array(), $theme_version, 'all');
+		}
+		// wp_enqueue_style('main', get_theme_file_uri('assets/css/single.css'), array(), $theme_version, 'all');
 		wp_enqueue_style('main', get_theme_file_uri('assets/css/main.css'), array(), $theme_version, 'all');
 
 		if (is_rtl()) {

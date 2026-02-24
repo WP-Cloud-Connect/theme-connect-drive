@@ -4,3 +4,19 @@
 @import "components/header";
 @import "components/footer";
 @import "components/404";
+
+
+@import "components/blog";
+
+.softdocs-search-wrap {
+  background:
+    url("../images/connect-drive/ex-feature/bg-shape.png") no-repeat center
+      center,
+    linear-gradient(180deg, #e9f2ff 0%, #f7fbff 100%);
+  background-size: cover;
+  padding-bottom: 60px;
+}
+.softdocs-content-area {
+  padding: 60px 0;
+}
+

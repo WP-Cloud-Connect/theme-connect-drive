@@ -1,5 +1,5 @@
 import "./components/pricing";
-import "./components/sticky-banner";
+// import "./components/sticky-banner";
 
 (function ($) {
   const app = {
@@ -9,29 +9,12 @@ import "./components/sticky-banner";
 
       //Handle to top button
       $(".to-top").on("click", app.handleToTop);
-      
 
       //Init Fun Fact Counter
       app.initFunFactCounter();
 
       // Handle mobile menu close
-      app.handleMobileMenuClose();
-
-      // handle menu active class
-      $("li").on("click", app.handleMenuActiveClass);
-    },
-
-    /**
-     * Handles the mobile menu active class functionality. Removes the
-     * "active" class from all mobile menu items and adds it to the
-     * currently clicked item.
-     *
-     * @since 1.0.0
-     */
-    handleMenuActiveClass: function () {
-      //  $(".search-form").addClass("active");
-        $("a").removeClass("active");
-        $(this).addClass("active");
+      app.handleMobileMenuPanel();
     },
 
     /**
@@ -41,7 +24,7 @@ import "./components/sticky-banner";
      * window resize event. Also handles mobile dropdown toggles.
      * @since 1.0.0
      */
-    handleMobileMenuClose: function () {
+    handleMobileMenuPanel: function () {
       // Cache DOM elements
       const $menu = $(".mobile-menu");
       const $menuToggle = $("#menu-toggle");
@@ -72,7 +55,9 @@ import "./components/sticky-banner";
 
       $overlay.on("click", () => toggleMenu(false));
 
-      $(document).on("keydown", (e) => e.key === "Escape" && toggleMenu(false));
+      $(document).on("keydown", (e) => {
+        if (e.keyCode === 27) toggleMenu(false);
+      });
 
       $menu.length && $menu.on("click", (e) => e.stopPropagation());
 

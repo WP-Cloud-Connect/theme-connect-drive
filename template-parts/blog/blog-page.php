@@ -5,7 +5,7 @@
             <div class="main-content">
                 <!-- Our Articles Section -->
                 <div class="our-articles-section">
-                    <div class="section-head flex justify-between items-center">
+                    <div class="section-head flex justify-between align-center ">
                         <h2 class="section-title">Our Articles</h2>
                         <!-- Search Area -->
                         <div class="search-area">
@@ -58,8 +58,8 @@
                                         <?php endif; ?>
 
                                         <div class="article-content">
-                                            <div class="time-date flex justify-between items-center">
-                                                <span class="blog-item-meta-time"><i class="fa-solid fa-clock"></i><?php echo softlab_get_reading_time(); ?></span>
+                                            <div class="time-date flex justify-between align-center ">
+                                                <span class="blog-item-meta-time"><i class="fa-solid fa-clock"></i><?php echo connect_drive_get_reading_time(); ?></span>
                                                 <span class="blog-item-meta-date">
                                                     <i class="fas fa-calendar-alt"></i>
                                                     <?php echo display_update_date(); ?>
@@ -110,8 +110,8 @@
                                         <?php endif; ?>
 
                                         <div class="popular-item-content">
-                                            <div class="time-date flex justify-between items-center">
-                                                <span class="blog-item-meta-time"><i class="fa-solid fa-clock"></i><?php echo softlab_get_reading_time(); ?></span>
+                                            <div class="time-date flex justify-between align-center ">
+                                                <span class="blog-item-meta-time"><i class="fa-solid fa-clock"></i><?php echo connect_drive_get_reading_time(); ?></span>
                                                 <span class="blog-item-meta-date">
                                                     <i class="fas fa-calendar-alt"></i>
                                                     <?php echo display_update_date(); ?>
@@ -168,8 +168,8 @@
                                     <?php endif; ?>
 
                                     <div class="blog-item-content">
-                                        <div class="time-date flex justify-between items-center">
-                                            <span class="blog-item-meta-time"><i class="fa-solid fa-clock"></i><?php echo softlab_get_reading_time(); ?></span>
+                                        <div class="time-date flex justify-between align-center ">
+                                            <span class="blog-item-meta-time"><i class="fa-solid fa-clock"></i><?php echo connect_drive_get_reading_time(); ?></span>
                                             <span class="blog-item-meta-date">
                                                 <i class="fas fa-calendar-alt"></i>
                                                 <?php echo display_update_date(); ?>

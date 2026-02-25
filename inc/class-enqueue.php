@@ -71,14 +71,40 @@ class Connect_Drive_Enqueue
 		if (is_page('refund-policy')) {
 			wp_enqueue_style('refund-policy', get_theme_file_uri('assets/css/refund-policy.css'), array(), $theme_version, 'all');
 		}
-		//blog page assets
-		// if (is_page('blog-page')) {
-		// 	wp_enqueue_style('blog', get_theme_file_uri('assets/css/blog.css'), array(), $theme_version, 'all');
-		// }
-		// Blog page assets
-		// if (is_home()) {
-		// 	wp_enqueue_style('blog', get_theme_file_uri('assets/css/blog.css'), array(), $theme_version, 'all');
-		// }
+		
+		//Connect Drive File Browser assets
+		if (is_page('connect-drive-file-browser')) {
+			wp_enqueue_style('file-browser-demo', get_theme_file_uri('assets/css/file-browser-demo.css'), array(), $theme_version, 'all');
+		}
+		//Connect Drive File Uploader assets
+		if (is_page('connect-drive-file-uploader')) {
+			wp_enqueue_style('file-uploader-demo', get_theme_file_uri('assets/css/file-uploader-demo.css'), array(), $theme_version, 'all');
+		}
+		//Connect Drive list files assets
+		if (is_page('connect-drive-list-files')) {
+			wp_enqueue_style('list-files-demo', get_theme_file_uri('assets/css/list-files-demo.css'), array(), $theme_version, 'all');
+		}
+		//Connect Drive Gallery assets
+		if (is_page('connect-drive-gallery')) {
+			wp_enqueue_style('photo-gallery-demo', get_theme_file_uri('assets/css/photo-gallery-demo.css'), array(), $theme_version, 'all');
+		}
+		//Connect Drive Review & Approve assets
+		if (is_page('connect-drive-review-approve-module')) {
+			wp_enqueue_style('review-approve-demo', get_theme_file_uri('assets/css/review-approve-demo.css'), array(), $theme_version, 'all');
+		}
+		//Connect Drive slider carousel assets
+		if (is_page('connect-drive-slider-carousel')) {
+			wp_enqueue_style('slider-carousel-demo', get_theme_file_uri('assets/css/slider-carousel-demo.css'), array(), $theme_version, 'all');
+		}
+		//Connect Drive Media Player assets
+		if (is_page('connect-drive-media-player')) {
+			wp_enqueue_style('media-demo', get_theme_file_uri('assets/css/media-demo.css'), array(), $theme_version, 'all');
+		}
+		//Connect Drive woocommerce integration assets
+		if (is_page('woocommerce-integration')) {
+			wp_enqueue_style('woocommerce-integration', get_theme_file_uri('assets/css/woocommerce-integration.css'), array(), $theme_version, 'all');
+		}
+
 		// Single page assets
 		if (is_single()) {
 			wp_enqueue_style('single', get_theme_file_uri('assets/css/single.css'), array(), $theme_version, 'all');
@@ -108,7 +134,11 @@ class Connect_Drive_Enqueue
 		//If pricing page, enqueue the freemius script
 		$is_pricing_page = in_array($file_name, [
 			'connect-drive-pricing',
+			'home',
 		]);
+		$is_pricing_page = [
+			'home'
+		];
 
 		if ($is_pricing_page) {
 			wp_enqueue_script('freemius-checkout', 'https://checkout.freemius.com/checkout.min.js', ['jquery'], false, true);

@@ -1,6 +1,6 @@
 /**---------- connect drive pricing scss ----------**/
 #connect-drive-pricing__hero {
-  padding: 100px 0 450px 0;
+  padding: 200px 0 450px 0;
   background: linear-gradient(180deg, #e9f2ff 0%, #f7fbff 100%);
   .connect-drive-pricing__hero-content {
     max-width: 700px;
@@ -1293,7 +1293,7 @@
       );
       backdrop-filter: blur(222px);
       padding: 20px;
-      height: 175px;
+      // height: 175px;
       text-align: center;
 
       span {
@@ -1306,6 +1306,8 @@
 
       img {
         padding-top: 28px;
+        width: auto;
+        height: auto;
       }
     }
   }
@@ -1402,7 +1404,7 @@
     }
   }
   .connect-drive-features-wrapper {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     .connect-drive-features-wrapper__header {
       border-bottom: 1px solid #2b59ff1a;
@@ -1995,16 +1997,20 @@
 }
 /**---------- cta area scss ----------**/
 .connect-drive-cta {
-  background: linear-gradient(
-    90deg,
-    #9f7eff 1.23%,
-    #8c89ff 16.9%,
-    rgba(92, 113, 255, 0.91) 29.72%,
-    rgba(43, 89, 255, 0.8) 42.08%,
-    #5d8bfd 57.78%,
-    #729bff 69.61%,
-    #f76d83 100%
-  );
+ background:
+    url("../images/connect-drive/cta-bg-shape.png") no-repeat center
+      center,
+    linear-gradient(
+      90deg,
+      #9f7eff 1.23%,
+      #8c89ff 16.9%,
+      rgba(92, 113, 255, 0.91) 29.72%,
+      rgba(43, 89, 255, 0.8) 42.08%,
+      #5d8bfd 57.78%,
+      #729bff 69.61%,
+      #f76d83 100%
+    );
+  background-size: cover;
   padding: 80px 0;
   .connect-drive-cta__wrapper {
     // width: 1000px;

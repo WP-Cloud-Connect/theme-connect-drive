@@ -134,7 +134,12 @@ p {
 .justify-between {
   justify-content: space-between;
 }
-
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-end {
+  justify-content: flex-end;
+}
 .align-self-start {
   align-self: flex-start;
 }

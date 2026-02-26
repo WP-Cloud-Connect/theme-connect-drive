@@ -26,6 +26,28 @@
       line-height: 160%;
     }
   }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    padding: 100px 0 60px 0;
+    .refund-policy__head {
+      .refund-policy__title {
+        font-size: 1.8rem;
+      }
+      .refund-policy__description {
+        font-size: 0.9rem;
+      }
+    }
+  }
+  @media (max-width: 767.98px) {
+    padding: 100px 0 60px 0;
+    .refund-policy__head {
+      .refund-policy__title {
+        font-size: 1.8rem;
+      }
+      .refund-policy__description {
+        font-size: 0.9rem;
+      }
+    }
+  }
 }
 
 .refund-policy__body {
@@ -72,10 +94,59 @@
       }
     }
     a {
-        color: $color_primary;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 124%;
+      color: $color_primary;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 124%;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    padding: 40px 0 0 0;
+    .refund-policy__content {
+      p {
+        font-size: 15px;
+      }
+    }
+    .refund-policy__main {
+      h3 {
+        font-size: 1.5rem;
+      }
+      p {
+        font-size: 0.9rem;
+      }
+      ul {
+        li {
+          font-size: 0.9rem;
+        }
+      }
+      a {
+        font-size: 0.9rem;
+      }
+    }
+  }
+  @media (max-width: 767.98px) {
+    padding: 40px 0 0 0;
+    .refund-policy__content {
+      p {
+        font-size: 14px;
+      }
+    }
+    .refund-policy__main {
+      padding: 20px;
+      h3 {
+        font-size: 1.5rem;
+      }
+      p {
+        font-size: 0.9rem;
+      }
+      ul {
+        li {
+          font-size: 0.9rem;
+        }
+      }
+      a {
+        font-size: 0.9rem;
+      }
     }
   }
 }

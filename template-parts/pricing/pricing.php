@@ -533,7 +533,7 @@ $lifetime_pro_features = [
 <script>
     (function($) {
         $(document).on('ready', function() {
-            const productIcon = '<?php echo get_template_directory_uri(); ?>/assets/images/products/integrate-connect-drive-new.png';
+            const productIcon = '<?php echo get_template_directory_uri(); ?>/assets/images/connect-drive/connect-drive.png';
 
             var handler = FS.Checkout.configure({
                 plugin_id: '9618',

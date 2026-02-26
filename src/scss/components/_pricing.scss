@@ -968,6 +968,7 @@
             display: block;
             .site-image {
               margin-top: 10px;
+              justify-content: center;
               span {
                 font-size: 14px;
               }
@@ -1014,6 +1015,7 @@
             display: block;
             .site-image {
               margin-top: 10px;
+              justify-content: center;
               span {
                 font-size: 14px;
               }
@@ -1854,7 +1856,8 @@
   }
   /* Accordion */
   .accordion {
-    margin-top: 40px;
+    width: 80%;
+    margin: 40px auto auto auto;
     .accordion-item {
       border-radius: 16px;
       border: 1px solid #1c6bcb;
@@ -1997,9 +2000,8 @@
 }
 /**---------- cta area scss ----------**/
 .connect-drive-cta {
- background:
-    url("../images/connect-drive/cta-bg-shape.png") no-repeat center
-      center,
+  background:
+    url("../images/connect-drive/cta-bg-shape.png") no-repeat center center,
     linear-gradient(
       90deg,
       #9f7eff 1.23%,

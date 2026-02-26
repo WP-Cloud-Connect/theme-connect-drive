@@ -334,7 +334,7 @@
     }
   }
 }
-/**---------- connect-drive-feature-area scss ----------**/
+/**---------- connect drive feature-area scss ----------**/
 #connect-drive__feature {
   padding: 60px 0;
 
@@ -899,18 +899,8 @@
             align-items: center;
             gap: 10px;
 
-            i {
-              text-align: center;
-              background: transparent;
-              width: 30px;
-              height: 30px;
-              line-height: 29px;
-              border-radius: 50%;
-              border: 1px solid #2b59ff;
-              color: #2b59ff;
-              font-size: 13px;
-              cursor: pointer;
-              margin-right: 10px;
+            .button-icon-img {
+              width: auto;
             }
 
             &:hover {
@@ -963,21 +953,17 @@
       }
     }
   }
-  .feature-allow-specific-folders,
-  .feature-multiple-accounts {
-    .feature-item-img {
-      text-align: end;
-    }
-  }
-  .feature-review-approve-module,
-  .feature-list-files,
+
   .feature-page-builder,
   .feature-form {
     .feature-video-btn {
       display: none;
     }
   }
-  .feature-secured-connect-drive-access {
+  .feature-secured-connect-drive-access,
+  .feature-allow-specific-folders,
+  .feature-media-library,
+  .feature-multiple-accounts {
     .feature-demo-btn {
       display: none;
     }
@@ -1000,12 +986,22 @@
       width: max-content;
       transition: all linear 0.4s;
       margin: auto;
+      display: flex;
+      align-items: center;
+      svg {
+        margin-right: 10px;
+      }
       &:hover {
         background-color: #fff;
         color: #2b59ff;
         transition: all linear 0.4s;
         box-shadow: $color_primary 0px 2px 8px 0px;
         border-color: transparent;
+        svg {
+          path {
+            fill: $color_primary;
+          }
+        }
       }
     }
   }
@@ -1034,16 +1030,6 @@
       }
     }
   }
-  // @media (min-width: 1400px) {
-  //   .feature-item {
-  //     &.flex-row-reverse {
-  //       .feature-item-content {
-  //         padding-left: 60px;
-  //       }
-  //     }
-  //   }
-  // }
-
   .features {
     padding: 50px 0;
     .feature-img {
@@ -1130,7 +1116,6 @@
       }
     }
   }
-
   .feature-page-builder {
     .feature-item-img-mobile {
       img {
@@ -1358,6 +1343,7 @@
 
     .connect-drive-features-wrapper {
       padding: 13px 0px;
+      margin-top: 35px;
       .connect-drive-features__tabs {
         .connect-drive-features__tab__btn {
           padding: 10px 5px;
@@ -1379,6 +1365,7 @@
           padding: 0 20px;
           .connect-drive-features__content__title {
             font-size: 1.5rem;
+            padding-top: 0;
           }
           .feature-imgs-mobile {
             margin-bottom: 10px;
@@ -1398,9 +1385,14 @@
       grid-template-columns: repeat(1, minmax(0, 1fr));
       .feature-item-content {
         width: 100%;
-        text-align: center;
+        // text-align: center;
         .feature-title {
           font-size: 1.5rem;
+          text-align: center;
+          justify-content: center;
+        }
+        .feature-description {
+          text-align: center;
         }
         .features-button {
           justify-content: center;
@@ -1432,6 +1424,17 @@
 }
 .connect-drive-features {
   background: #f8f9ff;
+  @media (max-width: 767.98px) {
+    .feature-item {
+      .feature-item-content {
+        .feature-title {
+          font-size: 1.5rem;
+          text-align: left !important;
+          justify-content: left !important;
+        }
+      }
+    }
+  }
 }
 /**---------- WooCommerce Support ----------**/
 .connect-drive-woocommerce-support {
@@ -3193,22 +3196,6 @@
     }
   }
 
-  // @media (min-width: 1200px) and (max-width: 1199.98px) {
-  //   .price-table {
-  //     .price-features {
-  //       .feature-item {
-  //         display: flex;
-  //         justify-content: flex-start;
-  //         align-items: center;
-
-  //         span {
-  //           font-size: 0.9rem;
-  //         }
-  //       }
-  //     }
-  //   }
-  // }
-
   @media (min-width: 1200px) and (max-width: 1399.98px) {
     padding: 60px 0;
     .pricing-table-main {
@@ -3225,7 +3212,7 @@
             display: block;
             .site-image {
               margin-top: 10px;
-              // justify-content: center;
+              justify-content: center;
               img {
                 // width: 15px;
                 // height: 15px;
@@ -3277,7 +3264,7 @@
             display: block;
             .site-image {
               margin-top: 10px;
-              // justify-content: center;
+              justify-content: center;
               img {
                 // width: 15px;
                 // height: 15px;
@@ -3507,7 +3494,8 @@
   }
   /* Accordion */
   .accordion {
-    margin-top: 40px;
+    width: 80%;
+    margin: 40px auto auto auto;
     .accordion-item {
       border-radius: 16px;
       border: 1px solid #1c6bcb;
@@ -3613,12 +3601,12 @@
       .accordion-item {
         margin-bottom: 20px;
         padding: 20px;
-          .accordion-header {
-            span {
-              font-size: 19px;
-              width: 90%;
-            }
+        .accordion-header {
+          span {
+            font-size: 19px;
+            width: 90%;
           }
+        }
       }
     }
   }
@@ -3637,12 +3625,12 @@
       .accordion-item {
         margin-bottom: 20px;
         padding: 20px;
-          .accordion-header {
-            span {
-              font-size: 19px;
-              width: 90%;
-            }
+        .accordion-header {
+          span {
+            font-size: 19px;
+            width: 90%;
           }
+        }
       }
     }
   }
@@ -3785,7 +3773,7 @@
   }
 
   @media (max-width: 767.98px) {
-    padding: 60px 0;
+    padding: 60px 0 80px 0;
     .connect-drive-funfact__head {
       .connect-drive-funfact__head-title {
         font-size: 1.5rem;
@@ -3822,8 +3810,7 @@
 /**---------- cta area scss ----------**/
 .connect-drive-cta {
   background:
-    url("../images/connect-drive/cta-bg-shape.png") no-repeat center
-      center,
+    url("../images/connect-drive/cta-bg-shape.png") no-repeat center center,
     linear-gradient(
       90deg,
       #9f7eff 1.23%,

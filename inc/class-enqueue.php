@@ -71,7 +71,7 @@ class Connect_Drive_Enqueue
 		if (is_page('refund-policy')) {
 			wp_enqueue_style('refund-policy', get_theme_file_uri('assets/css/refund-policy.css'), array(), $theme_version, 'all');
 		}
-		
+
 		//Connect Drive File Browser assets
 		if (is_page('connect-drive-file-browser')) {
 			wp_enqueue_style('file-browser-demo', get_theme_file_uri('assets/css/file-browser-demo.css'), array(), $theme_version, 'all');
@@ -99,6 +99,14 @@ class Connect_Drive_Enqueue
 		//Connect Drive Media Player assets
 		if (is_page('connect-drive-media-player')) {
 			wp_enqueue_style('media-demo', get_theme_file_uri('assets/css/media-demo.css'), array(), $theme_version, 'all');
+		}
+		//Connect Drive Search Box assets
+		if (is_page('connect-drive-search-box')) {
+			wp_enqueue_style('search-box-demo', get_theme_file_uri('assets/css/search-box-demo.css'), array(), $theme_version, 'all');
+		}
+		//Connect Drive Embed Documents assets
+		if (is_page('connect-drive-embed-documents')) {
+			wp_enqueue_style('embed-documents-demo', get_theme_file_uri('assets/css/embed-documents-demo.css'), array(), $theme_version, 'all');
 		}
 		//Connect Drive woocommerce integration assets
 		if (is_page('woocommerce-integration')) {
@@ -154,6 +162,11 @@ class Connect_Drive_Enqueue
 		$theme_version = wp_get_theme()->get('Version');
 
 		wp_enqueue_script('main', get_theme_file_uri('assets/js/admin.js'), array('jquery'), $theme_version, true);
+
+		// admin css 
+		if ('appearance_page_theme-option' === $hook) {
+			wp_enqueue_style('admin', get_theme_file_uri('assets/css/admin.css'), array(), $theme_version, 'all');
+		}
 	}
 
 

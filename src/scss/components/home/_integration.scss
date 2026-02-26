@@ -52,6 +52,9 @@
         }
       }
     }
+    .hero-content__image-mobile {
+      display: none;
+    }
   }
 
   .hero-image {
@@ -374,6 +377,43 @@
   .text-center {
     text-align: center;
   }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .connect-drive-feature__head {
+      max-width: 100%;
+      .connect-drive-feature__title {
+        font-size: 2rem;
+      }
+      .connect-drive-feature__description {
+        margin: 20px 0 40px 0;
+        font-size: 0.9rem;
+      }
+    }
+    .connect-drive-feature__main {
+      grid-template-columns: 1fr 1fr;
+      .connect-drive-feature__content {
+        padding: 20px;
+        .feature-sub-title {
+          font-size: 19px;
+        }
+        .feature-sub-description {
+          color: #5c637e;
+          font-size: 16px;
+        }
+      }
+    }
+    .connect-drive-feature__search-area-main {
+      .connect-drive-button-area {
+        .connect-drive-button {
+          padding: 10px 10px;
+          font-size: 15px;
+          svg {
+            width: 25px;
+            height: 25px;
+          }
+        }
+      }
+    }
+  }
   @media (max-width: 767.98px) {
     .connect-drive-feature__head {
       max-width: 100%;
@@ -416,8 +456,7 @@
 /**---------- cta area scss ----------**/
 .connect-drive-cta {
   background:
-    url("../images/connect-drive/cta-bg-shape.png") no-repeat center
-      center,
+    url("../images/connect-drive/cta-bg-shape.png") no-repeat center center,
     linear-gradient(
       90deg,
       #9f7eff 1.23%,

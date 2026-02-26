@@ -63,11 +63,8 @@
   @media (min-width: 1200px) and (max-width: 1399.98px) {
     //Tablet
     padding: 110px 0 60px 0;
-    .hero-section__main {
-      padding: 0 20px;
-    }
-    .hero-content {
-      .hero-content__title {
+    .features-hero-section__content {
+      .features-hero-content__title {
         font-size: 2.6rem;
       }
     }
@@ -75,11 +72,8 @@
   @media (min-width: 992px) and (max-width: 1199.98px) {
     //Tablet
     padding: 110px 0 60px 0;
-    .hero-section__main {
-      padding: 0 20px;
-    }
-    .hero-content {
-      .hero-content__title {
+    .features-hero-section__content {
+      .features-hero-content__title {
         font-size: 2.4rem;
       }
     }
@@ -88,11 +82,11 @@
   @media (min-width: 768px) and (max-width: 991.98px) {
     //Tablet
     padding: 110px 0 60px 0;
-    .hero-content {
-      .hero-content__title {
+    .features-hero-section__content {
+      .features-hero-content__title {
         font-size: 2.2rem;
       }
-      .hero-content__description {
+      .features-hero-content__description {
         font-size: 0.9rem;
       }
     }
@@ -100,53 +94,22 @@
 
   @media (max-width: 767.98px) {
     padding: 100px 0 70px 0;
-    .hero-section__main {
-      grid-template-columns: repeat(1, minmax(0, 1fr));
-    }
-    .hero-content {
-      width: 100%;
+    .features-hero-section__content {
       text-align: center;
 
-      .hero-content__title {
+      .features-hero-content__title {
         font-size: 1.5rem;
-
-        img {
-          width: 109px;
-        }
       }
-      .hero-content__description {
+      .features-hero-content__description {
         font-size: 0.9rem;
       }
-      .hero-content__button__area {
+      .features-hero-content__button__area {
         justify-content: center;
       }
       .view-products-btn {
         padding: 11px 15px;
         margin: auto;
       }
-
-      .hedding-description {
-        font-size: 1rem;
-        margin-bottom: 30px;
-      }
-
-      .hero-content__image-mobile {
-        display: block;
-        .hero-image__play__btn {
-          top: 50%;
-          left: 50%;
-          width: 70px;
-          height: 70px;
-        }
-      }
-    }
-
-    .hero-image {
-      display: none;
-    }
-
-    .mb-5 {
-      margin-bottom: 1.5rem !important;
     }
   }
 }
@@ -217,6 +180,44 @@
       }
     }
   }
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .connect-drive-feature__head {
+      .connect-drive-feature__title {
+        font-size: 2.4rem;
+      }
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .connect-drive-feature__head {
+      .connect-drive-feature__title {
+        font-size: 2.2rem;
+      }
+      .features-hero-content__description {
+        font-size: 0.9rem;
+      }
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .connect-drive-feature__head {
+      text-align: center;
+
+      .connect-drive-feature__title {
+        font-size: 1.5rem;
+      }
+      .connect-drive-feature__description {
+        font-size: 0.9rem;
+      }
+    }
+  }
+  .connect-drive-feature__main {
+    .connect-drive-feature__content {
+      .feature-sub-title {
+        font-size: 20px;
+      }
+    }
+  }
 }
 
 /**---------- connect drive faq scss ----------**/
@@ -245,7 +246,8 @@
   }
   /* Accordion */
   .accordion {
-    margin-top: 40px;
+    width: 80%;
+    margin: 40px auto auto auto;
     .accordion-item {
       border-radius: 16px;
       border: 1px solid #1c6bcb;

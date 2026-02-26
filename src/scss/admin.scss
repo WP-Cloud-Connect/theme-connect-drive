@@ -4,3 +4,101 @@
 @import "components/header";
 @import "components/footer";
 @import "components/404";
+#wpcontent {
+  height: 100%;
+  padding-left: 0px;
+}
+.connect-drive-shortcode-wrap {
+  background: linear-gradient(180deg, #e9f2ff 0%, #f7fbff 100%);
+  padding: 40px;
+  .cannect-drive-wrap__title {
+    color: #151826;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-top: 0;
+  }
+  .connect-drive-shortcode-wrapper {
+    .cannect-drive-wrapper__main {
+      .cannect-drive-head__title {
+        color: #151826 !important;
+        margin-top: 0;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 120%;
+        span {
+          background: linear-gradient(295deg, #1c6bcb 2.71%, #2d7cff 96.32%);
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+        img {
+            width: auto;
+            height: auto;
+        }
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .connect-drive-shortcode-wrapper__item {
+        .connect-drive-form__table {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          .shortcode-area {
+            .shortcode_lable {
+              color: #5c637e;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 120%;
+              margin-bottom: 12px;
+              display: block;
+              // span {
+              //     background: linear-gradient(154deg, #ffc1a0 3.43%, #fd798b 90.47%);
+              //     background-clip: text;
+              //     -webkit-background-clip: text;
+              //     -webkit-text-fill-color: transparent;
+              //     margin-left: 10px;
+              // }
+            }
+            .shortcode_input {
+              margin-bottom: 20px;
+              input {
+                width: 96%;
+                // height: 40px;
+                border-radius: 8.819px;
+                border: 0.5px solid rgba(137, 151, 175, 0.6);
+                background: #f9faff;
+                padding: 15px 20px;
+                font-size: 16px;
+                transition: all 0.3s ease;
+                outline: none;
+                &:focus {
+                  border-color: $color_primary;
+                  box-shadow: 0 0 0 3px rgba(0, 115, 170, 0.1);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .connect-drive-submit {
+    .submit {
+      .button-primary {
+        padding: 7px 36px;
+        color: #fff;
+        font-weight: 500;
+        border-radius: 10px;
+        background: linear-gradient(295deg, #1c6bcb 2.71%, #2d7cff 96.32%);
+        box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.12);
+        &:hover {
+          background: transparent;
+          border: 1px solid #2d7cff;
+          color: #2d7cff;
+
+        }
+      }
+    }
+  }
+}

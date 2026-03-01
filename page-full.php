@@ -27,10 +27,10 @@ the_post();
 		the_content();
 
 		wp_link_pages( array(
-			'before' => '<div class="page-links">' . __( 'Pages:', 'softlab' ),
+			'before' => '<div class="page-links">' . __( 'Pages:', 'connect-drive' ),
 			'after'  => '</div>',
 		) );
-		edit_post_link( __( 'Edit', 'softlab' ), '<span class="edit-link">', '</span>' );
+		edit_post_link( __( 'Edit', 'connect-drive' ), '<span class="edit-link">', '</span>' );
 	?>
 </div><!-- /#post-<?php the_ID(); ?> -->
 <?php

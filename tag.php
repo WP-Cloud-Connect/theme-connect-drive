@@ -8,7 +8,7 @@ get_header();
 if ( have_posts() ) :
 ?>
 	<header class="page-header">
-		<h1 class="page-title"><?php printf( esc_html__( 'Tag: %s', 'softlab' ), single_tag_title( '', false ) ); ?></h1>
+		<h1 class="page-title"><?php printf( esc_html__( 'Tag: %s', 'connect-drive' ), single_tag_title( '', false ) ); ?></h1>
 		<?php
 			$tag_description = tag_description();
 			if ( ! empty( $tag_description ) ) :

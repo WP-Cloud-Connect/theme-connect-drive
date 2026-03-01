@@ -1,0 +1,409 @@
+@import "components/variables";
+@import "components/common";
+@import "components/fonts";
+@import "components/header";
+@import "components/footer";
+@import "components/404";
+
+@import "components/comments";
+
+body.page,
+body.single,
+body.archive,
+body.search {
+  background: linear-gradient(
+      180.71deg,
+      #6c9eff -150px,
+      rgba(249, 250, 255, 0) 400px
+    )
+    no-repeat center top;
+
+  .title-header {
+    background:
+      url("../images/connect-drive/ex-feature/bg-shape.png") no-repeat center
+        center,
+      linear-gradient(180deg, #e9f2ff 0%, #f7fbff 100%);
+    background-size: cover;
+    padding: 200px 0 60px 0;
+
+    .header-content {
+      .entry-title {
+        font-size: 35px;
+        font-weight: 900;
+      }
+
+      .entry-meta {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+          padding: 0 !important;
+          margin-bottom: 0 !important;
+          margin-right: 3px;
+
+          a {
+            font-size: 0.875rem;
+            line-height: $line_height_p;
+            color: #7788ff;
+            background: transparent;
+            border: 1px solid #7788ff;
+            border-radius: 8px;
+            padding: 5px 10px;
+            margin-right: 10px;
+            transition: all 0.3s ease;
+
+            &:hover {
+              background: linear-gradient(
+                146.96deg,
+                #7788ff 11.6%,
+                #6e6dff 89.24%
+              );
+              color: #fff;
+            }
+          }
+        }
+
+        span {
+          font-weight: 600;
+        }
+
+        .blog-item-meta-time {
+          margin-left: 15px;
+          i {
+            margin-right: 7px;
+          }
+        }
+        a {
+          color: #000000;
+
+          &:hover {
+            color: blueviolet;
+          }
+        }
+
+        .by-author {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .page {
+    padding: 1.5rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+    color: #000000;
+  }
+
+  .softdocs-entry-title {
+    color: #5c637e;
+  }
+
+  .softdocs-entry-content {
+    p {
+      color: #5c637e;
+
+      img {
+        cursor: zoom-in;
+      }
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .title-header {
+      padding: 120px 0 60px 0;
+    }
+    .page {
+      padding: 1rem;
+    }
+  }
+}
+
+.post-thumbnail {
+  text-align: center;
+  margin: 4rem 0 2rem 0;
+
+  img {
+    max-width: 100%;
+    width: auto !important;
+    height: auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    // cursor: zoom-in;
+  }
+}
+
+figure {
+  margin: 0;
+  text-align: center;
+
+  img {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+}
+
+.mfp-content {
+  .mfp-figure {
+    img {
+      border: none;
+      border-radius: 5px;
+    }
+  }
+}
+
+.entry-content {
+  p {
+    line-height: 1.5;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2em;
+    font-size: 20px;
+
+    img {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      margin: 35px auto;
+      cursor: zoom-in;
+    }
+  }
+
+  .wp-block-image {
+    img {
+      cursor: zoom-in;
+    }
+  }
+
+  iframe {
+    border-radius: 10px !important;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 700;
+    margin-top: 1.2em;
+  }
+
+  h3 {
+    a {
+      color: #0d6efd;
+    }
+  }
+
+  ul,
+  ol {
+    margin-left: 1.5rem;
+    margin-bottom: 1.2rem;
+
+    li {
+      margin-bottom: 0.5rem;
+      font-size: 20px;
+    }
+  }
+
+  tbody {
+    tr {
+      td {
+        font-size: 1.2rem;
+        padding-left: 20px;
+      }
+    }
+  }
+
+  tbody,
+  td,
+  tfoot,
+  th,
+  thead,
+  tr {
+    border: 1px solid #ddd;
+  }
+}
+
+//search page content block
+.search-page {
+  padding: 170px 0 !important;
+
+  .search-form {
+    max-width: 500px;
+    width: 100%;
+    margin: 30px auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+
+    .input-group {
+      input {
+        padding: 10px;
+        border: none !important;
+      }
+
+      button {
+        border: none !important;
+      }
+    }
+  }
+}
+
+//responsive
+@media (max-width: 768px) {
+  .entry-meta {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .entry-content {
+    p {
+      font-size: 1rem;
+    }
+
+    h2 {
+      font-size: 25px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .title-header {
+    padding: 100px 0 30px 0 !important;
+
+    .header-content {
+      .entry-title {
+        font-size: 25px !important;
+        line-height: 40px;
+      }
+
+      .header-title {
+        font-size: 1.7rem !important;
+      }
+
+      // .entry-meta{
+      //   display: block !important;
+      // }
+    }
+  }
+
+  .entry-content {
+    p {
+      font-size: 1rem;
+    }
+
+    h3 {
+      a {
+        font-size: 1.8rem;
+      }
+    }
+
+    h2 {
+      font-size: 25px;
+    }
+
+    ul,
+    ol {
+      li {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .entry-content {
+    p {
+      font-size: 1rem;
+    }
+
+    h3 {
+      a {
+        font-size: 1.8rem;
+      }
+    }
+
+    h2 {
+      font-size: 25px;
+    }
+
+    ul,
+    ol {
+      li {
+        font-size: 1rem;
+      }
+    }
+
+    table {
+      width: auto;
+      // tbody {
+      //   tr {
+      //     td {
+      //       text-align-last: left!important;
+      //       p {
+      //         text-align: left;
+      //       }
+      //     }
+      //   }
+      // }
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  // .title-header{
+  //   padding: 100px 0 30px 0 !important;
+  //   .header-content{
+  //     .entry-title{~
+  //       font-size: 25px !important;
+  //       line-height: 40px;
+  //     }
+  //     .header-title{
+  //       font-size: 1.7rem !important;
+  //     }
+  //     // .entry-meta{
+  //     //   display: block !important;
+  //     // }
+  //   }
+  // }
+  .entry-content {
+    p {
+      font-size: 0.9rem;
+    }
+
+    h3 {
+      a {
+        font-size: 1.8rem;
+      }
+    }
+
+    h2 {
+      font-size: 25px;
+    }
+
+    ul,
+    ol {
+      li {
+        font-size: 1rem;
+      }
+    }
+
+    table {
+      width: auto;
+
+      tbody {
+        tr {
+          td {
+            p {
+              font-size: 0.9rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

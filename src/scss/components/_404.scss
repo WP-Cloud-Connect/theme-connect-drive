@@ -1,0 +1,43 @@
+#error-page {
+    background: url("../images/error-bg.png");
+    // background-color: aliceblue;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 160px 0 100px 0;
+
+    .error-head {
+        h1 {
+            font-weight: 700;
+            font-size: 3.4rem;
+            line-height: 150%;
+            color: #151826;
+        }
+        span {
+            font-weight: 700;
+            font-size: 2rem;
+            line-height: 150%;
+            color: #151826;
+        }
+    }
+    .featuer-item-img {
+        padding-top: 60px;
+    }
+    .error-but {
+        margin-top: 45px;
+        a {
+            text-decoration: none;
+            background: linear-gradient(146.96deg, #7788FF 11.6%, #6E6DFF 89.24%);
+            padding: 14px 30px;
+            border-radius: 10px;
+            color: #fff;
+            i {
+                margin-right: 8px;
+            }
+            &:hover {
+                box-shadow: 5px 16px 20px rgba(111, 113, 255, 0.2);
+            }
+        }
+    }
+}

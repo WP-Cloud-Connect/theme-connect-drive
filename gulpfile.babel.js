@@ -140,7 +140,7 @@ export const js = () => {
 
 export const serve = done => {
     server.init({
-        proxy: 'http://softlab.local/',
+        proxy: 'http://connect-drive.local/',
     });
 
     done();

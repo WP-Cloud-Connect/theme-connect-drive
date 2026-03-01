@@ -36,12 +36,58 @@ h6 {
   font-weight: 500;
   color: $heading_color;
   letter-spacing: 0;
+  line-height: 120%;
 }
 
 p {
   margin-bottom: 10px;
 }
-
+.btn-primary {
+  background: $color_primary;
+  border: 1px solid $color_primary;
+  color: $color_white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  svg {
+    margin-right: 10px;
+  }
+  &:hover {
+    background: transparent;
+    color: $color_primary;
+    svg {
+      path {
+        fill: $color_primary;
+      }
+    }
+  }
+}
+.free-btn-primary {
+  background: transparent;
+  border: 1px solid $color_primary;
+  color: $color_primary;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  svg {
+    margin-left: 10px;
+  }
+  &:hover {
+    background: $color_primary;
+    color: $color_white;
+    svg {
+      path {
+        fill: $color_white;
+      }
+    }
+  }
+}
 .container {
   width: 100%;
   max-width: 1300px;
@@ -78,7 +124,9 @@ p {
 .align-center {
   align-items: center;
 }
-
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
 .justify-center {
   justify-content: center;
 }
@@ -86,9 +134,18 @@ p {
 .justify-between {
   justify-content: space-between;
 }
-
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-end {
+  justify-content: flex-end;
+}
 .align-self-start {
   align-self: flex-start;
+}
+
+.g-10 {
+  gap: 10px;
 }
 
 .relative {
@@ -103,14 +160,21 @@ button {
   background: $color_primary;
   color: $color_white;
 }
-
+.text-center {
+  text-align: center;
+}
+.text-end {
+  text-align: end;
+}
 @media only screen and (max-width: 1366px) {
+  .container {
+    padding: 0 15px;
+  }
 }
 
+@media only screen and (max-width: 1199.98px) {
+}
 @media only screen and (max-width: 1024px) {
-}
-
-@media only screen and (max-width: 991px) {
 }
 
 @media only screen and (max-width: 767px) {

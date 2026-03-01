@@ -21,7 +21,7 @@ if (post_password_required()) {
 	?>
 		<h2 id="comments-title">
 			<?php
-			esc_html_e('No Comments yet!', 'softlab');
+			esc_html_e('No Comments yet!', 'connect-drive');
 			?>
 		</h2>
 	<?php
@@ -33,7 +33,7 @@ if (post_password_required()) {
 			<?php
 			$comments_number = get_comments_number();
 			if ('1' === $comments_number) {
-				printf(_x('One Reply to &ldquo;%s&rdquo;', 'comments title', 'softlab'), get_the_title());
+				printf(_x('One Reply to &ldquo;%s&rdquo;', 'comments title', 'connect-drive'), get_the_title());
 			} else {
 				printf(
 					/* translators: 1: number of comments, 2: post title */
@@ -42,7 +42,7 @@ if (post_password_required()) {
 						'%1$s Replies to &ldquo;%2$s&rdquo;',
 						$comments_number,
 						'comments title',
-						'softlab'
+						'connect-drive'
 					),
 					number_format_i18n($comments_number),
 					get_the_title()
@@ -55,9 +55,9 @@ if (post_password_required()) {
 		if (get_comment_pages_count() > 1 && get_option('page_comments')) {
 		?>
 			<nav id="comment-nav-above">
-				<h1 class="assistive-text"><?php esc_html_e('Comment navigation', 'softlab'); ?></h1>
-				<div class="nav-previous"><?php previous_comments_link(__('&larr; Older Comments', 'softlab')); ?></div>
-				<div class="nav-next"><?php next_comments_link(__('Newer Comments &rarr;', 'softlab')); ?></div>
+				<h1 class="assistive-text"><?php esc_html_e('Comment navigation', 'connect-drive'); ?></h1>
+				<div class="nav-previous"><?php previous_comments_link(__('&larr; Older Comments', 'connect-drive')); ?></div>
+				<div class="nav-next"><?php next_comments_link(__('Newer Comments &rarr;', 'connect-drive')); ?></div>
 			</nav>
 		<?php } ?>
 
@@ -77,7 +77,7 @@ if (post_password_required()) {
 					case 'trackback':
 			?>
 						<li class="post pingback">
-							<p><?php esc_html_e('Pingback:', 'softlab'); ?><?php comment_author_link(); ?><?php edit_comment_link(esc_html__('Edit', 'softlab'), '<span class="edit-link">', '</span>'); ?></p>
+							<p><?php esc_html_e('Pingback:', 'connect-drive'); ?><?php comment_author_link(); ?><?php edit_comment_link(esc_html__('Edit', 'connect-drive'), '<span class="edit-link">', '</span>'); ?></p>
 						<?php
 						break;
 					default:
@@ -92,23 +92,23 @@ if (post_password_required()) {
 
 										/* translators: 1: comment author, 2: date and time */
 										printf(
-											wp_kses_post(__('%1$s, %2$s', 'softlab')),
+											wp_kses_post(__('%1$s, %2$s', 'connect-drive')),
 											sprintf('<span class="fn">%s</span>', get_comment_author_link()),
 											sprintf(
 												'<a href="%1$s"><time datetime="%2$s">%3$s</time></a>',
 												esc_url(get_comment_link($comment->comment_ID)),
 												get_comment_time('c'),
 												/* translators: 1: date, 2: time */
-												sprintf(esc_html__('%1$s ago', 'softlab'), human_time_diff((int) get_comment_time('U'), current_time('timestamp')))
+												sprintf(esc_html__('%1$s ago', 'connect-drive'), human_time_diff((int) get_comment_time('U'), current_time('timestamp')))
 											)
 										);
 
-										edit_comment_link(esc_html__('Edit', 'softlab'), '<span class="edit-link">', '</span>');
+										edit_comment_link(esc_html__('Edit', 'connect-drive'), '<span class="edit-link">', '</span>');
 										?>
 									</div><!-- .comment-author .vcard -->
 
 									<?php if ('0' === $comment->comment_approved) : ?>
-										<em class="comment-awaiting-moderation"><?php esc_html_e('Your comment is awaiting moderation.', 'softlab'); ?></em>
+										<em class="comment-awaiting-moderation"><?php esc_html_e('Your comment is awaiting moderation.', 'connect-drive'); ?></em>
 										<br />
 									<?php endif; ?>
 								</footer>
@@ -121,7 +121,7 @@ if (post_password_required()) {
 										array_merge(
 											$args,
 											array(
-												'reply_text' => esc_html__('Reply', 'softlab') . ' <span>&darr;</span>',
+												'reply_text' => esc_html__('Reply', 'connect-drive') . ' <span>&darr;</span>',
 												'depth'      => $depth,
 												'max_depth'  => $args['max_depth'],
 											)
@@ -139,12 +139,12 @@ if (post_password_required()) {
 
 		<?php if (get_comment_pages_count() > 1 && get_option('page_comments')) { ?>
 			<nav id="comment-nav-below">
-				<h1 class="assistive-text"><?php esc_html_e('Comment navigation', 'softlab'); ?></h1>
-				<div class="nav-previous"><?php previous_comments_link(__('&larr; Older Comments', 'softlab')); ?></div>
-				<div class="nav-next"><?php next_comments_link(__('Newer Comments &rarr;', 'softlab')); ?></div>
+				<h1 class="assistive-text"><?php esc_html_e('Comment navigation', 'connect-drive'); ?></h1>
+				<div class="nav-previous"><?php previous_comments_link(__('&larr; Older Comments', 'connect-drive')); ?></div>
+				<div class="nav-next"><?php next_comments_link(__('Newer Comments &rarr;', 'connect-drive')); ?></div>
 			</nav>
 		<?php } elseif (! comments_open() && ! is_page() && post_type_supports(get_post_type(), 'comments')) { ?>
-			<h2 id="comments-title" class="nocomments"><?php esc_html_e('Comments are closed.', 'softlab'); ?></h2>
+			<h2 id="comments-title" class="nocomments"><?php esc_html_e('Comments are closed.', 'connect-drive'); ?></h2>
 	<?php
 		}
 	}

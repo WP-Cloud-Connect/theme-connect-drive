@@ -11,9 +11,9 @@ class SoftLaB_Nav {
 		if ( function_exists( 'register_nav_menus' ) ) {
 			register_nav_menus(
 				array(
-					'main-menu'                   => 'Main Navigation Menu',
-					'footer-menu'                 => 'Footer Menu',
-					'footer-menu-bottom'          => 'Footer Menu Bottom',
+					'main-menu'             => 'Main Navigation Menu',
+					'footer-menu-resources' => 'Footer Menu Resources',
+					'footer-menu-support'   => 'Footer Menu Support',
 				)
 			);
 		}

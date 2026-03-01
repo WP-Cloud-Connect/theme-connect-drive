@@ -16,11 +16,11 @@ if ( have_posts() ) :
                         <?php 
                         if(get_search_query()){
                             ?>
-                            <h1 class="page-title"><?php  printf( esc_html__( 'Search Results for: %s', 'softlab' ), get_search_query() ); ?></h1>
+                            <h1 class="page-title"><?php  printf( esc_html__( 'Search Results for: %s', 'connect-drive' ), get_search_query() ); ?></h1>
                             <?php
                         }else{
                             ?>
-                            <h1 class="page-title" ><?php printf( esc_html__( 'Category : %s', 'softlab' ), single_cat_title( '', false ) ); ?></h1>
+                            <h1 class="page-title" ><?php printf( esc_html__( 'Category : %s', 'connect-drive' ), single_cat_title( '', false ) ); ?></h1>
                             <?php
                         }
                         ?>

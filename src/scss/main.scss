@@ -4,3 +4,32 @@
 @import "components/header";
 @import "components/footer";
 @import "components/404";
+
+@import "components/blog";
+
+.softdocs-search-wrap {
+  background:
+    url("../images/connect-drive/ex-feature/bg-shape.png") no-repeat center
+      center,
+    linear-gradient(180deg, #e9f2ff 0%, #f7fbff 100%);
+  background-size: cover;
+  padding-bottom: 60px;
+  padding-top: 200px;
+  .softdocs-search-label {
+    margin-top: 0;
+  }
+  @media (max-width: 767.98px) {
+    padding-top: 100px;
+    .softdocs-search-form {
+      width: 100%;
+    }
+}
+}
+.softdocs-content-area {
+  padding: 60px 0;
+}
+@media (max-width: 767.98px) {
+  .softdocs-wrap {
+    padding-top: 0 !important;
+  }
+}

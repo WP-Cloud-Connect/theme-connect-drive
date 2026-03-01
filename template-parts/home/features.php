@@ -1,29 +1,25 @@
 <?php
 // features
 $features = [
-	// 'google-photos' => [
-	// 	'title'       => 'Google Photos Integration',
-	// 	'description' => 'Integrating Google Photos with WordPress allows you to incorporate Google Photos media files into your WordPress site. You can display and utilize the Google Photos media library within the File Browser, Slider, Gallery modules and WordPress media library. Additionally, this integration enables users to download Google Photos directly from your WordPress website.',
-	// ],
 	'secured-connect-drive-access' => [
 		'title'       => 'Secured Connect Drive Access',
-		'description' => 'The Review and Approve module offers a collaborative workflow where users can review, select, and approve Google Drive files submitted for feedback or confirmation. Ideal for use cases like photo proofing, document approvals, or asset selection, this module includes selection checkboxes, approval status indicators, and comment support.',
-		'video' => '',
+		'description' => 'You can now connect your Google Drive in the way that works best for you. Choose to give access only to the app’s folder, select a specific folder, or connect your entire drive. This keeps your files private while giving you full control over what’s shared, and what\'s not. It’s simple, safe, and designed to fit your needs.',
+		'video' => '#',
 	],
 	'allow-specific-folders' => [
 		'title'       => 'Allow Specific Folders',
-		'description' => 'Integrate Google Drive plugin offers a functionality to allow specific folders accessibility in the plugin. This functionality restricts unwanted access to the folders you don\'t want to share with everyone. Only the selected folders will be accessible through the plugin.',
-		'video' => 'https://www.youtube.com/watch?v=YI5pC6m80DQ',
+		'description' => 'The Connect Drive plugin lets you control which folders are accessible, giving you full control over your content. This feature ensures that only the folders you choose are shared, keeping all other folders private and protected from unwanted access.',
+		'video' => '#',
 	],
 	'media-library' => [
 		'title'       => 'Google Drive Integration with Media Library',
-		'description' => 'Integrating Google Drive with WordPress Media Library, allows you to use Google Drive files as media attachments directly in WordPress. This integration facilitates easy uploading, importing, and synchronizing of media content between WordPress and Google Drive, streamlining your digital asset management and enhancing your websites media capabilities.',
-		'video' => 'https://www.youtube.com/watch?v=5Ekbe2AGfBI',
+		'description' => 'The Connect Drive plugin integrates Google Drive with the WordPress Media Library, allowing you to use your Drive files as media attachments directly within WordPress. This seamless integration makes uploading, importing, and syncing media content between WordPress and Google Drive effortless, streamlining digital asset management and enhancing your website’s media capabilities.',
+		'video' => '#',
 	],
 	'multiple-accounts' => [
 		'title'       => 'Multiple Google Accounts',
-		'description' => 'Linking multiple Google Accounts can be sometimes necessary for you. We provide you full freedom to link multiple Google Accounts and share files from your specific accounts.',
-		'video' => 'https://www.youtube.com/watch?v=i26bBw_G7MM',
+		'description' => 'Sometimes, linking multiple Google accounts is essential. Connect Drive gives you complete freedom to connect multiple accounts and easily share files from any specific account you choose.',
+		'video' => '#',
 	],
 
 ];
@@ -31,15 +27,15 @@ $features = [
 // forms 
 $forms = [
 	'page-builder' => [
-		'title'       => 'Popular Page Builder Support',
-		'description' => 'We provide a wide & popular page builder supports all over the world. That means Integrate Google Drive is 100% compatible with the most popular page builders. So you are up to go with whatever page builders are you using.',
-		'video' => '',
+		'title'       => 'Supports All Major Page Builders',
+		'description' => 'We offer support for all the most popular page builders worldwide. Connect Drive is fully compatible with leading page builders, so you can seamlessly use it with whichever page builder you prefer.',
+		'video' => '#',
 	],
 
 	'form' => [
-		'title'       => 'Popular Forms Connect & Easy to Use',
-		'description' => 'Integrate your favorite services and add advanced features with the official Form plugin integration feature. It’s time to build a powerful module for popular forms by using Integrate Google Drive plugin.',
-		'video' => '',
+		'title'       => 'Supports Leading Forms with Easy Setup',
+		'description' => 'Integrate your favorite services and unlock advanced features with the official form plugin integration. With Connect Drive, you can easily build powerful, feature-rich modules for all the most popular forms.',
+		'video' => '#',
 	],
 
 ];
@@ -49,7 +45,7 @@ $main_features_items = [
 	'file-browser'  => [
 		'title'       => 'File Browser',
 		'description' => 'Display your cloud files via an interactive File Browser. The file browser can have a grid thumbnail and list view for the Google Drive files you are browsing. It’s the simplest solution to manage your cloud files easily & efficiently.',
-		'video' => 'https://www.youtube.com/watch?v=yNx0Xg4lNlY',
+		'video' => '#',
 		'button_icon' =>  get_template_directory_uri() . "/assets/images/connect-drive/video-icon.png",
 		'icon'        => '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
 			<path fill-rule="evenodd" clip-rule="evenodd" d="M0.630462 0.0293822C0.550049 0.0478441 0.448371 0.0826025 0.404509 0.106641C0.282787 0.173342 0.134828 0.342721 0.0668825 0.493178L0.00576884 0.62853L0.00101054 4.13414C-0.00159456 6.06222 0.00101054 7.62757 0.00683215 7.61268C0.0126538 7.59779 0.245518 6.45306 0.524317 5.06882C0.825871 3.57154 1.05002 2.51923 1.07766 2.47105C1.10321 2.42649 1.16557 2.36523 1.21621 2.33491C1.30787 2.28009 1.33288 2.27979 6.41884 2.2727L11.5294 2.26561L11.5289 2.02907C11.5282 1.60669 11.4223 1.33815 11.1927 1.17635C10.9592 1.01174 11.1952 1.02105 7.25184 1.02105H3.64558L3.52893 0.960141C3.37326 0.878849 3.31531 0.763015 3.31531 0.533161C3.31531 0.312078 3.23804 0.140343 3.10265 0.0606754C3.01371 0.0083214 2.96057 0.00569561 1.89314 0.000850015C1.085 -0.00280448 0.736288 0.00507301 0.630462 0.0293822ZM1.72035 3.1007C1.72035 3.11332 1.37246 4.84631 0.947248 6.95178C0.370031 9.80995 0.177413 10.8105 0.18701 10.9007C0.20575 11.0767 0.355863 11.2151 0.553798 11.239C0.632509 11.2485 3.2987 11.2527 6.47865 11.2482L12.2604 11.2401L12.409 11.1692C12.597 11.0794 12.7646 10.9028 12.8295 10.7262C12.891 10.5587 13.6167 3.97158 13.5932 3.79405C13.5575 3.52446 13.3806 3.28045 13.1295 3.15452L13.0047 3.09193L7.36253 3.08487C4.25932 3.08097 1.72035 3.08809 1.72035 3.1007Z" fill="white"/>
@@ -59,7 +55,7 @@ $main_features_items = [
 	'gallery'         => [
 		'title'       => 'Gallery',
 		'description' => 'The Photo Gallery Module feature of the plugin can display your Google Drive images on your website in a masonry grid layout with a lightbox preview. This module lets you create a stunning photo gallery and display it to your users.',
-		'video' => 'https://www.youtube.com/watch?v=GE1vRI1iOK0',
+		'video' => '#',
 		'button_icon' =>  get_template_directory_uri() . "/assets/images/connect-drive/video-icon.png",
 		'icon'        => '<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
 				<path d="M7.02905 14.0625C6.67953 14.0625 6.38969 13.9317 6.14673 13.6988C5.84836 13.4128 5.55 13.1308 5.25589 12.8407C5.16212 12.7467 5.06409 12.714 4.92769 12.7345C4.49293 12.8039 4.0539 12.8693 3.61914 12.9306C2.97125 13.0246 2.35321 12.5996 2.24239 11.9744C2.16993 11.578 2.10599 11.1776 2.04632 10.7812C2.02074 10.6137 1.95681 10.5074 1.78631 10.4339C1.42827 10.2745 1.08302 10.0947 0.733502 9.92307C0.0387331 9.58391 -0.187173 8.92602 0.162342 8.25995C0.345625 7.90853 0.528907 7.55711 0.720715 7.21386C0.793175 7.08718 0.788913 6.98094 0.716452 6.85835C0.524645 6.51919 0.345625 6.17185 0.166605 5.82451C-0.187173 5.15027 0.0387332 4.49238 0.737764 4.14913C1.10859 3.96933 1.47516 3.78545 1.84598 3.60974C1.95254 3.5607 2.00796 3.49124 2.025 3.37682C2.08042 3.00905 2.14861 2.64128 2.20402 2.27352C2.32763 1.43583 2.92863 1.01494 3.79389 1.16204C4.16046 1.22334 4.53129 1.27237 4.89785 1.33367C5.04704 1.35819 5.15786 1.3255 5.26868 1.21517C5.54574 0.933211 5.83984 0.663515 6.12542 0.389733C6.66674 -0.129228 7.39561 -0.129228 7.9412 0.385646C8.2353 0.667601 8.53367 0.94547 8.81925 1.23151C8.90876 1.32141 9.00253 1.3541 9.1304 1.33367C9.56516 1.2642 10.0042 1.19882 10.439 1.13753C11.0996 1.04354 11.7134 1.46852 11.8242 2.10189C11.8924 2.49826 11.9606 2.89872 12.0203 3.29509C12.0416 3.45446 12.1098 3.5607 12.2718 3.63426C12.6383 3.79771 12.9921 3.97751 13.3502 4.1573C14.0236 4.49238 14.2453 5.15027 13.9043 5.80408C13.7167 6.15959 13.5334 6.5151 13.3374 6.86652C13.2692 6.98911 13.2734 7.09127 13.3416 7.20977C13.5334 7.55711 13.7167 7.90444 13.9 8.25586C14.2453 8.91376 14.0279 9.57574 13.3459 9.9149C12.9751 10.0988 12.6 10.2827 12.2249 10.4625C12.1141 10.5156 12.0544 10.5851 12.0373 10.7036C11.9819 11.0672 11.9137 11.4268 11.8626 11.7905C11.739 12.6364 11.1422 13.0573 10.2642 12.9061C9.89763 12.8448 9.5268 12.7957 9.16024 12.7345C9.01532 12.7099 8.90876 12.7426 8.80646 12.8448C8.51662 13.1349 8.21399 13.4169 7.91562 13.7029C7.67267 13.9399 7.37856 14.0625 7.02905 14.0625ZM6.24477 7.86766C6.19788 7.82272 6.15952 7.79003 6.12116 7.75325C5.76312 7.41 5.40934 7.06266 5.04277 6.72759C4.95326 6.64586 4.82539 6.58048 4.70178 6.55596C4.49293 6.51101 4.28407 6.63769 4.1903 6.82157C4.09226 7.01363 4.12636 7.2302 4.30112 7.39774C4.80408 7.88401 5.30704 8.36619 5.81427 8.84838C6.10411 9.12625 6.38116 9.12625 6.671 8.84838C7.68971 7.87584 8.70416 6.89921 9.71861 5.92667C9.75271 5.89398 9.78681 5.86129 9.81665 5.8286C10.0596 5.53847 9.90189 5.1135 9.52254 5.03994C9.32221 4.99908 9.16024 5.07263 9.01958 5.20748C8.10317 6.08604 7.17823 6.96868 6.24477 7.86766Z" fill="white"/>
@@ -69,7 +65,7 @@ $main_features_items = [
 	'review-approve-module' => [
 		'title'       => 'Review & Approve',
 		'description' => 'The Review and Approve module offers a collaborative workflow where users can review, select, and approve Google Drive files submitted for feedback or confirmation. Ideal for use cases like photo proofing, document approvals, or asset selection, this module includes selection checkboxes, approval status indicators, and comment support.',
-		'video' => '',
+		'video' => '#',
 		'button_icon' =>  get_template_directory_uri() . "/assets/images/connect-drive/video-icon.png",
 		'icon'        => '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
 			<path fill-rule="evenodd" clip-rule="evenodd" d="M0.630462 0.0293822C0.550049 0.0478441 0.448371 0.0826025 0.404509 0.106641C0.282787 0.173342 0.134828 0.342721 0.0668825 0.493178L0.00576884 0.62853L0.00101054 4.13414C-0.00159456 6.06222 0.00101054 7.62757 0.00683215 7.61268C0.0126538 7.59779 0.245518 6.45306 0.524317 5.06882C0.825871 3.57154 1.05002 2.51923 1.07766 2.47105C1.10321 2.42649 1.16557 2.36523 1.21621 2.33491C1.30787 2.28009 1.33288 2.27979 6.41884 2.2727L11.5294 2.26561L11.5289 2.02907C11.5282 1.60669 11.4223 1.33815 11.1927 1.17635C10.9592 1.01174 11.1952 1.02105 7.25184 1.02105H3.64558L3.52893 0.960141C3.37326 0.878849 3.31531 0.763015 3.31531 0.533161C3.31531 0.312078 3.23804 0.140343 3.10265 0.0606754C3.01371 0.0083214 2.96057 0.00569561 1.89314 0.000850015C1.085 -0.00280448 0.736288 0.00507301 0.630462 0.0293822ZM1.72035 3.1007C1.72035 3.11332 1.37246 4.84631 0.947248 6.95178C0.370031 9.80995 0.177413 10.8105 0.18701 10.9007C0.20575 11.0767 0.355863 11.2151 0.553798 11.239C0.632509 11.2485 3.2987 11.2527 6.47865 11.2482L12.2604 11.2401L12.409 11.1692C12.597 11.0794 12.7646 10.9028 12.8295 10.7262C12.891 10.5587 13.6167 3.97158 13.5932 3.79405C13.5575 3.52446 13.3806 3.28045 13.1295 3.15452L13.0047 3.09193L7.36253 3.08487C4.25932 3.08097 1.72035 3.08809 1.72035 3.1007Z" fill="white"/>
@@ -79,7 +75,7 @@ $main_features_items = [
 	'file-uploader' => [
 		'title'       => 'File Uploader',
 		'description' => 'Integrate Google Drive features a user-friendly file uploader to upload files into the Google Drive cloud platform from your website. Users can see an upload progress bar, file name, cancel uploading action, and media preview for improved interactions.',
-		'video' => 'https://www.youtube.com/watch?v=i0FHcM24z_s',
+		'video' => '#',
 		'button_icon' =>  get_template_directory_uri() . "/assets/images/connect-drive/video-icon.png",
 		'icon'        => '<svg xmlns="http://www.w3.org/2000/svg" width="13" height="15" viewBox="0 0 13 15" fill="none">
 			<path fill-rule="evenodd" clip-rule="evenodd" d="M0.865487 0.0387133C0.456098 0.140154 0.151556 0.446315 0.0421204 0.866447C0.00502809 1.00883 0 1.61934 0 5.97597C0 10.3326 0.00502809 10.9431 0.0421204 11.0855C0.159717 11.5369 0.500609 11.8514 0.952832 11.9254C1.09354 11.9485 4.94564 11.9658 4.94564 11.9434C4.94564 11.9387 4.91432 11.8552 4.87604 11.758C4.64492 11.1705 4.55433 10.2914 4.65819 9.64398C4.68124 9.50041 4.70751 9.3366 4.71657 9.27992L4.73306 9.17689H3.3055H1.87794L1.82228 9.11507C1.74119 9.02497 1.72564 8.96035 1.75999 8.85625C1.81843 8.67914 1.78796 8.68233 3.42807 8.68233H4.90808L5.00798 8.46939C5.12382 8.22249 5.29466 7.9329 5.44518 7.72829L5.55074 7.58481L3.72387 7.57717L1.89704 7.56956L1.82225 7.49474C1.71993 7.3924 1.71993 7.25216 1.82225 7.14981L1.89706 7.075L3.97453 7.0676L6.05201 7.06024L6.17883 6.95526C6.91985 6.34203 7.9014 5.99157 8.88182 5.9902L9.23241 5.98971L9.22526 4.69148L9.21812 3.39325L8.11909 3.37951C7.07421 3.36646 7.01297 3.36286 6.87595 3.30665C6.43194 3.12446 6.15529 2.81862 6.0411 2.38374C5.99505 2.20833 5.98972 2.07461 5.98972 1.09403V0L3.49629 0.00233544C1.61239 0.00409388 0.96929 0.012996 0.865487 0.0387133ZM6.4845 1.19978C6.48461 1.63549 6.49769 2.07236 6.51354 2.17058C6.56105 2.4646 6.72736 2.68592 6.99258 2.80799C7.12521 2.86901 7.15966 2.87149 7.98858 2.87954C8.46083 2.8841 8.8472 2.88044 8.8472 2.8714C8.8472 2.84846 6.54327 0.427989 6.51074 0.416724C6.49417 0.410982 6.48436 0.704038 6.4845 1.19978ZM5.37275 5.5626C5.4746 5.66442 5.46691 5.82496 5.35566 5.91857L5.27114 5.98971H3.6096C1.7693 5.98971 1.81892 5.99438 1.75991 5.81554C1.72309 5.70396 1.7543 5.60285 1.84525 5.53913C1.90119 5.49995 2.09368 5.49514 3.60669 5.49514H5.30532L5.37275 5.5626ZM8.56972 6.5138C6.88537 6.6533 5.47661 7.94545 5.1738 9.62864C5.11338 9.96442 5.11439 10.5928 5.17589 10.9353C5.31307 11.6995 5.68295 12.4051 6.23332 12.9527C7.41486 14.1281 9.18883 14.3983 10.6571 13.6266C11.485 13.1914 12.1464 12.4355 12.4588 11.5673C13.2229 9.44423 11.9587 7.11286 9.7642 6.59802C9.56484 6.55125 8.90968 6.47303 8.8472 6.48855C8.83964 6.49042 8.71476 6.5018 8.56972 6.5138ZM9.12954 8.03035C9.3558 8.25912 10.9495 9.97976 10.9724 10.0201C11.0201 10.1036 10.9981 10.2531 10.9279 10.3234C10.844 10.4073 10.6845 10.4156 10.6003 10.3405C10.5689 10.3125 10.2327 9.95654 9.85322 9.54943L9.16317 8.80918L9.15611 10.6655L9.14905 12.5218L9.07681 12.5941C8.97787 12.693 8.82744 12.6936 8.73521 12.5954L8.6686 12.5245L8.65487 10.6683L8.64113 8.81209L7.905 9.59894C7.17266 10.3818 7.14865 10.4025 6.99258 10.3865C6.85323 10.3723 6.75165 10.1733 6.81907 10.0467C6.85026 9.98816 8.34763 8.36111 8.67476 8.03035C8.7734 7.93059 8.8075 7.91301 8.90215 7.91301C8.9968 7.91301 9.0309 7.93059 9.12954 8.03035Z" fill="white"/>
@@ -89,7 +85,7 @@ $main_features_items = [
 	'media-player' => [
 		'title'       => 'Media Player',
 		'description' => 'Play Google Drive audio and video files in a single player using the Media Player module from your website. This feature will also create a stunning playlist for all selected media files. All in all, you can save your hosting space by using this feature.',
-		'video' => 'https://www.youtube.com/watch?v=L_uAvKuIEL8',
+		'video' => '#',
 		'button_icon' =>  get_template_directory_uri() . "/assets/images/connect-drive/video-icon.png",
 		'icon'        => '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none"> <g clip-path="url(#clip0_102_4456)">
 			<path d="M1.23047 2.1452C1.71753 2.1452 2.13281 2.15552 2.5481 2.14005C2.61987 2.13489 2.7019 2.04204 2.7583 1.97498C3.24536 1.40758 3.72729 0.845342 4.20923 0.272783C4.36816 0.0819302 4.55786 -0.00575891 4.81421 -0.000600727C5.31152 0.00971564 5.80371 0.00455746 6.30102 0.00455746C6.46509 0.00455746 6.67017 -0.0109171 6.70605 0.185094C6.72656 0.319207 6.65479 0.499743 6.56763 0.613223C6.20874 1.06199 5.82935 1.49011 5.45508 1.92856C5.40381 1.9853 5.35767 2.0472 5.27563 2.15036C5.74731 2.15036 6.16772 2.15552 6.58813 2.1452C6.64966 2.1452 6.71118 2.06267 6.76245 2.00593C7.23926 1.45401 7.71606 0.90724 8.17749 0.339839C8.36719 0.107721 8.57739 -0.0109171 8.87988 -0.000600727C9.38232 0.0148738 9.88989 -0.00575891 10.3923 0.00971564C10.5103 0.0148738 10.6948 0.0870884 10.7256 0.174778C10.7666 0.277941 10.7153 0.463636 10.6384 0.561641C10.218 1.07746 9.7771 1.5778 9.28491 2.15036C9.59766 2.15036 9.84888 2.12457 10.0898 2.15552C10.5051 2.21226 10.7871 2.05751 11.0383 1.72739C11.4229 1.22189 11.8484 0.752494 12.2688 0.277941C12.356 0.179936 12.4688 0.0870884 12.5918 0.0406648C12.8687 -0.0676571 13.1045 0.102563 13.125 0.401738C13.1301 0.45332 13.125 0.504901 13.125 0.556483C13.125 3.78551 13.125 7.01969 13.125 10.2487C13.125 10.9399 12.8174 11.2494 12.1252 11.2494C8.42871 11.2494 4.72705 11.2494 1.03052 11.2494C0.312744 11.2494 0.00512695 10.9348 0.00512695 10.2126C0 6.99906 0 3.78551 0 0.5668C0 0.118037 0.112793 0.00455746 0.553711 0.00455746C1.11768 0.00455746 1.68164 0.00455746 2.24561 0.00455746C2.40967 0.00455746 2.61475 -0.0109171 2.65063 0.179936C2.67627 0.314048 2.60449 0.494585 2.51733 0.608065C2.11743 1.10841 1.69702 1.59328 1.23047 2.1452ZM6.57275 3.82161C5.02954 3.81646 3.7478 5.09053 3.74268 6.64314C3.73755 8.20091 4.99878 9.4853 6.54199 9.49562C8.08521 9.50593 9.36694 8.23186 9.3772 6.67409C9.38745 5.12148 8.11597 3.83193 6.57275 3.82161Z" fill="white"/>
@@ -106,7 +102,7 @@ $main_features_items = [
 	'search-box' => [
 		'title'       => 'Search Box',
 		'description' => 'Making WordPress easier for you is our main goal! That’s why we included Shortcode Builder in our Plugin. It helps create various types of modules (File Browser, File Uploader, Media Player, Photo Gallery, etc) with different configurations. After creating a module with Shortcode Builder, display it anywhere on your website.',
-		'video' => 'https://www.youtube.com/watch?v=8M84lcvfCiI',
+		'video' => '#',
 		'button_icon' =>  get_template_directory_uri() . "/assets/images/connect-drive/video-icon.png",
 		'icon'        => '<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
 			<g clip-path="url(#clip0_102_4464)">
@@ -123,7 +119,7 @@ $main_features_items = [
 	'embed-documents' => [
 		'title'       => 'Embed Documents',
 		'description' => 'Making WordPress easier for you is our main goal! That’s why we included Shortcode Builder in our Plugin. It helps create various types of modules (File Browser, File Uploader, Media Player, Photo Gallery, etc) with different configurations. After creating a module with Shortcode Builder, display it anywhere on your website.',
-		'video' => 'https://www.youtube.com/watch?v=8M84lcvfCiI',
+		'video' => '#',
 		'button_icon' =>  get_template_directory_uri() . "/assets/images/connect-drive/video-icon.png",
 		'icon'        => '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
 			<path fill-rule="evenodd" clip-rule="evenodd" d="M4.83398 0.000964924C8.71688 -0.0035228 8.71142 -0.00348298 9.34863 0.26659C9.83591 0.47316 10.3181 0.908459 10.5635 1.36327C10.8726 1.93652 10.879 1.99107 10.8799 4.42772V6.59569L11.0459 6.69237C11.1807 6.77165 11.3784 7.04565 12.1152 8.17186L13.0195 9.5537L13.0176 10.0752L12.1914 11.3369C11.1646 12.9059 11.2068 12.8494 11.0059 12.9424C10.8486 13.0152 10.7291 13.0205 8.98535 13.0205C6.87265 13.0205 6.91986 13.0269 6.6748 12.6953L6.53223 12.5029L1.1709 12.4795L0.915039 12.3721C0.587757 12.2356 0.273626 11.9571 0.120117 11.666L0 11.4375V1.05761L0.148438 0.789051C0.357595 0.411363 0.74207 0.133217 1.18164 0.041004C1.27499 0.0214494 2.91875 0.00320889 4.83398 0.000964924ZM7.21777 7.35936C6.92902 7.77211 5.63295 9.79484 5.6416 9.81932C5.64776 9.83587 6.02001 10.4177 6.46973 11.1133L7.28906 12.3799L8.97656 12.3691L10.6641 12.3594L11.4512 11.1572C11.884 10.4961 12.258 9.91824 12.2822 9.87401C12.3183 9.80705 12.184 9.57446 11.4961 8.51171L10.667 7.22948L8.99512 7.21972L7.32324 7.20897L7.21777 7.35936ZM8.89551 10.79H8.63477L9.10352 9.04882H9.36426L8.89551 10.79ZM8.43066 9.7119L7.75488 9.98339V9.99608L8.43066 10.2676V10.5557L7.43066 10.1152V9.86522L8.43066 9.42479V9.7119ZM10.5693 9.86522V10.1152L9.56934 10.5557V10.2676L10.2451 9.99608V9.98339L9.56934 9.7119V9.42479L10.5693 9.86522ZM4.99414 8.65722C4.85078 8.59915 2.74196 8.60079 2.60645 8.65917C2.39889 8.74887 2.35407 9.00712 2.52051 9.15526L2.63184 9.25389H4.98242L5.09277 9.15526C5.26448 9.00258 5.21373 8.74655 4.99414 8.65722ZM2.50781 7.10253C2.36539 7.23784 2.37573 7.45997 2.5293 7.56737C2.64451 7.64796 2.69732 7.65038 4.3291 7.65038C6.0078 7.65038 6.00961 7.65052 6.12207 7.56054C6.28828 7.42756 6.29713 7.21976 6.1416 7.09081C6.04595 7.01155 5.99108 7.00975 4.32422 7.00975H2.60645L2.50781 7.10253ZM5.42578 5.40624C2.65081 5.40624 2.58821 5.40786 2.5 5.48632C2.38446 5.58911 2.38257 5.80893 2.49609 5.93358L2.58301 6.02733H8.22949L8.33887 5.91503C8.47199 5.77725 8.47622 5.65144 8.35352 5.51268L8.26074 5.40624H5.42578ZM8.44727 1.06835C8.44755 1.52611 8.49607 1.71022 8.66113 1.88475C8.86261 2.09772 9.0783 2.15914 9.63086 2.16014L10.1162 2.16112L10.0889 2.05077C10.074 1.99015 9.99315 1.81312 9.90918 1.65721C9.7202 1.30635 9.3715 1.00045 8.97754 0.840809C8.82242 0.778018 8.63941 0.714865 8.57129 0.70116L8.44727 0.676746V1.06835Z" fill="white"/>
@@ -133,7 +129,7 @@ $main_features_items = [
 	'list-files' => [
 		'title'       => 'List',
 		'description' => 'The List Files module offers a clean, organized interface to display your Google Drive files, allowing users to preview and download files directly from the list.',
-		'video' => '',
+		'video' => '#',
 		'button_icon' =>  get_template_directory_uri() . "/assets/images/connect-drive/video-icon.png",
 		'icon'        => '<svg xmlns="http://www.w3.org/2000/svg" width="9" height="12" viewBox="0 0 9 12" fill="none">
 				<path d="M5.81089 0C5.81089 0.946612 5.81089 1.87448 5.81089 2.80859C6.74813 2.80859 7.67599 2.80859 8.61948 2.80859C8.61948 2.85858 8.61948 2.89919 8.61948 2.93981C8.61948 5.55471 8.61636 8.17273 8.6226 10.7876C8.6226 11.0782 8.44765 11.25 8.15711 11.25C5.5922 11.2438 3.02728 11.2469 0.462372 11.2469C0.134338 11.2469 0 11.1125 0 10.7876C0 7.34484 0 3.89892 0 0.456123C0 0.140586 0.140586 0 0.459247 0C2.19939 0 3.94265 0 5.6828 0C5.71716 0 5.75778 0 5.81089 0ZM2.62115 2.2525C2.62115 2.13066 2.62427 2.01194 2.62115 1.8901C2.61802 1.65891 2.46182 1.50583 2.22751 1.50271C1.99007 1.49958 1.75264 1.49958 1.5152 1.50271C1.29651 1.50583 1.13406 1.65579 1.12781 1.87136C1.11844 2.12441 1.11844 2.37746 1.12781 2.63052C1.13406 2.84921 1.29651 2.99604 1.5152 2.99917C1.75264 3.00229 1.99007 3.00229 2.22751 2.99917C2.46182 2.99604 2.6149 2.84608 2.62115 2.6149C2.62115 2.49306 2.62115 2.37434 2.62115 2.2525ZM2.62115 6.76062C2.62115 6.63566 2.62427 6.51069 2.62115 6.38573C2.6149 6.16079 2.46182 6.00458 2.23688 6.00146C1.99632 5.99833 1.75264 5.99833 1.51208 6.00146C1.29964 6.00458 1.13406 6.15142 1.12781 6.36386C1.11844 6.62628 1.11844 6.88559 1.12781 7.14801C1.13718 7.35421 1.29651 7.49792 1.50583 7.50104C1.75264 7.50417 1.99632 7.50417 2.24313 7.50104C2.46182 7.49792 2.6149 7.34483 2.62115 7.12615C2.62115 7.00118 2.62115 6.87934 2.62115 6.76062ZM2.62115 4.50187C2.62115 4.38003 2.62427 4.26132 2.62115 4.13948C2.61802 3.90829 2.46182 3.75208 2.22751 3.75208C1.99007 3.74896 1.75264 3.74896 1.5152 3.75208C1.29651 3.75521 1.13406 3.90517 1.12781 4.12385C1.11844 4.37691 1.11844 4.62996 1.12781 4.88302C1.13406 5.09858 1.29339 5.24854 1.50583 5.25167C1.75576 5.25479 2.00569 5.25479 2.25562 5.25167C2.46806 5.24854 2.61802 5.09234 2.62427 4.87989C2.62115 4.7518 2.62115 4.62684 2.62115 4.50187ZM1.87448 9.74729C1.99632 9.74729 2.11504 9.74729 2.23688 9.74729C2.46182 9.74417 2.61802 9.59109 2.62115 9.36302C2.62427 9.12247 2.62427 8.87878 2.62115 8.63823C2.61802 8.41329 2.46494 8.25396 2.24313 8.24771C1.99632 8.24146 1.75264 8.24146 1.50583 8.24771C1.29339 8.25083 1.13406 8.40392 1.12781 8.61636C1.11844 8.86941 1.11844 9.12247 1.12781 9.37552C1.13406 9.59421 1.29651 9.74104 1.5152 9.74417C1.6308 9.74729 1.75264 9.74729 1.87448 9.74729ZM5.42037 4.3113C6.07956 4.3113 6.73875 4.3113 7.39794 4.3113C7.43543 4.3113 7.47605 4.31443 7.51354 4.30818C7.60726 4.29568 7.6635 4.24257 7.67599 4.14885C7.68849 4.052 7.64788 3.98014 7.55415 3.9489C7.51979 3.93641 7.47917 3.93641 7.43856 3.93641C6.09518 3.93641 4.7518 3.93641 3.41155 3.93641C3.37094 3.93641 3.32408 3.93953 3.28659 3.95828C3.20224 3.99576 3.15225 4.07387 3.18349 4.1551C3.20848 4.21758 3.27721 4.26444 3.33657 4.30505C3.36469 4.3238 3.41155 4.3113 3.45217 4.3113C4.10823 4.3113 4.7643 4.3113 5.42037 4.3113ZM5.42662 5.06109C6.08581 5.06109 6.745 5.06109 7.40419 5.06109C7.43856 5.06109 7.47605 5.06422 7.51041 5.05797C7.61351 5.0486 7.67599 4.98924 7.68224 4.88614C7.68849 4.78305 7.63225 4.71744 7.53228 4.69245C7.49792 4.68307 7.46355 4.6862 7.42606 4.6862C6.09518 4.6862 4.7643 4.6862 3.43342 4.6862C3.38656 4.6862 3.3397 4.68932 3.29596 4.70494C3.20848 4.73618 3.16787 4.80804 3.18037 4.89864C3.19286 4.98924 3.24597 5.04547 3.3397 5.05797C3.37719 5.06422 3.4178 5.06109 3.45529 5.06109C4.11448 5.06109 4.77055 5.06109 5.42662 5.06109ZM5.33289 9.55984C5.96084 9.55984 6.58879 9.55984 7.21987 9.55984C7.25736 9.55984 7.29797 9.56297 7.33546 9.55672C7.42606 9.54422 7.48542 9.48799 7.49479 9.39739C7.50729 9.30054 7.46355 9.22869 7.36983 9.20057C7.32609 9.18807 7.27923 9.18807 7.23237 9.18807C5.97022 9.18807 4.71119 9.18807 3.44904 9.18807C3.41468 9.18807 3.37719 9.18495 3.34282 9.1912C3.24285 9.20682 3.17099 9.29429 3.18037 9.38802C3.19286 9.48799 3.2491 9.55047 3.35532 9.55984C3.38968 9.56297 3.42405 9.56297 3.46154 9.56297C4.08324 9.55984 4.70807 9.55984 5.33289 9.55984ZM5.33289 7.31047C5.98584 7.31047 6.63566 7.31047 7.2886 7.31047C7.41669 7.31047 7.49792 7.23549 7.49479 7.12302C7.49479 7.0168 7.41669 6.94182 7.29797 6.93557C7.26986 6.93245 7.24486 6.93557 7.21674 6.93557C5.96709 6.93557 4.71744 6.93557 3.46779 6.93557C3.42405 6.93557 3.38031 6.93245 3.3397 6.94182C3.20224 6.96994 3.13038 7.12615 3.22098 7.22612C3.26159 7.27298 3.34595 7.30734 3.41155 7.30734C4.05512 7.31359 4.69557 7.31047 5.33289 7.31047ZM5.33289 6.56068C5.55783 6.56068 5.78589 6.56068 6.01083 6.56068C6.43259 6.56068 6.85435 6.56068 7.2761 6.56068C7.40732 6.56068 7.48542 6.49195 7.48854 6.37948C7.49167 6.26389 7.41044 6.18891 7.27298 6.18578C7.24486 6.18578 7.21987 6.18578 7.19175 6.18578C6.00146 6.18578 4.81116 6.18578 3.62087 6.18578C3.53964 6.18578 3.45529 6.17329 3.37719 6.18891C3.3147 6.2014 3.23972 6.23889 3.20536 6.28888C3.11788 6.41697 3.2241 6.56068 3.39906 6.56068C4.04575 6.56068 4.68932 6.56068 5.33289 6.56068ZM5.33914 8.81005C5.96709 8.81005 6.59504 8.81005 7.22299 8.81005C7.26048 8.81005 7.3011 8.81318 7.33859 8.80693C7.42919 8.79131 7.48542 8.73507 7.49479 8.64447C7.50417 8.55387 7.46355 8.48202 7.37608 8.4539C7.33546 8.44141 7.29172 8.43828 7.25111 8.43828C5.97959 8.43828 4.70807 8.43828 3.43655 8.43828C3.39593 8.43828 3.34907 8.44141 3.31158 8.4539C3.2241 8.48514 3.18349 8.55387 3.19286 8.6476C3.20224 8.74132 3.25847 8.79443 3.34907 8.81005C3.38656 8.8163 3.42717 8.81318 3.46466 8.81318C4.09261 8.81005 4.71431 8.81005 5.33914 8.81005ZM4.21758 2.81172C4.48625 2.81172 4.75493 2.81172 5.02673 2.81172C5.17356 2.81172 5.25791 2.73674 5.25479 2.62115C5.25167 2.50868 5.16731 2.43682 5.02985 2.43682C4.4925 2.43682 3.95203 2.43682 3.41468 2.43682C3.27721 2.43682 3.19286 2.50868 3.19286 2.62427C3.19286 2.73986 3.27409 2.81172 3.41155 2.81172C3.6771 2.81484 3.94578 2.81172 4.21758 2.81172ZM4.20196 2.06193C4.47376 2.06193 4.74868 2.06193 5.02048 2.06193C5.16107 2.06193 5.23917 1.9932 5.23917 1.8776C5.23917 1.76201 5.16107 1.69016 5.02048 1.68703C4.48313 1.68703 3.94265 1.68703 3.4053 1.68703C3.26472 1.68703 3.17412 1.76826 3.17724 1.88073C3.18037 1.9932 3.26472 2.06193 3.4053 2.06193C3.67086 2.06193 3.93641 2.06193 4.20196 2.06193Z" fill="white"/>
@@ -143,7 +139,7 @@ $main_features_items = [
 	'slider-carousel' => [
 		'title'       => 'Slider Carousel',
 		'description' => 'The Slider Carousel feature in our Google Drive plugin lets you create a slideshow of images or videos from your Google Drive. You can customize it with autoplay and navigation buttons to make your content more engaging and visually appealing.',
-		'video' => 'https://www.youtube.com/watch?v=dZw0z84t-5Q',
+		'video' => '#',
 		'button_icon' =>  get_template_directory_uri() . "/assets/images/connect-drive/video-icon.png",
 		'icon'        => '<svg xmlns="http://www.w3.org/2000/svg" width="18" height="12" viewBox="0 0 18 12" fill="none">
 				<g clip-path="url(#clip0_102_6756)">
@@ -177,7 +173,7 @@ $main_features_items = [
 
 		<div class="connect-drive-feature__head text-center">
 			<h2 class="connect-drive-feature__title">Amazing Connect-Drive <br><span>Modules Features.</span></h2>
-			<p class="connect-drive-feature__description">Best and most productive integrations for Connect-Drive. Learn how to connect with us.</p>
+			<p class="connect-drive-feature__description">Unlock advanced and powerful Google Drive integrations with ease. You’re near discovering innovative features for Drive integration and the simplest way to connect with us. Dive in now!</p>
 		</div>
 
 		<div class="connect-drive-features-wrapper">
@@ -241,7 +237,7 @@ $main_features_items = [
 
 		<div class="connect-drive-feature__head text-center">
 			<h2 class="connect-drive-feature__title">Connect-Drive <span>Features</span> That Scale Effortlessly</h2>
-			<p class="connect-drive-feature__description">Built to adapt as you grow, without slowing down performance or productivity.</p>
+			<p class="connect-drive-feature__description">Designed to scale with your growth, keeping performance fast and productivity high.</p>
 		</div>
 
 		<?php
@@ -327,7 +323,7 @@ $main_features_items = [
 											<stop offset="1" stop-color="#2D7CFF" />
 										</linearGradient>
 									</defs>
-								</svg> Google Drive as Media Attachment</span>
+								</svg> Connect Drive as Media Attachment</span>
 							<span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
 									<path d="M9 11.9979L11 13.9976L15 9.99829M21 11.9979C21 13.1796 20.7672 14.3498 20.3149 15.4415C19.8626 16.5332 19.1997 17.5252 18.364 18.3608C17.5282 19.1964 16.5361 19.8592 15.4442 20.3114C14.3522 20.7636 13.1819 20.9964 12 20.9964C10.8181 20.9964 9.64778 20.7636 8.55585 20.3114C7.46392 19.8592 6.47177 19.1964 5.63604 18.3608C4.80031 17.5252 4.13738 16.5332 3.68508 15.4415C3.23279 14.3498 3 13.1796 3 11.9979C3 9.61141 3.94821 7.32263 5.63604 5.63509C7.32387 3.94756 9.61305 2.99951 12 2.99951C14.3869 2.99951 16.6761 3.94756 18.364 5.63509C20.0518 7.32263 21 9.61141 21 11.9979Z" stroke="url(#paint0_linear_1_1566)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
 									<defs>
@@ -336,7 +332,7 @@ $main_features_items = [
 											<stop offset="1" stop-color="#2D7CFF" />
 										</linearGradient>
 									</defs>
-								</svg> Auto Cloud Sync</span>
+								</svg>Auto Cloud Sync</span>
 							<span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
 									<path d="M9 11.9979L11 13.9976L15 9.99829M21 11.9979C21 13.1796 20.7672 14.3498 20.3149 15.4415C19.8626 16.5332 19.1997 17.5252 18.364 18.3608C17.5282 19.1964 16.5361 19.8592 15.4442 20.3114C14.3522 20.7636 13.1819 20.9964 12 20.9964C10.8181 20.9964 9.64778 20.7636 8.55585 20.3114C7.46392 19.8592 6.47177 19.1964 5.63604 18.3608C4.80031 17.5252 4.13738 16.5332 3.68508 15.4415C3.23279 14.3498 3 13.1796 3 11.9979C3 9.61141 3.94821 7.32263 5.63604 5.63509C7.32387 3.94756 9.61305 2.99951 12 2.99951C14.3869 2.99951 16.6761 3.94756 18.364 5.63509C20.0518 7.32263 21 9.61141 21 11.9979Z" stroke="url(#paint0_linear_1_1566)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
 									<defs>
@@ -345,7 +341,7 @@ $main_features_items = [
 											<stop offset="1" stop-color="#2D7CFF" />
 										</linearGradient>
 									</defs>
-								</svg> Upload to Google Drive</span>
+								</svg> Upload to Connect Drive</span>
 							<span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
 									<path d="M9 11.9979L11 13.9976L15 9.99829M21 11.9979C21 13.1796 20.7672 14.3498 20.3149 15.4415C19.8626 16.5332 19.1997 17.5252 18.364 18.3608C17.5282 19.1964 16.5361 19.8592 15.4442 20.3114C14.3522 20.7636 13.1819 20.9964 12 20.9964C10.8181 20.9964 9.64778 20.7636 8.55585 20.3114C7.46392 19.8592 6.47177 19.1964 5.63604 18.3608C4.80031 17.5252 4.13738 16.5332 3.68508 15.4415C3.23279 14.3498 3 13.1796 3 11.9979C3 9.61141 3.94821 7.32263 5.63604 5.63509C7.32387 3.94756 9.61305 2.99951 12 2.99951C14.3869 2.99951 16.6761 3.94756 18.364 5.63509C20.0518 7.32263 21 9.61141 21 11.9979Z" stroke="url(#paint0_linear_1_1566)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
 									<defs>
@@ -354,7 +350,7 @@ $main_features_items = [
 											<stop offset="1" stop-color="#2D7CFF" />
 										</linearGradient>
 									</defs>
-								</svg> Import from Google Drive</span>
+								</svg> Import from Connect Drive</span>
 							<span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
 									<path d="M9 11.9979L11 13.9976L15 9.99829M21 11.9979C21 13.1796 20.7672 14.3498 20.3149 15.4415C19.8626 16.5332 19.1997 17.5252 18.364 18.3608C17.5282 19.1964 16.5361 19.8592 15.4442 20.3114C14.3522 20.7636 13.1819 20.9964 12 20.9964C10.8181 20.9964 9.64778 20.7636 8.55585 20.3114C7.46392 19.8592 6.47177 19.1964 5.63604 18.3608C4.80031 17.5252 4.13738 16.5332 3.68508 15.4415C3.23279 14.3498 3 13.1796 3 11.9979C3 9.61141 3.94821 7.32263 5.63604 5.63509C7.32387 3.94756 9.61305 2.99951 12 2.99951C14.3869 2.99951 16.6761 3.94756 18.364 5.63509C20.0518 7.32263 21 9.61141 21 11.9979Z" stroke="url(#paint0_linear_1_1566)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
 									<defs>
@@ -363,7 +359,7 @@ $main_features_items = [
 											<stop offset="1" stop-color="#2D7CFF" />
 										</linearGradient>
 									</defs>
-								</svg> Replace with Google Drive</span>
+								</svg> Replace with Connect Drive</span>
 
 						</div>
 
@@ -415,8 +411,8 @@ $main_features_items = [
 
 
 		<div class="connect-drive-feature__head text-center">
-			<h2 class="connect-drive-feature__title">Powerful <span>Integrations</span> to Make Life Easy</h2>
-			<p class="connect-drive-feature__subtitle">Connect Drive integrates with your favorite platforms to automate workflows and boost productivity.</p>
+			<h2 class="connect-drive-feature__title">Powerful <span>Integrations</span> to Simplify Your Workflow</h2>
+			<p class="connect-drive-feature__subtitle">Connect Drive integrates with your favorite platforms, automating workflows and supercharging your productivity.</p>
 		</div>
 
 		<?php
@@ -646,9 +642,8 @@ $main_features_items = [
 <section id="woocommerce-support" class="connect-drive-woocommerce-support">
 	<div class="container">
 		<div class="connect-drive-woocommerce-support__head text-center">
-			<h2 class="connect-drive-woocommerce-support__title">WooCommerce Support</h2>
-			<p class="connect-drive-woocommerce-support__description">You can serve your downloadable product's files directly from Google Drive, and also you can let
-				your customers upload files to your Google Drive account when they purchase your products.</p>
+			<h2 class="connect-drive-woocommerce-support__title">Fully Compatible with <span>WooCommerce</span></h2>
+			<p class="connect-drive-woocommerce-support__description">With Connect Drive, you can deliver your downloadable products directly from Google Drive, and even allow customers to upload files to your Drive account when they make a purchase.</p>
 		</div>
 
 

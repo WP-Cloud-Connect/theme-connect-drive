@@ -7,7 +7,7 @@ $howtouses = [
     ],
     'link-google-account' => [
         'title'       => 'Connect Google Account',
-        'description' => 'After activating the plugin, link your Google account to access Google Drive files',
+        'description' => 'After activating the plugin, link your Google account to access Connect Drive files',
     ],
     'manage-browse-files' => [
         'title'       => 'Manage & Browse Files',
@@ -28,8 +28,8 @@ $howtouses = [
 
 ];
 
-$how_to_use_heading = 'Let\'s learn how to use</br> <span>Connect Drive</span>';
-$how_to_use_description = 'Enhance your productivity by installing the Connect Drive plugin. Follow our straightforward, step-by-step guide below to learn how to use it effectively.';
+$how_to_use_heading = 'Step-by-Step Guide to Using </br> <span>Connect Drive</span>';
+$how_to_use_description = 'Boost your productivity with the Connect Drive plugin. Follow our simple, step-by-step guide below to get started and make the most of its powerful features.';
 ?>
 
 

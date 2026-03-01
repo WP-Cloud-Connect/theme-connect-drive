@@ -48,8 +48,8 @@ $testimonials = [
 	<div class="container">
 
 		<div class="connect-drive-testimonial__head  text-center">
-			<h4 class="connect-drive-testimonial__heading-title"><?php _e('Loved by Businesses Like Yours!', 'connect-drive'); ?></h4>
-			<p class="connect-drive-testimonial__heading-description"><?php _e('See, how our users all over the world are getting benefit from using our products.', 'connect-drive'); ?></p>
+			<h4 class="connect-drive-testimonial__heading-title"><?php _e('See Why People Love Connect Drive', 'connect-drive'); ?></h4>
+			<p class="connect-drive-testimonial__heading-description"><?php _e('Ensuring high-quality products is one of the best ways to earn our customer’s trust and appreciation.', 'connect-drive'); ?></p>
 		</div>
 
 		<div class="connect-drive-testimonial__slider">

@@ -5,93 +5,93 @@ $integrations_features = [
         'title'       => 'Classic Editor',
         'description' => 'The Review and Approve module offers a collaborative workflow where users can review, select, and approve Connect Drive files submitted for feedback or confirmation.',
         'category'    => 'page-builders',
-        'link'        => ''
+        'link'        => '#'
     ],
     'gutenberg' => [
         'title'       => 'Gutenberg',
         'description' => 'The Photo Gallery Module feature of the plugin can display your Connect Drive images on your website in a masonry grid layout with a lightbox preview. This module lets you...',
         'category'    => 'page-builders',
-        'link'        => ''
+        'link'        => '#'
     ],
     'elementor' => [
         'title'       => 'Elementor',
         'description' => 'The Photo Gallery Module feature of the plugin can display your Connect Drive images on your website in a masonry grid layout with a lightbox preview. This module lets you...',
         'category'    => 'page-builders',
-        'link'        => ''
+        'link'        => '#'
     ],
     'divi-page-builder' => [
         'title'       => 'Divi Page Builder',
         'description' => 'The Slider Carousel feature in our Connect Drive plugin lets you create a slideshow of images or videos from your Connect Drive. You can customize it with autoplay...',
         'category'    => 'page-builders',
-        'link'        => ''
+        'link'        => '#'
     ],
 
     'contact-form-7' => [
         'title'       => 'Contact Form 7',
         'description' => 'The Photo Gallery Module feature of the plugin can display your Connect Drive images on your website in a masonry grid layout with a lightbox preview. This module lets you...',
         'category'    => 'form-plugins',
-        'link'        => ''
+        'link'        => '#'
     ],
     'wpforms' => [
         'title'       => 'WPForms',
         'description' => 'Connect Drive features a user-friendly file uploader to upload files into the Connect Drive cloud platform from your website. Users can see an upload progress bar...',
         'category'    => 'form-plugins',
-        'link'        => ''
+        'link'        => '#'
     ],
 
     'gravity-forms' => [
         'title'       => 'Gravity Forms',
         'description' => 'Connect Gravity Forms with Connect Drive to store and manage file uploads directly in your drive.',
         'category'    => 'form-plugins',
-        'link'        => ''
+        'link'        => '#'
     ],
     'ninja-forms' => [
         'title'       => 'Ninja Forms',
         'description' => 'Making WordPress easier for you is our main goal! That’s why we included Shortcode Builder in our Plugin. It helps create various types of modules (File Browser, File Uploader...',
         'category'    => 'form-plugins',
-        'link'        => ''
+        'link'        => '#'
     ],
     'fluent-forms' => [
         'title'       => 'Fluent Forms',
         'description' => 'The Embed Documents module lets you seamlessly display documents directly on your website without requiring downloads. It supports popular file formats.',
         'category'    => 'form-plugins',
-        'link'        => ''
+        'link'        => '#'
     ],
     'formidable-forms' => [
         'title'       => 'Formidable Forms',
         'description' => 'The Embed Documents module lets you seamlessly display documents directly on your website without requiring downloads. It supports popular file formats.',
         'category'    => 'form-plugins',
-        'link'        => ''
+        'link'        => '#'
     ],
     'elementor-forms' => [
         'title'       => ' Elementor Forms',
         'description' => 'The Embed Documents module lets you seamlessly display documents directly on your website without requiring downloads. It supports popular file formats.',
         'category'    => 'form-plugins',
-        'link'        => ''
+        'link'        => '#'
     ],
     'met-forms' => [
         'title'       => 'Met Forms',
         'description' => 'The Embed Documents module lets you seamlessly display documents directly on your website without requiring downloads. It supports popular file formats.',
         'category'    => 'form-plugins',
-        'link'        => ''
+        'link'        => '#'
     ],
     'woocommerce-support' => [
         'title'       => 'WooCommerce Support',
         'description' => 'The Embed Documents module lets you seamlessly display documents directly on your website without requiring downloads. It supports popular file formats.',
         'category'    => 'ecommerce-plugins',
-        'link'        => ''
+        'link'        => '#'
     ],
     'dokan' => [
         'title'       => 'Dokan',
         'description' => 'The Embed Documents module lets you seamlessly display documents directly on your website without requiring downloads. It supports popular file formats.',
         'category'    => 'ecommerce-plugins',
-        'link'        => ''
+        'link'        => '#'
     ],
     'easy-digital-download' => [
         'title'       => 'Easy Digital Download',
         'description' => 'The Embed Documents module lets you seamlessly display documents directly on your website without requiring downloads. It supports popular file formats.',
         'category'    => 'ecommerce-plugins',
-        'link'        => ''
+        'link'        => '#'
     ],
     'advanced-custom-fields' => [
         'title'       => 'Advanced Custom Fields',
@@ -103,13 +103,13 @@ $integrations_features = [
         'title'       => 'Tutor LMS',
         'description' => 'The Embed Documents module lets you seamlessly display documents directly on your website without requiring downloads. It supports popular file formats.',
         'category'    => 'others',
-        'link'        => ''
+        'link'        => '#'
     ],
     'media-library' => [
         'title'       => 'Google Drive Integration with Media Library',
         'description' => 'The Embed Documents module lets you seamlessly display documents directly on your website without requiring downloads. It supports popular file formats.',
         'category'    => 'others',
-        'link'        => ''
+        'link'        => '#'
     ],
 
 

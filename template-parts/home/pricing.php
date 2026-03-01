@@ -97,7 +97,7 @@ $lifetime_pro_features = [
         <div class="row align-items-center">
             <div class="connect-drive-pricing__hero-content text-center">
                 <h4 class="connect-drive-pricing__hero-title">Simple Pricing, Unbeatable Value</h4>
-                <p class="connect-drive-pricing__hero-description">Join 10000+ User's Happy Community</p>
+                <p class="connect-drive-pricing__hero-description">Flexible pricing designed for growing businesses. Scale confidently with premium features at unbeatable value.</p>
             </div>
         </div>
 

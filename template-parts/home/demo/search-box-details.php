@@ -2,39 +2,35 @@
 
 $features = [
 	[
-		'title'       => 'Manage Your Documents Easily',
-		'description' => 'File Browser and manage your Documents easily via your favorite cloud platform. The File Browser will make sure that your files are automatically shown on your WordPress site.',
-		'image'       => get_template_directory_uri() . "/assets/images/connect-drive/file-bowser-demo/documents.png",
-		'features'    => ['List and Grid View', 'Search and Filter', 'Live Preview Files', 'Import Media in File',]
+		'title'       => 'Instant File Search Feature',
+		'description' => 'Enable lightning-fast file discovery with real-time search that instantly displays matching Google Drive documents as users type, no page reload, no delay, just seamless results.',
+		'image'       => get_template_directory_uri() . "/assets/images/connect-drive/search-box-demo/instant-file-search.png",
+		'features'    => ['Clean and organized result display', 'Mobile-friendly search experience', 'Quick preview options', 'Direct download options', 'Optimized for large file libraries']
 	],
 	[
-		'title'       => 'Link Multiple connect Drive Accounts',
-		'description' => 'You can add and manage multiple connect Drive cloud accounts from your site using this plugin.',
-		'image'       => get_template_directory_uri() . "/assets/images/connect-drive/file-bowser-demo/multiple.png",
+		'title'       => 'Smart Filtering & Results',
+		'description' => 'Refine search results with intelligent filtering options that help users quickly find the exact file they need by file type, name, date, or selected folders for better accuracy.',
+		'image'       => get_template_directory_uri() . "/assets/images/connect-drive/search-box-demo/smart-filtering-results.png",
 		'features'    => [
-			'Use Your Own Account',
-			'Add Multiple Account',
-			'Remove Any Accounts',
-			'Manage Your Own Drive',
+			'Filter by file type (PDF, Doc, Excel, Image, etc.)',
+			'Sort by newest or oldest files',
+			'A–Z file name sorting',
+			'Limit results per search',
+			'Organized list or grid layout',
+			'Works smoothly on all devices',
 		],
 	],
 	[
-		'title'       => 'Customize Using by Appearance',
-		'description' => 'You can change its colors, and Background colors as needed, save them with the current style.',
-		'image'       => get_template_directory_uri() . "/assets/images/connect-drive/file-bowser-demo/appearance.png",
-		'features'    => ['Live Preview Style', 'Colors Customize', 'Use Custom CSS', 'Background Color Changes',],
+		'title'       => 'Role-Based Search Control',
+		'description' => 'Control search access by user roles: Admins, Editors, or Members see only the files they’re allowed, ensuring secure and organized document management',
+		'image'       => get_template_directory_uri() . "/assets/images/connect-drive/search-box-demo/role-based-search-control.png",
+		'features'    => ['Restrict search results based on user roles', 'Hide confidential files from unauthorized users', 'Custom access for Admins, Editors, Members, or Subscribers', 'Role-specific folder visibility', 'Improves data security and privacy','Easy to manage via backend settings'],
 	],
 	[
-		'title'       => 'Use ACF field Files',
-		'description' => 'Easily connect your ACF File fields with the connect Drive File Browser module to display files dynamically across your site. Whether you\'re using single or repeater fields, files linked via ACF are automatically rendered—no manual setup required.',
-		'image'       => get_template_directory_uri() . "/assets/images/connect-drive/file-bowser-demo/use-acf-field-files.png",
-		'features'    => ['Automatically pulls files from connect Drive', 'Ideal for dynamic file rendering', 'Auto-sync with ACF File fields', 'No manual linking needed',],
-	],
-	[
-		'title'       => 'Useful Interactions',
-		'description' => 'The File Browser module offers powerful connect Drive file management capabilities directly from the WordPress platform. Users can seamlessly interact with files—view, upload, download, or delete based on their permissions.',
-		'image'       => get_template_directory_uri() . "/assets/images/connect-drive/file-bowser-demo/useful-interactions.png",
-		'features'    => ['View files in real-time', 'Upload new files', 'Download with one click', 'Delete files securely', 'Role-based access control'],
+		'title'       => 'Password-Protected Search Access',
+		'description' => 'Secure your search box with password protection, allowing only authorized users to access and search files, keeping sensitive documents safe and private.',
+		'image'       => get_template_directory_uri() . "/assets/images/connect-drive/search-box-demo/password-protected-search-access.png",
+		'features'    => ['Restrict search access with a password', 'Ideal for confidential or client-specific files', 'Protect sensitive folders or documents', 'Easy setup via backend settings','Enhances data security for private portals','Prevents unauthorized file discovery'],
 	],
 ];
 

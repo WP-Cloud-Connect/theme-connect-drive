@@ -1446,13 +1446,17 @@
   .connect-drive-woocommerce-support__head {
     margin-bottom: 50px;
     position: relative;
-
+    max-width: 700px;
+    margin: auto auto 50px auto;
     .connect-drive-woocommerce-support__title {
       font-weight: 700;
       font-size: 3rem;
       line-height: 120%;
       color: #111;
       margin-bottom: 20px;
+      span {
+        color: $color_primary;
+      }
     }
 
     .connect-drive-woocommerce-support__description {
@@ -2260,7 +2264,7 @@
       .slider-item {
         .connect-drive-testimonial__user-main {
           .connect-drive-testimonial__title {
-            font-size: 22px;
+            font-size: 21px;
           }
         }
         .connect-drive-testimonial__content {
@@ -3622,6 +3626,7 @@
       }
     }
     .accordion {
+      width: 100%;
       .accordion-item {
         margin-bottom: 20px;
         padding: 20px;

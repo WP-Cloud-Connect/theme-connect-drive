@@ -2,8 +2,7 @@
     <div class="container">
         <div class="browser-demo__head text-center">
             <h2 class="browser-demo__head-title">File Browser</h2>
-            <p class="browser-demo__head-description">Display your cloud files via a File Browser. The file browser can have a grid thumbnail and list
-                view and can have a file uploader.</p>
+            <p class="browser-demo__head-description">Display your cloud files through a File Browser. The File Browser supports grid thumbnail and list views and includes a file uploader for easy uploads.</p>
         </div>
 
         <div class="file-browser-demo text-center">

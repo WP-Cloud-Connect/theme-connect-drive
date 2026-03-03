@@ -2,7 +2,7 @@
     <div class="container">
         <div class="photo-gallery-demo__head text-center">
             <h2 class="photo-gallery-demo__head-title">Gallery</h2>
-            <p class="photo-gallery-demo__head-description">You can add a grid lightbox popup photo gallery in your page/ post using the gallery options of the plugin. The gallery will be generated based on the folders that you select.</p>
+            <p class="photo-gallery-demo__head-description">Easily create a grid-style lightbox photo gallery on any page or post using the plugin’s gallery options. The gallery is automatically generated from the folders you select from Google Drive.</p>
         </div>
         <div class="photo-gallery-demo-header text-center">
             <?php

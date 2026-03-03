@@ -7,7 +7,7 @@
             </h1>
 
             <p class="features-hero-content__description">
-                <?php _e('Connect Drive is a cutting-edge plugin that enables you to access your essential Connect Drive files and folders directly from your WordPress website. Designed for users with no coding experience, this plugin allows you to easily browse, manage, embed, display, upload, download, search, play, and share your Connect Drive content seamlessly on your WordPress site.', 'connect-drive'); ?>
+                <?php _e('Built to grow with your business, our flexible features adapt to your evolving needs helping you scale faster, work smarter, and stay ahead without limits.', 'connect-drive'); ?>
             </p>
             <div class="features-hero-content__button__area">
                 <a href="/connect-drive-pricing/" class="btn btn-primary ">

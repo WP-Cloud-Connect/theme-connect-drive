@@ -4,9 +4,15 @@ $features = [
 
     [
         'title'       => 'Inline Lightbox File Preview',
-        'description' => 'Preview your Dropbox files in a beautiful lightbox, seamlessly integrated into a masonry-style layout. Enjoy quick, on-page file views without leaving your site.',
+        'description' => 'Preview documents, images, and media in a sleek lightbox, arranged in a smooth, masonry-style carousel. Enjoy fast, seamless browsing without ever leaving your site.',
         'image'       => get_template_directory_uri() . "/assets/images/connect-drive/slider-carousel/lightbox.png",
         'features'    => ['Lightbox Preview', 'Auto Folder Thumbnails', 'Responsive View', 'Different Lightbox Skins'],
+    ],
+    [
+        'title'       => 'Custom size and speed',
+        'description' => 'Adjust the carousel’s width, height, and slide speed to match your site’s design, providing a smooth and visually appealing browsing experience.',
+        'image'       => get_template_directory_uri() . "/assets/images/connect-drive/slider-carousel/custom-size-speed.png",
+        'features'    => ['Set custom width and height', 'Matches any page layout', 'Control slide speed', 'Enhances visual presentation'],
     ],
 ];
 ?>

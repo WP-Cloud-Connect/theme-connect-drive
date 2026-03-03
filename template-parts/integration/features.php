@@ -3,111 +3,111 @@
 $integrations_features = [
     'classic-editor' => [
         'title'       => 'Classic Editor',
-        'description' => 'The Review and Approve module offers a collaborative workflow where users can review, select, and approve Connect Drive files submitted for feedback or confirmation.',
+        'description' => 'Connect Drive works seamlessly with the Classic Editor for WordPress. It lets you browse, manage, and embed Google Drive files without leaving your dashboard.',
         'category'    => 'page-builders',
         'link'        => '#'
     ],
     'gutenberg' => [
         'title'       => 'Gutenberg',
-        'description' => 'The Photo Gallery Module feature of the plugin can display your Connect Drive images on your website in a masonry grid layout with a lightbox preview. This module lets you...',
+        'description' => 'Connect Drive is fully compatible with the Gutenberg editor for WordPress. It lets you easily add and manage Google Drive files and folders without switching platforms.',
         'category'    => 'page-builders',
         'link'        => '#'
     ],
     'elementor' => [
         'title'       => 'Elementor',
-        'description' => 'The Photo Gallery Module feature of the plugin can display your Connect Drive images on your website in a masonry grid layout with a lightbox preview. This module lets you...',
+        'description' => 'With full Elementor compatibility, Connect Drive lets users easily add and manage Google Drive files and folders in Elementor pages, making content sharing simple and seamless.',
         'category'    => 'page-builders',
         'link'        => '#'
     ],
     'divi-page-builder' => [
         'title'       => 'Divi Page Builder',
-        'description' => 'The Slider Carousel feature in our Connect Drive plugin lets you create a slideshow of images or videos from your Connect Drive. You can customize it with autoplay...',
+        'description' => 'Connect Drive lets you add Google Drive modules, embed documents, and insert file view or download links directly within the Divi Page Builder for WordPress.',
         'category'    => 'page-builders',
         'link'        => '#'
     ],
 
     'contact-form-7' => [
         'title'       => 'Contact Form 7',
-        'description' => 'The Photo Gallery Module feature of the plugin can display your Connect Drive images on your website in a masonry grid layout with a lightbox preview. This module lets you...',
+        'description' => 'Enhance your Contact Form 7 forms with Connect Drive by easily attaching Google Drive files. Users can view or download documents directly from your forms easily.',
         'category'    => 'form-plugins',
         'link'        => '#'
     ],
     'wpforms' => [
         'title'       => 'WPForms',
-        'description' => 'Connect Drive features a user-friendly file uploader to upload files into the Connect Drive cloud platform from your website. Users can see an upload progress bar...',
+        'description' => 'With Connect Drive, WPForms users can easily add Google Drive files to their forms. Visitors can instantly view or download documents without leaving your site.',
         'category'    => 'form-plugins',
         'link'        => '#'
     ],
 
     'gravity-forms' => [
         'title'       => 'Gravity Forms',
-        'description' => 'Connect Gravity Forms with Connect Drive to store and manage file uploads directly in your drive.',
+        'description' => 'Connect Drive brings Google Drive integration to Gravity Forms, letting you attach files and provide view or download links directly within your forms easily.',
         'category'    => 'form-plugins',
         'link'        => '#'
     ],
     'ninja-forms' => [
         'title'       => 'Ninja Forms',
-        'description' => 'Making WordPress easier for you is our main goal! That’s why we included Shortcode Builder in our Plugin. It helps create various types of modules (File Browser, File Uploader...',
+        'description' => 'With Connect Drive, Ninja Forms users can seamlessly add Google Drive files to their forms, allowing visitors to view or download documents directly from your site.',
         'category'    => 'form-plugins',
         'link'        => '#'
     ],
     'fluent-forms' => [
         'title'       => 'Fluent Forms',
-        'description' => 'The Embed Documents module lets you seamlessly display documents directly on your website without requiring downloads. It supports popular file formats.',
+        'description' => 'Bring your forms to life with Connect Drive and Fluent Forms. Effortlessly embed Google Drive files so users can view or download documents right from your forms.',
         'category'    => 'form-plugins',
         'link'        => '#'
     ],
     'formidable-forms' => [
         'title'       => 'Formidable Forms',
-        'description' => 'The Embed Documents module lets you seamlessly display documents directly on your website without requiring downloads. It supports popular file formats.',
+        'description' => 'Connect Drive transforms Formidable Forms by letting you include Google Drive files directly in your forms. Users can instantly view or download documents without leaving your site.',
         'category'    => 'form-plugins',
         'link'        => '#'
     ],
     'elementor-forms' => [
         'title'       => ' Elementor Forms',
-        'description' => 'The Embed Documents module lets you seamlessly display documents directly on your website without requiring downloads. It supports popular file formats.',
+        'description' => 'Take Elementor Forms to the next level with Connect Drive. Easily embed Google Drive files so users can view or download documents right within your forms.',
         'category'    => 'form-plugins',
         'link'        => '#'
     ],
     'met-forms' => [
         'title'       => 'Met Forms',
-        'description' => 'The Embed Documents module lets you seamlessly display documents directly on your website without requiring downloads. It supports popular file formats.',
+        'description' => 'Connect Drive enhances MetForms by letting you add Google Drive files to your forms. Users can view or download documents instantly without leaving your site.',
         'category'    => 'form-plugins',
         'link'        => '#'
     ],
     'woocommerce-support' => [
         'title'       => 'WooCommerce Support',
-        'description' => 'The Embed Documents module lets you seamlessly display documents directly on your website without requiring downloads. It supports popular file formats.',
+        'description' => 'Connect Drive fully supports WooCommerce, allowing store owners to attach Google Drive files to products so customers can easily view or download them directly.',
         'category'    => 'ecommerce-plugins',
         'link'        => '#'
     ],
     'dokan' => [
         'title'       => 'Dokan',
-        'description' => 'The Embed Documents module lets you seamlessly display documents directly on your website without requiring downloads. It supports popular file formats.',
+        'description' => 'Connect Drive lets Dokan store owners attach Google Drive files to products or pages, allowing customers to view or download documents directly from the site.',
         'category'    => 'ecommerce-plugins',
         'link'        => '#'
     ],
     'easy-digital-download' => [
         'title'       => 'Easy Digital Download',
-        'description' => 'The Embed Documents module lets you seamlessly display documents directly on your website without requiring downloads. It supports popular file formats.',
+        'description' => 'Connect Drive works with Easy Digital Downloads, letting store owners attach Google Drive files to products so customers can view or download them instantly.',
         'category'    => 'ecommerce-plugins',
         'link'        => '#'
     ],
     'advanced-custom-fields' => [
         'title'       => 'Advanced Custom Fields',
-        'description' => 'The Embed Documents module lets you seamlessly display documents directly on your website without requiring downloads. It supports popular file formats.',
+        'description' => 'Connect Drive integrates with Advanced Custom Fields, letting you embed Google Drive files directly into custom fields for easy viewing or downloading on your site.',
         'category'    => 'others',
         'link'        => ''
     ],
     'tutor-lms' => [
         'title'       => 'Tutor LMS',
-        'description' => 'The Embed Documents module lets you seamlessly display documents directly on your website without requiring downloads. It supports popular file formats.',
+        'description' => 'Connect Drive works with Tutor LMS, letting instructors add Google Drive files to courses so students can view or download documents directly within lessons.',
         'category'    => 'others',
         'link'        => '#'
     ],
     'media-library' => [
         'title'       => 'Google Drive Integration with Media Library',
-        'description' => 'The Embed Documents module lets you seamlessly display documents directly on your website without requiring downloads. It supports popular file formats.',
+        'description' => 'Connect Drive integrates Google Drive with the WordPress Media Library, letting you easily add, manage, and embed files directly on your site.',
         'category'    => 'others',
         'link'        => '#'
     ],
@@ -122,7 +122,7 @@ $integrations_features = [
 
         <div class="connect-drive-feature__head text-center">
             <h2 class="connect-drive-feature__title">Connect Drive Support for Smarter <span>Integrations</span></h2>
-            <p class="connect-drive-feature__description">Unlock the full potential of Connect Drive Support with powerful integrations that boost productivity and streamline workflows. Automate tasks, simplify processes, and keep everything connected — so your team can focus on what truly matters.</p>
+            <p class="connect-drive-feature__description">Maximize Connect Drive with smart WordPress integrations. Easily connect with leading page builders, form builders, tutorial tools, and more. And share Google Drive files within your website to automate workflows, simplify management, and create a more powerful, connected website experience.</p>
         </div>
 
         <div class="connect-drive-feature__search-area-main">

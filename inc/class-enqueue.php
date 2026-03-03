@@ -71,6 +71,14 @@ class Connect_Drive_Enqueue
 		if (is_page('refund-policy')) {
 			wp_enqueue_style('refund-policy', get_theme_file_uri('assets/css/refund-policy.css'), array(), $theme_version, 'all');
 		}
+		//support policy page assets
+		if (is_page('support-policy')) {
+			wp_enqueue_style('support-policy', get_theme_file_uri('assets/css/support-policy.css'), array(), $theme_version, 'all');
+		}
+		//Terms of Service page assets
+		if (is_page('terms-service')) {
+			wp_enqueue_style('terms-service', get_theme_file_uri('assets/css/terms-service.css'), array(), $theme_version, 'all');
+		}
 
 		//Connect Drive File Browser assets
 		if (is_page('connect-drive-file-browser')) {

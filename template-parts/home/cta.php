@@ -2,8 +2,8 @@
     <div class="container">
         <div class="connect-drive-cta__wrapper align-items-center">
             <div class="connect-drive-cta__content text-center">
-                <h3 class="connect-drive-cta__title">Ready to Integrate Google Drive into Your Website?</h3>
-                <p class="connect-drive-cta__description">Best Connect Drive cloud solution plugin for WordPress to integrate your Connect Drive files directly into your WordPress Website.</p>
+                <h3 class="connect-drive-cta__title">Ready to Integrate Connect Drive into Your Website?</h3>
+                <p class="connect-drive-cta__description">The best Connect Drive cloud solution plugin for WordPress, allowing you to integrate your Google Drive files directly into your WordPress website.</p>
             </div>
 
             <div class="cta-actions mt-5 mt-lg-0">

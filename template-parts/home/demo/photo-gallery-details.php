@@ -3,25 +3,25 @@
 $features = [
 	[
 		'title'       => 'Optimize Your Gallery',
-		'description' => 'Customize and organize your Dropbox file gallery with flexible layout options, then effortlessly showcase it on your website for a seamless visual experience.',
+		'description' => 'Easily customize and organize your Google Drive file gallery with flexible layout options, then showcase it on your website for a smooth and engaging visual experience.',
 		'image'       => get_template_directory_uri() . "/assets/images/connect-drive/photo-demo/optimized.png",
 		'features'    => ['Galleries in the Cloud', 'Increase Loading Performance', 'Inline Preview Galleries', 'Automatically Set Thumbnails'],
 	],
 	[
 		'title'       => 'Awesome Looking Masonry Grid',
-		'description' => 'Display your Dropbox cloud files in a visually striking masonry-style grid. This dynamic layout automatically arranges your content for a clean, organized, and modern look.',
+		'description' => 'You can display your Google Drive files in a visually appealing masonry-style layout, giving your cloud content a clean and dynamic look.',
 		'image'       => get_template_directory_uri() . "/assets/images/connect-drive/photo-demo/masonry-grid.png",
 		'features'    => ['Control the Grid Size', 'Available Horizontal Space', 'Automatically Place File', 'Auto Row Height Setup '],
 	],
 	[
 		'title'       => 'Inline Lightbox File Preview',
-		'description' => 'Instantly preview your Dropbox files in a sleek lightbox, right within the grid layout—no need to open new tabs or leave the page. Clean, fast, and user-friendly.',
+		'description' => 'Display your Google Drive files in a visually striking masonry-style layout, creating an organized and dynamic view of your cloud content.',
 		'image'       => get_template_directory_uri() . "/assets/images/connect-drive/photo-demo/lightbox.png",
 		'features'    => ['Lightbox Preview', 'Auto Folder Thumbnails', 'Responsive View', 'Different Lightbox Skins'],
 	],
 	[
 		'title'       => 'Photoproofing',
-		'description' => 'Let clients review, select, and submit their favorite photos directly from the gallery. The Gallery Module’s built-in proofing feature simplifies the approval process and eliminates back-and-forth emails.',
+		'description' => 'Allow clients to review, select, and submit their favorite photos directly from the gallery. The Gallery Module’s built-in proofing feature streamlines approvals and removes the need for endless email exchanges.',
 		'image'       => get_template_directory_uri() . "/assets/images/connect-drive/photo-demo/photoproofing.png",
 		'features'    => ['Clients can select photos for approval', 'One-click submission from the gallery', 'Works seamlessly with connect Drive images', 'Ideal for photographers, designers, and agencies', 'Integrated with review and tagging workflow'],
 	],

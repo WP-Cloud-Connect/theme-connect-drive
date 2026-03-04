@@ -566,9 +566,9 @@ $lifetime_pro_features = [
             const productIcon = '<?php echo get_template_directory_uri(); ?>/assets/images/connect-drive/connect-drive.png';
 
             var handler = FS.Checkout.configure({
-                plugin_id: '9618',
-                plan_id: '16186',
-                public_key: 'pk_eb27e7eaa4f2692b385aec28288f2',
+                plugin_id: '25152',
+                plan_id: '41678',
+                public_key: 'pk_cc2aba05fb0a1b8cedade7a38b23a',
                 image: productIcon,
             });
 
@@ -585,7 +585,7 @@ $lifetime_pro_features = [
                 const productInfo = {
                     productIcon: productIcon,
                     planName: planName,
-                    productName: "Integrate Google Drive",
+                    productName: "Connect Drive",
                     docs: "https://softlabbd.com/docs-category/integrate-connect-drive-docs/",
                     video: "https://www.youtube.com/watch?v=3RqCA7J9HB4&list=PLaR5hjDXnXZyQI6LU-1Ijz_x9vkXQop7I",
                     productDescription: "All-in-One Google Drive Integration for WordPress",

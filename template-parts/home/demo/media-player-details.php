@@ -3,25 +3,25 @@
 $features = [
     [
         'title'       => 'Play Audio/Video  Files in Single Player',
-        'description' => 'Group and play multiple media files in one unified player with playlist support. Users can easily navigate between tracks or videos without switching players.',
+        'description' => 'Combine and play multiple media files in a single unified player with full playlist support, allowing users to smoothly navigate between audio tracks or videos without changing players.',
         'image'       => get_template_directory_uri() . "/assets/images/connect-drive/media-demo/play-multiple-media-files-single-player.png",
         'features'    => ['Seamless playlist playback in one player', 'Supports audio and video files', 'Auto-play the next file in queue', 'Clean, user-friendly interface']
     ],
     [
         'title'       => 'Easy to Manage Your Media Player',
-        'description' => 'You can play your connect Drive audio & video files with a playlist into your website. Audio and video can be played in a single player.',
+        'description' => 'Stream your Google Drive audio and video files on your website with a single playlist, allowing both types of media to play seamlessly in one unified player.',
         'image'       => get_template_directory_uri() . "/assets/images/connect-drive/media-demo/media-player.png",
         'features'    => ['Manage Media Files', 'Preview Media Files', 'Download Any Files ', 'Import Media & Delete',]
     ],
     [
         'title'       => 'Actionable Playlist Support',
-        'description' => 'Enhance your media playback experience with interactive playlists. The Media Player module supports actionable playlists where users can play, download, or view media details directly from the playlist interface.',
+        'description' => 'Elevate your media experience with interactive playlists. The Media Player module lets users play, download, or view details of each file directly from the playlist for seamless control.',
         'image'       => get_template_directory_uri() . "/assets/images/connect-drive/media-demo/actionable-playlist-support.png",
         'features'    => ['Play audio/video directly from the list', 'View file descriptions and details', 'Supports connect Drive-hosted media', 'Clean, responsive playlist UI',]
     ],
     [
         'title'       => 'Flexible Video Playback Modes',
-        'description' => 'Support both embedded and direct media playback with flexible player options. Whether it\'s a YouTube video, MP3 file, or a connect Drive-hosted file, the Media Player module handles it all seamlessly.',
+        'description' => 'Enjoy both embedded and direct media playback with versatile player options. Whether it’s a YouTube video, MP3, or a file hosted on Google Drive, the Media Player module handles everything effortlessly.',
         'image'       => get_template_directory_uri() . "/assets/images/connect-drive/media-demo/multiple-media-player-types.png",
         'features'    => ['Embed', 'Direct Media',]
     ],

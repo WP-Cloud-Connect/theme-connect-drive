@@ -2,8 +2,7 @@
     <div class="container">
         <div class="browser-demo__head text-center">
             <h2 class="browser-demo__head-title">Embed Documents</h2>
-            <p class="browser-demo__head-description">Display your cloud files via a File Browser. The file browser can have a grid thumbnail and list
-                view and can have a file uploader.</p>
+            <p class="browser-demo__head-description">Easily embed Google Drive documents directly on your site, allowing users to view or interact with files without leaving the page.</p>
         </div>
 
         <div class="file-browser-demo text-center">

@@ -2,33 +2,283 @@
 	$features = [
 		[
 			'title'       => 'Easy setup',
-			'description' => 'You don’t need to create any custom Google app. You can sign-in to your Google account directly using this plugin.',
+			'description' => 'Connect your website to Google Drive in just a few clicks. There is no need to create or configure a custom Google app. Simply sign in with your Google account and start using the plugin immediately.',
+			'video'		  => '',
+			'pro'         => true,
+		],
+
+		[
+			'title'       => 'Admin File Browser',
+			'description' => 'Access a complete Google Drive file manager directly from your WordPress dashboard. Browse folders, preview files, switch between grid and list views, and manage uploads without leaving your site.',
+			'video'		  => '',
+			'pro'         => true,
+
+		],
+
+		[
+			'title'       => 'Shortcode Builder',
+			'description' => 'Create fully customizable file modules such as galleries, file lists, media players, or upload forms. Generate a shortcode and place it anywhere on your website to display dynamic Drive content.',
+			'video' => '',
+			'pro'         => true,
+
+		],
+
+		[
+			'title'       => 'Embed Documents',
+			'description' => 'Display PDFs, Google Docs, Sheets, and other supported files directly inside your pages and posts. Visitors can view documents instantly without downloading them.',
+			'video' => '',
+			'pro'         => true,
+
+		],
+
+		[
+			'title'       => 'File View Links',
+			'description' => 'Create clickable file preview links that allow users to open and view files stored in Google Drive with a single click. This is ideal for sharing reports, presentations, or internal documents.',
+			'video'       => '',
+			'pro'         => true,
+
+		],
+		[
+			'title'       => 'File Download Links',
+			'description' => 'Generate secure direct download links for Drive files. Your users can download files directly from Google Drive storage without consuming your server space.',
+			'video'       => '',
+			'pro'         => true,
+
+		],
+		[
+			'title'       => 'Allow Specific Folders',
+			'description' => 'Control which Google Drive folders are accessible on your website. You can restrict access to selected folders while keeping sensitive content private.',
+			'video'		  => '',
+			'pro'         => false,
+		],
+		[
+			'title'       => 'Review & Approve - Module',
+			'description' => 'Enable a structured review workflow where users can view files, provide feedback, and approve content. This is perfect for creative projects, document proofing, or client approvals.',
+			'video'		  => '',
+			'pro'         => false,
+		],
+		[
+			'title'       => 'Search Box - Module',
+			'description' => 'Allow users to search for files in your Google Drive using keywords. This makes navigating large folders and libraries simple, fast, and convenient for all visitors.',
+			'video'		  => '',
+			'pro'         => false,
+		],
+		[
+			'title'       => 'Embed Documents - Module',
+			'description' => 'Easily embed PDFs, Google Docs, Sheets, and presentations directly on your website. Visitors can view and interact with files instantly without the need to download them.',
 			'video'		  => '',
 			'pro'         => true,
 		],
 		[
-			'title'       => 'Review & Approve Module',
-			'description' => 'The Review and Approve module offers a collaborative workflow where users can review, select, and approve Google Drive files submitted for feedback or confirmation. Ideal for use cases like photo proofing, document approvals, or asset selection, this module includes selection checkboxes, approval status indicators, and comment support.',
+			'title'       => 'List Files - Module',
+			'description' => 'Display files in a clean, organized list format. This works well for resource libraries, documentation hubs, or downloadable content sections.',
 			'video'		  => '',
 			'pro'         => false,
 		],
 		[
-			'title'       => 'List Files',
-			'description' => 'The List Files module offers a clean, organized interface to display your Google Drive files, allowing users to preview and download files directly from the list.',
-			'video'		  => '',
+			'title'       => 'File Uploader - Module',
+			'description' => 'Allow users to upload files directly from your website to your Google Drive account. This reduces server load and supports large file submissions efficiently.',
+			'video' => '',
 			'pro'         => false,
+
+		],
+
+		// [
+		// 	'title'       => 'File Search - Module',
+		// 	'description' => 'Add a powerful search feature that helps users quickly locate files stored in your Google Drive by entering keywords.',
+		// 	'video' => '',
+		// 	'pro'         => false,
+
+		// ],
+
+		[
+			'title'       => 'Media Player - Module',
+			'description' => 'Stream audio and video files directly from Google Drive using a built-in media player. You can also generate playlists automatically from selected folders.',
+			'video' => '',
+			'pro'         => false,
+
 		],
 		[
 			'title'       => 'Gallery - Module',
-			'description' => 'Display your images in a lightbox grid photo gallery. The gallery will be automatically created from the selected folders.',
-			'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/GE1vRI1iOK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+			'description' => 'Showcase images in a responsive gallery layout with lightbox previews. Galleries are automatically generated from chosen Drive folders.',
+			'video' => '',
 			'pro'         => true,
+
 		],
 		[
 			'title'       => 'Slider Carousel - Module',
-			'description' => 'The Slider Carousel feature in our Google Drive plugin lets you create a slideshow of images or videos from your Google Drive. You can customize it with autoplay and navigation buttons to make your content more engaging and visually appealing.',
-			'video'       => '<iframe width="100%" height="315" src="https://www.youtube.com/embed/dZw0z84t-5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
+			'description' => 'Create interactive image or video sliders using files stored in Google Drive. Customize autoplay, navigation controls, and layout settings.',
+			'video' => '',
 			'pro'         => false,
+
+		],
+		[
+			'title'       => 'Import to Media Library',
+			'description' => 'Import files from Google Drive into your WordPress media library with a single click. Once imported, you can use them like any standard WordPress media file.',
+			'video'		  => '',
+			'pro'         => false,
+
+		],
+		[
+			'title'       => 'User Private Folders',
+			'description' => 'Assign individual private folders to specific users. Each user can access only their own designated files, ensuring secure and personalized file management.',
+			'video' => '',
+			'pro'         => false,
+
+		],
+
+		[
+			'title'       => 'Multiple Google Accounts',
+			'description' => 'Connect multiple Google Drive accounts to the same website. This is especially useful for agencies or businesses managing different projects.',
+			'video'		  => '',
+			'pro'         => false,
+
+		],
+		[
+			'title'       => 'Use Own Google App',
+			'description' => 'For advanced users, the plugin allows integration with your own Google API app. This gives you more control over authentication and API usage limits.',
+			'video'		  => '',
+			'pro'         => false,
+
+		],
+		[
+			'title'       => 'Statistics',
+			'description' => 'Monitor file activity, including downloads, uploads, previews, and streams. Built-in analytics help you understand how your content is being used.',
+			'video'		  => '',
+			'pro'         => false,
+
+		],
+		[
+			'title'       => 'Email Notification',
+			'description' => 'Receive automatic email alerts when users upload, download, or delete files. Stay informed about important file activities on your website.',
+			'video'		  => '',
+			'pro'         => false,
+
+		],
+
+		[
+			'title'       => 'Classic Editor Integration',
+			'description' => 'Easily insert Google Drive modules and files directly from the WordPress Classic Editor using a built-in toolbar option.',
+			'video'       => '',
+			'pro'         => true,
+
+		],
+		[
+			'title'       => 'Gutenberg Integration',
+			'description' => 'Use dedicated Gutenberg blocks to add file browsers, galleries, upload forms, and media players seamlessly within the block editor.',
+			'video'       => '',
+			'pro'         => true,
+
+		],
+		[
+			'title'       => 'Elementor Integration',
+			'description' => 'Add Google Drive modules using Elementor widgets and design fully customized layouts with drag-and-drop control.',
+			'video'       => '',
+			'pro'         => true,
+
+		],
+		[
+			'title'       => 'Media Library Integration',
+			'description' => 'Keep your WordPress media and Google Drive files organized and connected. Upload or import files from Drive while maintaining proper synchronization.',
+			'video'       => '',
+			'pro'         => false,
+
+		],
+		[
+			'title'       => 'WooCommerce Integration',
+			'description' => 'Deliver digital products directly from Google Drive in your WooCommerce store. This allows you to sell large downloadable files without server limitations.',
+			'video'       => '',
+			'pro'         => false,
+
+		],
+		[
+			'title'       => 'Dokan Multi-vendor Integration',
+			'description' => 'Enable vendors to upload and manage their product files using their own Google Drive accounts in a multi-vendor marketplace setup.',
+			'video'       => '',
+			'pro'         => false,
+
+		],
+
+		[
+			'title'       => 'Easy Digital Downloads Integration',
+			'description' => 'Serve downloadable products through Google Drive when using Easy Digital Downloads. This ensures secure and scalable file delivery.',
+			'video'       => '',
+			'pro'         => false,
+
+		],
+
+		[
+			'title'       => 'Tutor LMS Integration',
+			'description' => 'Allow instructors to manage and deliver course materials directly from Google Drive within Tutor LMS.',
+			'video'       => '',
+			'pro'         => false,
+
+		],
+		[
+			'title'       => 'Contact Form 7 Integration',
+			'description' => 'Automatically store uploaded files from popular form plugins such as Contact Form 7, WPForms, Gravity Forms, Ninja Forms, Fluent Forms, and MetForm directly into Google Drive.',
+			'video'       => '',
+			'pro'         => true,
+
+		],
+		[
+			'title'       => 'Elementor Form Widget Integration',
+			'description' => 'Automatically upload files submitted through the Elementor Form widget to Google Drive. Seamlessly connect your form submissions with secure cloud storage.',
+			'video'       => '',
+			'pro'         => true,
+
+		],
+		[
+			'title'       => 'MetForm Integration',
+			'description' => 'Send uploaded files from MetForm directly to Google Drive in real time. This provides reliable cloud storage and simplifies file management.',
+			'video'       => '',
+			'pro'         => true,
+
+		],
+		[
+			'title'       => 'WPForms Integration',
+			'description' => 'Store files submitted via WPForms straight into Google Drive. Manage user uploads efficiently without saving large files on your hosting server.',
+			'video'       => '',
+			'pro'         => false,
+
+		],
+		[
+			'title'       => 'Gravity Forms Integration',
+			'description' => 'Connect Gravity Forms file uploads to Google Drive automatically. All submitted files are securely transferred and neatly organized in your designated folders.',
+			'video'       => '',
+			'pro'         => false,
+
+		],
+		[
+			'title'       => 'Ninja Form Integration',
+			'description' => 'Save file uploads from Ninja Forms directly to your Google Drive account. This ensures secure cloud storage and reduces server load.',
+			'video'       => '',
+			'pro'         => false,
+		],
+		[
+			'title'       => 'Formidable Forms Integration',
+			'description' => 'Automatically send files uploaded through Formidable Forms directly to your Google Drive. This ensures secure cloud storage, organized file management, and reduced load on your website server.',
+			'video'       => '',
+			'pro'         => false,
+		],
+		[
+			'title'       => 'Fluent Forms Integration',
+			'description' => 'Automatically move uploaded files from Fluent Forms to Google Drive. Keep submissions organized and accessible without relying on local storage.',
+			'video'       => '',
+			'pro'         => false,
+		],
+		[
+			'title'       => 'Advanced Custom Fields (ACF) Integration',
+			'description' => 'Select and display Google Drive files dynamically using Advanced Custom Fields. This provides developers with flexible content control.',
+			'video'       => '',
+			'pro'         => false,
+
+		],
+		[
+			'title'       => 'Usage Limit Control',
+			'description' => 'Set download and bandwidth limits to prevent excessive file usage. This helps maintain performance and protect your Drive resources.',
+			'video'       => '',
+			'pro'         => true,
 		],
 	];
 	?>

@@ -7,10 +7,10 @@
             </h1>
 
             <p class="features-hero-content__description">
-                <?php _e('Connect Drive is a cutting-edge plugin that enables you to access your essential Connect Drive files and folders directly from your WordPress website. Designed for users with no coding experience, this plugin allows you to easily browse, manage, embed, display, upload, download, search, play, and share your Connect Drive content seamlessly on your WordPress site.', 'connect-drive'); ?>
+                <?php _e('Built to grow with your business, our flexible features adapt to your evolving needs helping you scale faster, work smarter, and stay ahead without limits.', 'connect-drive'); ?>
             </p>
             <div class="features-hero-content__button__area">
-                <a href="/connect-drive-pricing/" class="btn btn-primary ">
+                <a href="/pricing/" class="btn btn-primary ">
                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                         <path d="M5.40499 18C4.90954 18 4.48554 17.8239 4.13302 17.4717C3.78049 17.1195 3.60393 16.6956 3.60333 16.2C3.60273 15.7044 3.77929 15.2808 4.13302 14.9292C4.48675 14.5776 4.91074 14.4012 5.40499 14.4C5.89925 14.3988 6.32354 14.5752 6.67787 14.9292C7.0322 15.2832 7.20846 15.7068 7.20666 16.2C7.20486 16.6932 7.02859 17.1171 6.67787 17.4717C6.32715 17.8263 5.90285 18.0024 5.40499 18ZM14.4133 18C13.9179 18 13.4939 17.8239 13.1413 17.4717C12.7888 17.1195 12.6123 16.6956 12.6117 16.2C12.6111 15.7044 12.7876 15.2808 13.1413 14.9292C13.4951 14.5776 13.9191 14.4012 14.4133 14.4C14.9076 14.3988 15.3319 14.5752 15.6862 14.9292C16.0405 15.2832 16.2168 15.7068 16.215 16.2C16.2132 16.6932 16.0369 17.1171 15.6862 17.4717C15.3355 17.8263 14.9112 18.0024 14.4133 18ZM3.7835 1.8H17.0708C17.4161 1.8 17.6788 1.9539 17.859 2.2617C18.0392 2.5695 18.0467 2.8806 17.8815 3.195L14.6836 8.95499C14.5184 9.25499 14.2971 9.48749 14.0197 9.65249C13.7422 9.81749 13.438 9.89999 13.1071 9.89999H6.39591L5.40499 11.7H16.215V13.5H5.40499C4.72937 13.5 4.2189 13.2039 3.87358 12.6117C3.52826 12.0195 3.51325 11.4306 3.82854 10.845L5.04466 8.63999L1.80166 1.8H0V0H2.92771L3.7835 1.8Z" fill="white" />
                     </svg>

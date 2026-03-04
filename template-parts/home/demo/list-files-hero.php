@@ -2,7 +2,7 @@
     <div class="container">
         <div class="list-files-demo__head text-center">
             <h2 class="list-files-demo__head-title">List Files</h2>
-            <p class="list-files-demo__head-description">Display your Google Drive files in a clean, organized list layout. The List Module allows users to view, download, or even edit files (based on permissions) directly from your site.</p>
+            <p class="list-files-demo__head-description">Showcase your Google Drive files in a neat, organized list layout. The List Module lets users view, download, or edit files (depending on permissions) directly from your website.</p>
         </div>
 
         <div class="list-files-demo-header text-center">

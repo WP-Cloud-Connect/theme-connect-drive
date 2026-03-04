@@ -3,13 +3,13 @@
 $features = [
 	[
 		'title'       => 'Showcase connect Drive Files to View, Download, or Edit',
-		'description' => 'Display your connect Drive files in a clean, organized list layout. The List Module allows users to view, download, or even edit files (based on permissions) directly from your site.',
+		'description' => 'Present your Google Drive files in a clean, well-organized list layout. The List Module enables users to view, download, or edit files (depending on their permissions) directly from your website.',
 		'image'       => get_template_directory_uri() . "/assets/images/connect-drive/list-demo/showcase-connect.png",
 		'features'    => ['Clean list-style file display', 'View or download files instantly', 'Edit access based on file permissions', 'Supports all connect Drive file types', 'Ideal for documents, spreadsheets, PDFs, and more']
 	],
 	[
 		'title'       => 'Multiple List Styles',
-		'description' => 'Customize how your connect Drive files are displayed with a variety of list styles. Choose from clean link lists, button-enhanced layouts, or alternate list designs to match your site\'s look and feel.',
+		'description' => 'Personalize the display of your Google Drive files with multiple list styles. Select from simple link lists, button-enhanced layouts, or alternative designs to perfectly match your website’s style.',
 		'image'       => get_template_directory_uri() . "/assets/images/connect-drive/list-demo/multiple-list-styles.png",
 		'features'    => [
 			'Link',
@@ -21,13 +21,13 @@ $features = [
 	],
 	[
 		'title'       => 'Default Click Action',
-		'description' => 'Control what happens when users click on a file—set the default action to view, download, or edit. This gives you full flexibility over how files behave across your modules based on your use case.',
+		'description' => 'Define what happens when users click a file and choose to view, download, or edit by default. This gives you complete control over file behavior across your modules to suit your specific needs.',
 		'image'       => get_template_directory_uri() . "/assets/images/connect-drive/list-demo/default-click-action.png",
 		'features'    => ['View', 'Download', 'Edit'],
 	],
 	[
 		'title'       => 'Generate Links for Folder Files',
-		'description' => 'Automatically generate shareable links for all files inside a selected connect Drive folder. Perfect for creating quick download pages, file listings, or sharing multiple files with a single setup.',
+		'description' => 'Easily generate shareable links for all files within a selected Google Drive folder. Perfect for quickly creating download pages, organizing file listings, or sharing multiple files effortlessly with a single setup.',
 		'image'       => get_template_directory_uri() . "/assets/images/connect-drive/list-demo/generate-links-for-folder-files.png",
 		'features'    => ['One-click link generation for folder contents', 'Supports view and download actions', 'Works with public and private folders', 'Ideal for documents, resources, or client deliverables',],
 	],

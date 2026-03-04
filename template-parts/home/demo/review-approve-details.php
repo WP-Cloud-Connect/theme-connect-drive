@@ -3,13 +3,13 @@
 $features = [
 	[
 		'title'       => 'Allow Users to Review & Submit',
-		'description' => 'Let users select and submit specific files for review using a streamlined interface. Whether it’s for approvals, feedback, or final selections, this feature enables a smooth, user-friendly submission process from the front end.',
+		'description' => 'Allow users to choose and submit specific files for review through a simple, intuitive interface. Ideal for approvals, feedback, or final selections, this feature ensures a smooth and user-friendly front-end submission process.',
 		'image'       => get_template_directory_uri() . "/assets/images/connect-drive/review-approve-demo/allow-users-review-submit.png",
 		'features'    => ['Galleries in the Cloud', 'Increase loading performance', 'Inline preview Galleries ', 'Automatically Set Thumbnails',]
 	],
 	[
 		'title'       => 'Admins can Review Selection from Admin Dashboard',
-		'description' => 'Easily manage and review user-submitted file selections directly from the WordPress admin dashboard. View submissions, approve or reject them, and streamline your review workflow—all in one place.',
+		'description' => 'Manage and review user-submitted files directly from the WordPress admin dashboard. Easily view submissions, approve or reject them, and keep your review workflow organized in one place.',
 		'image'       => get_template_directory_uri() . "/assets/images/connect-drive/review-approve-demo/review-selection.png",
 		'features'    => [
 			'Control the Grid size',
@@ -20,7 +20,7 @@ $features = [
 	],
 	[
 		'title'       => 'Multiple Tags Management',
-		'description' => 'Easily organize and track file statuses using custom tags like Approved, Rejected, Pending, and Needs Review. Tags help streamline collaboration and keep everyone on the same page throughout the review process.',
+		'description' => 'Quickly organize and track file statuses with custom tags such as Approved, Rejected, Pending, and Needs Review. These tags simplify collaboration and ensure everyone stays aligned throughout the review process.',
 		'image'       => get_template_directory_uri() . "/assets/images/connect-drive/review-approve-demo/multiple-tags-management.png",
 		'features'    => ['Tag files as Approved , Rejected , Pending , etc.', 'Customize and filter by tags', 'Improve file tracking and workflow clarity', 'Visible to both users and admins',],
 	]

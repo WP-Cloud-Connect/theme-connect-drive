@@ -5,7 +5,13 @@ $features = [
 		'title'       => 'Instant File Search Feature',
 		'description' => 'Enable lightning-fast file discovery with real-time search that instantly displays matching Google Drive documents as users type, no page reload, no delay, just seamless results.',
 		'image'       => get_template_directory_uri() . "/assets/images/connect-drive/search-box-demo/instant-file-search.png",
-		'features'    => ['Clean and organized result display', 'Mobile-friendly search experience', 'Quick preview options', 'Direct download options', 'Optimized for large file libraries']
+		'features'    => [
+			'Clean and organized result display', 
+			'Mobile-friendly search experience', 
+			'Quick preview options', 
+			'Direct download options', 
+			'Optimized for large file libraries'
+			]
 	],
 	[
 		'title'       => 'Smart Filtering & Results',

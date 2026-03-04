@@ -3,7 +3,7 @@
         <div class="row">
             <div class="connect-drive-funfact__head text-center">
                 <h4 class="connect-drive-funfact__head-title">Discover the Power Behind <span> Connect-Drive</span></h4>
-                <p class="connect-drive-funfact__head-description">Discover the success of our business at a glance</p>
+                <p class="connect-drive-funfact__head-description">See Our Business Success at a Glance</p>
             </div>
         </div>
         <div class="connect-drive-funfact__main-item">

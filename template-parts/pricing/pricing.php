@@ -97,7 +97,7 @@ $lifetime_pro_features = [
         <div class="row align-items-center">
             <div class="connect-drive-pricing__hero-content text-center">
                 <h4 class="connect-drive-pricing__hero-title">Simple Pricing, Unbeatable Value</h4>
-                <p class="connect-drive-pricing__hero-description">Join 10000+ User's Happy Community</p>
+                <p class="connect-drive-pricing__hero-description">Flexible pricing designed for growing businesses. Scale confidently with premium features at unbeatable value.</p>
             </div>
         </div>
 
@@ -348,7 +348,17 @@ $lifetime_pro_features = [
                         </div>
                     </div>
                     <div class="pricing-btn">
-                        <a href="#features" class="features-btn">See All Features <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="#features" class="features-btn">See All Features
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" viewBox="0 0 16 14" fill="none">
+                                <path d="M14.75 6.75H0.75M14.75 6.75L8.75 12.75M14.75 6.75L8.75 0.75" stroke="url(#paint0_linear_1_2806)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                <defs>
+                                    <linearGradient id="paint0_linear_1_2806" x1="0.750001" y1="11.7115" x2="15.6166" y2="3.78469" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#1C6BCB" />
+                                        <stop offset="1" stop-color="#2D7CFF" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </a>
                         <a href="https://softlabbd.com/wp-content/uploads/2026/01/integrate-connect-drive-free.1.5.4.zip" class="btn buy-btn"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                                 <path d="M8.99999 13.0219C8.84999 13.0219 8.70937 12.9986 8.57812 12.9521C8.44687 12.9056 8.32499 12.8258 8.21249 12.7125L4.1625 8.6625C3.9375 8.4375 3.8295 8.175 3.8385 7.875C3.8475 7.575 3.9555 7.3125 4.1625 7.0875C4.3875 6.8625 4.65487 6.7455 4.96462 6.7365C5.27437 6.7275 5.54137 6.83513 5.76562 7.05938L7.87499 9.16875V1.125C7.87499 0.806254 7.98299 0.539254 8.19899 0.324004C8.41499 0.108754 8.68199 0.000753879 8.99999 3.8793e-06C9.31799 -0.00074612 9.58537 0.107254 9.80212 0.324004C10.0189 0.540754 10.1265 0.807754 10.125 1.125V9.16875L12.2344 7.05938C12.4594 6.83438 12.7267 6.72638 13.0365 6.73538C13.3462 6.74438 13.6132 6.86175 13.8375 7.0875C14.0437 7.3125 14.1517 7.575 14.1615 7.875C14.1712 8.175 14.0632 8.4375 13.8375 8.6625L9.78749 12.7125C9.67499 12.825 9.55312 12.9049 9.42187 12.9521C9.29062 12.9994 9.14999 13.0226 8.99999 13.0219ZM2.25 18C1.63125 18 1.10175 17.7799 0.661499 17.3396C0.22125 16.8994 0.000749999 16.3695 0 15.75V13.5C0 13.1813 0.108 12.9143 0.324 12.699C0.54 12.4838 0.806999 12.3758 1.125 12.375C1.443 12.3743 1.71037 12.4823 1.92712 12.699C2.14387 12.9158 2.2515 13.1827 2.25 13.5V15.75H15.75V13.5C15.75 13.1813 15.858 12.9143 16.074 12.699C16.29 12.4838 16.557 12.3758 16.875 12.375C17.193 12.3743 17.4604 12.4823 17.6771 12.699C17.8939 12.9158 18.0015 13.1827 18 13.5V15.75C18 16.3687 17.7799 16.8986 17.3396 17.3396C16.8994 17.7806 16.3695 18.0007 15.75 18H2.25Z" fill="white" />
                             </svg> Download Free</a>
@@ -435,7 +445,17 @@ $lifetime_pro_features = [
                             <?php } ?>
                         </div>
                         <div class="pricing-btn">
-                            <a href="#features" class="features-btn">See All Features <i class="fa-solid fa-arrow-right"></i></a>
+                            <a href="#features" class="features-btn">See All Features
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" viewBox="0 0 16 14" fill="none">
+                                    <path d="M14.75 6.75H0.75M14.75 6.75L8.75 12.75M14.75 6.75L8.75 0.75" stroke="url(#paint0_linear_1_2806)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                    <defs>
+                                        <linearGradient id="paint0_linear_1_2806" x1="0.750001" y1="11.7115" x2="15.6166" y2="3.78469" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#1C6BCB" />
+                                            <stop offset="1" stop-color="#2D7CFF" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </a>
                             <a href="#" class="btn buy-btn buy-btn-pro"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                                     <path d="M5.40499 18C4.90954 18 4.48554 17.8239 4.13302 17.4717C3.78049 17.1195 3.60393 16.6956 3.60333 16.2C3.60273 15.7044 3.77929 15.2808 4.13302 14.9292C4.48675 14.5776 4.91074 14.4012 5.40499 14.4C5.89925 14.3988 6.32354 14.5752 6.67787 14.9292C7.0322 15.2832 7.20846 15.7068 7.20666 16.2C7.20486 16.6932 7.02859 17.1171 6.67787 17.4717C6.32715 17.8263 5.90285 18.0024 5.40499 18ZM14.4133 18C13.9179 18 13.4939 17.8239 13.1413 17.4717C12.7888 17.1195 12.6123 16.6956 12.6117 16.2C12.6111 15.7044 12.7876 15.2808 13.1413 14.9292C13.4951 14.5776 13.9191 14.4012 14.4133 14.4C14.9076 14.3988 15.3319 14.5752 15.6862 14.9292C16.0405 15.2832 16.2168 15.7068 16.215 16.2C16.2132 16.6932 16.0369 17.1171 15.6862 17.4717C15.3355 17.8263 14.9112 18.0024 14.4133 18ZM3.7835 1.8H17.0708C17.4161 1.8 17.6788 1.9539 17.859 2.2617C18.0392 2.5695 18.0467 2.8806 17.8815 3.195L14.6836 8.95499C14.5184 9.25499 14.2971 9.48749 14.0197 9.65249C13.7422 9.81749 13.438 9.89999 13.1071 9.89999H6.39591L5.40499 11.7H16.215V13.5H5.40499C4.72937 13.5 4.2189 13.2039 3.87358 12.6117C3.52826 12.0195 3.51325 11.4306 3.82854 10.845L5.04466 8.63999L1.80166 1.8H0V0H2.92771L3.7835 1.8Z" fill="white" />
                                 </svg> Buy Now</a>
@@ -518,7 +538,17 @@ $lifetime_pro_features = [
                         <?php } ?>
                     </div>
                     <div class="pricing-btn">
-                        <a href="#features" class="features-btn">See All Features <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="#features" class="features-btn">See All Features
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" viewBox="0 0 16 14" fill="none">
+                                <path d="M14.75 6.75H0.75M14.75 6.75L8.75 12.75M14.75 6.75L8.75 0.75" stroke="url(#paint0_linear_1_2806)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                <defs>
+                                    <linearGradient id="paint0_linear_1_2806" x1="0.750001" y1="11.7115" x2="15.6166" y2="3.78469" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#1C6BCB" />
+                                        <stop offset="1" stop-color="#2D7CFF" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </a>
                         <a href="#" class="btn buy-btn buy-btn-pro"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                                 <path d="M5.40499 18C4.90954 18 4.48554 17.8239 4.13302 17.4717C3.78049 17.1195 3.60393 16.6956 3.60333 16.2C3.60273 15.7044 3.77929 15.2808 4.13302 14.9292C4.48675 14.5776 4.91074 14.4012 5.40499 14.4C5.89925 14.3988 6.32354 14.5752 6.67787 14.9292C7.0322 15.2832 7.20846 15.7068 7.20666 16.2C7.20486 16.6932 7.02859 17.1171 6.67787 17.4717C6.32715 17.8263 5.90285 18.0024 5.40499 18ZM14.4133 18C13.9179 18 13.4939 17.8239 13.1413 17.4717C12.7888 17.1195 12.6123 16.6956 12.6117 16.2C12.6111 15.7044 12.7876 15.2808 13.1413 14.9292C13.4951 14.5776 13.9191 14.4012 14.4133 14.4C14.9076 14.3988 15.3319 14.5752 15.6862 14.9292C16.0405 15.2832 16.2168 15.7068 16.215 16.2C16.2132 16.6932 16.0369 17.1171 15.6862 17.4717C15.3355 17.8263 14.9112 18.0024 14.4133 18ZM3.7835 1.8H17.0708C17.4161 1.8 17.6788 1.9539 17.859 2.2617C18.0392 2.5695 18.0467 2.8806 17.8815 3.195L14.6836 8.95499C14.5184 9.25499 14.2971 9.48749 14.0197 9.65249C13.7422 9.81749 13.438 9.89999 13.1071 9.89999H6.39591L5.40499 11.7H16.215V13.5H5.40499C4.72937 13.5 4.2189 13.2039 3.87358 12.6117C3.52826 12.0195 3.51325 11.4306 3.82854 10.845L5.04466 8.63999L1.80166 1.8H0V0H2.92771L3.7835 1.8Z" fill="white" />
                             </svg> Buy Now</a>
@@ -536,9 +566,9 @@ $lifetime_pro_features = [
             const productIcon = '<?php echo get_template_directory_uri(); ?>/assets/images/connect-drive/connect-drive.png';
 
             var handler = FS.Checkout.configure({
-                plugin_id: '9618',
-                plan_id: '16186',
-                public_key: 'pk_eb27e7eaa4f2692b385aec28288f2',
+                plugin_id: '25152',
+                plan_id: '41678',
+                public_key: 'pk_cc2aba05fb0a1b8cedade7a38b23a',
                 image: productIcon,
             });
 
@@ -555,7 +585,7 @@ $lifetime_pro_features = [
                 const productInfo = {
                     productIcon: productIcon,
                     planName: planName,
-                    productName: "Integrate Google Drive",
+                    productName: "Connect Drive",
                     docs: "https://softlabbd.com/docs-category/integrate-connect-drive-docs/",
                     video: "https://www.youtube.com/watch?v=3RqCA7J9HB4&list=PLaR5hjDXnXZyQI6LU-1Ijz_x9vkXQop7I",
                     productDescription: "All-in-One Google Drive Integration for WordPress",

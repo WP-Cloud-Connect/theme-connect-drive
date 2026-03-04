@@ -1,29 +1,29 @@
 <?php
 
 $faqs = [
-    [
-        'question' => 'Is there any upload size limit for the File Uploader module?',
-        'answer'   => 'No, there is no upload size limit for the File Uploader module. You can upload any file size.',
+      [
+        'question' => 'Does Connect Drive affect my hosting bandwidth?',
+        'answer'   => 'Most media files stream directly from Google Drive, which means your hosting bandwidth stays protected. However, if you generate downloadable ZIP files, those may temporarily use your server’s resources.',
     ],
     [
-        'question' => 'Can I link a Connect Drive folder to a user on my site when they have been registered?',
-        'answer'   => 'Yes, you can link a Google Drive folder to a user on your site when they have been registered.',
+        'question' => 'Can each user have their own Google Drive folder?',
+        'answer'   => 'Absolutely. Connect Drive allows you to automatically assign a dedicated Google Drive folder to each registered user. Perfect for client portals, student submissions, membership sites, or private workspaces.',
     ],
     [
-        'question' => 'Can I use multiple Connect Drive accounts?',
-        'answer'   => 'Yes, you can link to multiple Google Drive accounts.',
+        'question' => 'Is there a file upload size limit?',
+        'answer'   => 'No, Connect Drive does not set any artificial upload limits. You can upload files as large as your Google Drive storage allows. The only limits that apply are those set by Google Drive itself, not by our plugin.',
     ],
     [
-        'question' => 'Are there any usage limits?',
-        'answer'   => 'Yes, you can link to multiple Google Drive accounts.',
+        'question' => 'Why is the search taking longer than expected?',
+        'answer'   => 'Search speed depends on the number of files inside your connected folders. If you have thousands of files and nested subfolders, it may take a few seconds to fetch results. More files = more data to scan.',
     ],
     [
-        'question' => 'Documents preview not working?',
-        'answer'   => 'Yes, you can link to multiple Google Drive accounts.',
+        'question' => 'Is Connect Drive secure?',
+        'answer'   => 'Yes. Connect Drive uses secure authentication to connect your Google Drive account. Your login credentials are never stored. All communication happens through Google’s official API and secure authorization process.',
     ],
     [
-        'question' => 'Why search module search results are slow?',
-        'answer'   => 'Yes, you can link to multiple Google Drive accounts.',
+        'question' => 'Can I restrict access to specific files or folders?',
+        'answer'   => 'Yes, you have full control. You can restrict access by user role, individual users, or specific folders, ensuring that only authorized users can view or upload content.',
     ],
 ];
 

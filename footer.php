@@ -16,7 +16,7 @@
                 </div>
 
                 <div class="footer-contant">
-                    <p>We make WordPress Better, Faster & Easier, in Smart Ways that Pushes Your Business Growth</p>
+                    <p>Making WordPress Smarter, Faster, and Easier with Direct File and Folder Sharing from Google Drive.</p>
                 </div>
             </div>
 

@@ -44,7 +44,7 @@ $forms = [
 $main_features_items = [
 	'file-browser'  => [
 		'title'       => 'File Browser',
-		'description' => 'Display your cloud files via an interactive File Browser. The file browser can have a grid thumbnail and list view for the Google Drive files you are browsing. It’s the simplest solution to manage your cloud files easily & efficiently.',
+		'description' => 'Display your cloud files using an interactive File Browser. The browser offers both grid thumbnail and list views for the Google Drive files, making it easy and efficient to manage your cloud content.',
 		'video' => '#',
 		'button_icon' =>  get_template_directory_uri() . "/assets/images/connect-drive/video-icon.png",
 		'icon'        => '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
@@ -54,7 +54,7 @@ $main_features_items = [
 
 	'gallery'         => [
 		'title'       => 'Gallery',
-		'description' => 'The Photo Gallery Module feature of the plugin can display your Google Drive images on your website in a masonry grid layout with a lightbox preview. This module lets you create a stunning photo gallery and display it to your users.',
+		'description' => 'With Connect Drive, showcase your files using the Gallery feature. Display your Google Drive files in beautiful grid or lightbox layouts, making it easy to organize and present your content visually.',
 		'video' => '#',
 		'button_icon' =>  get_template_directory_uri() . "/assets/images/connect-drive/video-icon.png",
 		'icon'        => '<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
@@ -64,7 +64,7 @@ $main_features_items = [
 
 	'review-approve-module' => [
 		'title'       => 'Review & Approve',
-		'description' => 'The Review and Approve module offers a collaborative workflow where users can review, select, and approve Google Drive files submitted for feedback or confirmation. Ideal for use cases like photo proofing, document approvals, or asset selection, this module includes selection checkboxes, approval status indicators, and comment support.',
+		'description' => 'The Review and Approve module provides a streamlined collaborative workflow, allowing users to review, select, and approve Google Drive files submitted for feedback or confirmation. Perfect for tasks like photo proofing, document approvals, or asset selection, this module features selection checkboxes, approval status indicators, and built-in comment support for seamless collaboration.',
 		'video' => '#',
 		'button_icon' =>  get_template_directory_uri() . "/assets/images/connect-drive/video-icon.png",
 		'icon'        => '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
@@ -74,7 +74,7 @@ $main_features_items = [
 
 	'file-uploader' => [
 		'title'       => 'File Uploader',
-		'description' => 'Integrate Google Drive features a user-friendly file uploader to upload files into the Google Drive cloud platform from your website. Users can see an upload progress bar, file name, cancel uploading action, and media preview for improved interactions.',
+		'description' => 'Easily upload your files using the File Uploader. It supports quick, seamless uploads to your Google Drive, providing a simple and efficient way to manage and organize your cloud content.',
 		'video' => '#',
 		'button_icon' =>  get_template_directory_uri() . "/assets/images/connect-drive/video-icon.png",
 		'icon'        => '<svg xmlns="http://www.w3.org/2000/svg" width="13" height="15" viewBox="0 0 13 15" fill="none">
@@ -84,7 +84,7 @@ $main_features_items = [
 
 	'media-player' => [
 		'title'       => 'Media Player',
-		'description' => 'Play Google Drive audio and video files in a single player using the Media Player module from your website. This feature will also create a stunning playlist for all selected media files. All in all, you can save your hosting space by using this feature.',
+		'description' => 'Stream your files effortlessly with the Connect Drive Media Player. Play audio and video directly from your Google Drive, providing a smooth and engaging media experience on your website.',
 		'video' => '#',
 		'button_icon' =>  get_template_directory_uri() . "/assets/images/connect-drive/video-icon.png",
 		'icon'        => '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none"> <g clip-path="url(#clip0_102_4456)">
@@ -101,7 +101,7 @@ $main_features_items = [
 
 	'search-box' => [
 		'title'       => 'Search Box',
-		'description' => 'Making WordPress easier for you is our main goal! That’s why we included Shortcode Builder in our Plugin. It helps create various types of modules (File Browser, File Uploader, Media Player, Photo Gallery, etc) with different configurations. After creating a module with Shortcode Builder, display it anywhere on your website.',
+		'description' => 'The Connect Drive Search Box module lets you quickly find files from your Google Drive. Users can easily search, locate, and access the content they need directly from your website.',
 		'video' => '#',
 		'button_icon' =>  get_template_directory_uri() . "/assets/images/connect-drive/video-icon.png",
 		'icon'        => '<svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
@@ -118,7 +118,7 @@ $main_features_items = [
 
 	'embed-documents' => [
 		'title'       => 'Embed Documents',
-		'description' => 'Making WordPress easier for you is our main goal! That’s why we included Shortcode Builder in our Plugin. It helps create various types of modules (File Browser, File Uploader, Media Player, Photo Gallery, etc) with different configurations. After creating a module with Shortcode Builder, display it anywhere on your website.',
+		'description' => 'With the Connect Drive Embed Documents module, you can display your Google Drive documents directly on your website. Easily embed files like PDFs, Word documents, and spreadsheets for seamless viewing without leaving your site.',
 		'video' => '#',
 		'button_icon' =>  get_template_directory_uri() . "/assets/images/connect-drive/video-icon.png",
 		'icon'        => '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
@@ -128,7 +128,7 @@ $main_features_items = [
 
 	'list-files' => [
 		'title'       => 'List',
-		'description' => 'The List Files module offers a clean, organized interface to display your Google Drive files, allowing users to preview and download files directly from the list.',
+		'description' => 'The List Files module provides a clean and organized interface to showcase your Google Drive files, enabling users to preview and download files directly from the list.',
 		'video' => '#',
 		'button_icon' =>  get_template_directory_uri() . "/assets/images/connect-drive/video-icon.png",
 		'icon'        => '<svg xmlns="http://www.w3.org/2000/svg" width="9" height="12" viewBox="0 0 9 12" fill="none">
@@ -138,7 +138,7 @@ $main_features_items = [
 
 	'slider-carousel' => [
 		'title'       => 'Slider Carousel',
-		'description' => 'The Slider Carousel feature in our Google Drive plugin lets you create a slideshow of images or videos from your Google Drive. You can customize it with autoplay and navigation buttons to make your content more engaging and visually appealing.',
+		'description' => 'With Connect Drive, display your files using the Slider Carousel feature. Showcase your Google Drive files in a smooth, interactive carousel, making it easy to highlight and navigate through your content.',
 		'video' => '#',
 		'button_icon' =>  get_template_directory_uri() . "/assets/images/connect-drive/video-icon.png",
 		'icon'        => '<svg xmlns="http://www.w3.org/2000/svg" width="18" height="12" viewBox="0 0 18 12" fill="none">
@@ -323,7 +323,7 @@ $main_features_items = [
 											<stop offset="1" stop-color="#2D7CFF" />
 										</linearGradient>
 									</defs>
-								</svg> Connect Drive as Media Attachment</span>
+								</svg> Google Drive as Media Attachment</span>
 							<span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
 									<path d="M9 11.9979L11 13.9976L15 9.99829M21 11.9979C21 13.1796 20.7672 14.3498 20.3149 15.4415C19.8626 16.5332 19.1997 17.5252 18.364 18.3608C17.5282 19.1964 16.5361 19.8592 15.4442 20.3114C14.3522 20.7636 13.1819 20.9964 12 20.9964C10.8181 20.9964 9.64778 20.7636 8.55585 20.3114C7.46392 19.8592 6.47177 19.1964 5.63604 18.3608C4.80031 17.5252 4.13738 16.5332 3.68508 15.4415C3.23279 14.3498 3 13.1796 3 11.9979C3 9.61141 3.94821 7.32263 5.63604 5.63509C7.32387 3.94756 9.61305 2.99951 12 2.99951C14.3869 2.99951 16.6761 3.94756 18.364 5.63509C20.0518 7.32263 21 9.61141 21 11.9979Z" stroke="url(#paint0_linear_1_1566)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
 									<defs>
@@ -341,7 +341,7 @@ $main_features_items = [
 											<stop offset="1" stop-color="#2D7CFF" />
 										</linearGradient>
 									</defs>
-								</svg> Upload to Connect Drive</span>
+								</svg> Upload to Google Drive</span>
 							<span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
 									<path d="M9 11.9979L11 13.9976L15 9.99829M21 11.9979C21 13.1796 20.7672 14.3498 20.3149 15.4415C19.8626 16.5332 19.1997 17.5252 18.364 18.3608C17.5282 19.1964 16.5361 19.8592 15.4442 20.3114C14.3522 20.7636 13.1819 20.9964 12 20.9964C10.8181 20.9964 9.64778 20.7636 8.55585 20.3114C7.46392 19.8592 6.47177 19.1964 5.63604 18.3608C4.80031 17.5252 4.13738 16.5332 3.68508 15.4415C3.23279 14.3498 3 13.1796 3 11.9979C3 9.61141 3.94821 7.32263 5.63604 5.63509C7.32387 3.94756 9.61305 2.99951 12 2.99951C14.3869 2.99951 16.6761 3.94756 18.364 5.63509C20.0518 7.32263 21 9.61141 21 11.9979Z" stroke="url(#paint0_linear_1_1566)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
 									<defs>
@@ -350,7 +350,7 @@ $main_features_items = [
 											<stop offset="1" stop-color="#2D7CFF" />
 										</linearGradient>
 									</defs>
-								</svg> Import from Connect Drive</span>
+								</svg> Import from Google Drive</span>
 							<span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
 									<path d="M9 11.9979L11 13.9976L15 9.99829M21 11.9979C21 13.1796 20.7672 14.3498 20.3149 15.4415C19.8626 16.5332 19.1997 17.5252 18.364 18.3608C17.5282 19.1964 16.5361 19.8592 15.4442 20.3114C14.3522 20.7636 13.1819 20.9964 12 20.9964C10.8181 20.9964 9.64778 20.7636 8.55585 20.3114C7.46392 19.8592 6.47177 19.1964 5.63604 18.3608C4.80031 17.5252 4.13738 16.5332 3.68508 15.4415C3.23279 14.3498 3 13.1796 3 11.9979C3 9.61141 3.94821 7.32263 5.63604 5.63509C7.32387 3.94756 9.61305 2.99951 12 2.99951C14.3869 2.99951 16.6761 3.94756 18.364 5.63509C20.0518 7.32263 21 9.61141 21 11.9979Z" stroke="url(#paint0_linear_1_1566)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
 									<defs>
@@ -359,7 +359,7 @@ $main_features_items = [
 											<stop offset="1" stop-color="#2D7CFF" />
 										</linearGradient>
 									</defs>
-								</svg> Replace with Connect Drive</span>
+								</svg> Replace with Google Drive</span>
 
 						</div>
 

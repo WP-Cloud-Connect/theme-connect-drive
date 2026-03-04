@@ -3,8 +3,7 @@
 
         <div class="uploader-demo__head text-center">
             <h2 class="uploader-demo__head-title">File Uploader</h2>
-            <p class="uploader-demo__head-description">You and also your users can upload files directly to your Google Drive account from your
-                site.</p>
+            <p class="uploader-demo__head-description">You and your visitors can easily upload files directly to your Google Drive account right from your website, making file sharing and storage seamless.</p>
         </div>
 
         <div class="file-uploader-demo text-center">

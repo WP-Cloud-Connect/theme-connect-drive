@@ -28,7 +28,7 @@
 			if ( 'post' === get_post_type() ) :
 		?>
 			<div class="entry-meta">
-				<?php softlab_article_posted_on(); ?>
+				<?php connect_drive_article_posted_on(); ?>
 			</div><!-- /.entry-meta -->
 		<?php
 			endif;

@@ -2,32 +2,32 @@
 $features = [
 	[
 		'title'       => 'One-Click File Uploader',
-		'description' => 'You and your users can upload files directly to your connect Drive account from your site with just 1 click.',
+		'description' => 'The File Uploader lets you and your users upload files straight to your Google Drive from your site in just one click.',
 		'image'       => get_template_directory_uri() . "/assets/images/connect-drive/uploader-demo/one-click.png",
 		'features'    => ['Create Perfect Upload', 'Customize Uploader', 'Easily Upload Documents ', 'Close Uploaded Files',],
 	],
 
 	[
-		'title'       => 'Popular Forms Connect & Easy to Use',
-		'description' => 'Integrate your favorite services and add advanced features with official Forms. Each license offers a range of add-ons included with your annual subscription.',
+		'title'       => 'Google Drive Upload Field for Popular Forms',
+		'description' => 'Easily add a Google Drive upload field to your favorite forms, allowing users to send files straight to your Google Drive. Streamline file collection, stay organized, and boost collaboration effortlessly.',
 		'image'       => get_template_directory_uri() . "/assets/images/connect-drive/uploader-demo/form-illustration.png",
 		'features'    => ['Contact Form 7', 'WPForms', 'Gravity Forms', 'Ninja Forms', 'Fluent Forms', 'Formidable Forms', 'Elementor Form', 'MetForm'],
 	],
 	[
 		'title'       => 'Upload to connect Drive',
-		'description' => 'Allow users to upload files directly to your connected connect Drive from the WordPress platform. It’s a fast, secure, and seamless way to collect files without needing external access to connect Drive.',
+		'description' => 'With Connect Drive, users can upload files directly to their connected Google Drive right from their WordPress site. It’s a fast, secure, and seamless way to collect files without giving external access to your Google Drive.',
 		'image'       => get_template_directory_uri() . "/assets/images/connect-drive/uploader-demo/uploader-style.png",
 		'features'    => ['Direct upload to connect Drive', 'Supports multiple file types and sizes', 'Secure uploads with permission control', 'Role and permission-based uploads',],
 	],
 	[
 		'title'       => 'Specific Folder Selector',
-		'description' => 'Easily choose the exact connect Drive folder where files will be uploaded or displayed. With the Specific Folder Selector, you have full control over file organization for each module—no need to hardcode folder IDs.',
+		'description' => 'With Connect Drive, you can effortlessly select the exact Google Drive folder where files will be uploaded or displayed. The Specific Folder Selector gives you complete control over file organization for each module—no hardcoding of folder IDs required.',
 		'image'       => get_template_directory_uri() . "/assets/images/connect-drive/uploader-demo/specific-folder-selector.png",
 		'features'    => ['Select connect Drive folders visually from WordPress', 'Avoids manual folder ID entry', 'Supports nested folders', 'Saves time and improves accuracy',],
 	],
 	[
 		'title'       => 'Uploaded File Description',
-		'description' => 'Allow users to enter a custom description when uploading files through the File Uploader module. The description is saved to connect Drive and can be viewed directly from Drive or used in your file display modules.',
+		'description' => 'Let users add a custom description when uploading files via the File Uploader module. The description is saved to Google Drive and can be viewed directly from Drive or used within your file display modules.',
 		'image'       => get_template_directory_uri() . "/assets/images/connect-drive/uploader-demo/uploaded-file-description.png",
 		'features'    => ['Add file description during upload', 'Description saved in connect Drive metadata', 'Enhances file context and organization', 'An optional and user-friendly input field',],
 	],

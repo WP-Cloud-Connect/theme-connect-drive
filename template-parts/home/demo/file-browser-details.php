@@ -3,13 +3,13 @@
 $features = [
 	[
 		'title'       => 'Manage Your Documents Easily',
-		'description' => 'File Browser and manage your Documents easily via your favorite cloud platform. The File Browser will make sure that your files are automatically shown on your WordPress site.',
+		'description' => 'Use the File Browser to easily manage your documents through your preferred cloud platform. The File Browser ensures your files are automatically displayed on your WordPress site.',
 		'image'       => get_template_directory_uri() . "/assets/images/connect-drive/file-bowser-demo/documents.png",
 		'features'    => ['List and Grid View', 'Search and Filter', 'Live Preview Files', 'Import Media in File',]
 	],
 	[
 		'title'       => 'Link Multiple connect Drive Accounts',
-		'description' => 'You can add and manage multiple connect Drive cloud accounts from your site using this plugin.',
+		'description' => 'Add and manage multiple Google Drive accounts from your website using this plugin.',
 		'image'       => get_template_directory_uri() . "/assets/images/connect-drive/file-bowser-demo/multiple.png",
 		'features'    => [
 			'Use Your Own Account',
@@ -20,19 +20,19 @@ $features = [
 	],
 	[
 		'title'       => 'Customize Using by Appearance',
-		'description' => 'You can change its colors, and Background colors as needed, save them with the current style.',
+		'description' => 'Easily customize colors and background styles to match your site’s design while keeping your current layout and style intact.',
 		'image'       => get_template_directory_uri() . "/assets/images/connect-drive/file-bowser-demo/appearance.png",
 		'features'    => ['Live Preview Style', 'Colors Customize', 'Use Custom CSS', 'Background Color Changes',],
 	],
 	[
 		'title'       => 'Use ACF field Files',
-		'description' => 'Easily connect your ACF File fields with the connect Drive File Browser module to display files dynamically across your site. Whether you\'re using single or repeater fields, files linked via ACF are automatically rendered—no manual setup required.',
+		'description' => 'Seamlessly link your ACF File fields with Connect Drive’s File Browser to showcase Google Drive files dynamically on your WordPress site. Single or repeater fields are fully supported, and files connected via ACF appear automatically without any manual setup.',
 		'image'       => get_template_directory_uri() . "/assets/images/connect-drive/file-bowser-demo/use-acf-field-files.png",
 		'features'    => ['Automatically pulls files from connect Drive', 'Ideal for dynamic file rendering', 'Auto-sync with ACF File fields', 'No manual linking needed',],
 	],
 	[
 		'title'       => 'Useful Interactions',
-		'description' => 'The File Browser module offers powerful connect Drive file management capabilities directly from the WordPress platform. Users can seamlessly interact with files—view, upload, download, or delete based on their permissions.',
+		'description' => 'The Connect Drive File Browser offers powerful Google Drive file management capabilities directly from the WordPress platform. Users can seamlessly interact with files, view, upload, download, or delete based on their permissions.',
 		'image'       => get_template_directory_uri() . "/assets/images/connect-drive/file-bowser-demo/useful-interactions.png",
 		'features'    => ['View files in real-time', 'Upload new files', 'Download with one click', 'Delete files securely', 'Role-based access control'],
 	],

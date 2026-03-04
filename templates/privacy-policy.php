@@ -107,8 +107,8 @@ get_header();
         </div>
         <div class="privacy-policy__main">
             <h3>Contact Us</h3>
-            <p>If you have any questions about this Privacy Policy, You can contact us by visiting this page on our website:</p>
-            <a href="#">https://softlab.com/contact/</a>
+            <p>If you have any questions about this Privacy Policy, You can contact us by visiting this page on our website:  <a href="/contact/">https://wp-cloud-connect.com/contact/</a></p>
+           
         </div>
 
 

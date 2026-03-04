@@ -11,7 +11,7 @@ get_header();
     <div class="container">
         <div class="browser-demo__head text-center">
             <h2 class="browser-demo__head-title">WooCommerce</h2>
-            <p class="browser-demo__head-description">The Integrate connect Drive plugin with WooCommerce compatibility enables administrators to authorize users to upload and download files from various page locations.</p>
+            <p class="browser-demo__head-description">The Connect Drive plugin, compatible with WooCommerce, allows administrators to let users upload and download files from multiple locations across your website.</p>
         </div>
     </div>
 </section>
@@ -29,13 +29,13 @@ get_header();
 $features = [
     [
         'title'       => 'Downloadable connect Drive Products',
-        'description' => 'Sell digital products stored in connect Drive directly through your WooCommerce store. Link Drive files as product downloads and deliver them securely to customers after purchase.',
+        'description' => 'Easily sell digital products stored in Google Drive through your WooCommerce store. Attach Google Drive files as product downloads and provide secure, instant delivery to customers after purchase.',
         'image'       => get_template_directory_uri() . "/assets/images/connect-drive/woocommerce/downloadable-connect-drive-products.png",
         'features'    => ['Use connect Drive files as WooCommerce downloads', 'Secure file delivery after order completion', 'Supports large files and multiple file types', 'No need to upload files to WordPress', 'Works with both simple and variable products']
     ],
     [
-        'title'       => 'connect Drive Upload Field based on Order Status',
-        'description' => 'Show or hide the connect Drive file upload field on the order details page based on the order status. Ideal for collecting additional files from customers only when specific conditions are met.',
+        'title'       => 'Google Drive Upload Field based on Order Status',
+        'description' => 'Display or hide the Google Drive file upload field on the order details page according to the order status. This feature is perfect for collecting additional files from customers only under specific conditions.',
         'image'       => get_template_directory_uri() . "/assets/images/connect-drive/woocommerce/connect-drive-upload-field-based-on-order-status.png",
         'features'    => [
             'Pending Payment',
@@ -48,8 +48,8 @@ $features = [
         ],
     ],
     [
-        'title'       => 'connect Drive Upload Field based on Page Locations',
-        'description' => 'Display the connect Drive upload field on specific pages of your site—like product pages, checkout, thank you, or account pages. Control exactly where users can upload files, tailored to your workflow.',
+        'title'       => 'Google Drive Upload Field based on Page Locations',
+        'description' => 'Show the Google Drive upload field on selected pages of your site, such as product pages, checkout, thank you, or account pages. Easily control where users can upload files to fit your workflow perfectly.',
         'image'       => get_template_directory_uri() . "/assets/images/connect-drive/woocommerce/connect-drive-upload-field-based-on-page-locations.png",
         'features'    => [
             'Product Page',
@@ -106,7 +106,7 @@ $features = [
     <div class="container">
         <div class="browser-demo__head text-center">
             <h2 class="browser-demo__head-title">Dokan</h2>
-            <p class="browser-demo__head-description">The Dokan compatibility allows store owners to enable download & upload on the specific product page. Also, they can allow Dokan Vendors to manage & monitor their allowed store access.</p>
+            <p class="browser-demo__head-description">Dokan compatibility lets store owners enable file uploads and downloads directly on specific product pages. It also allows Dokan vendors to efficiently manage and monitor file access within their assigned stores.</p>
         </div>
         <div class="demo-header-bg text-center">
             <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-drive/dokan/dokan-illustrations.png" alt="">
@@ -119,14 +119,14 @@ $features = [
 
 $features_dokans = [
     [
-        'title'       => 'Downloadable connect Drive Products',
-        'description' => 'Allow Dokan vendors to use their connect Drive files as downloadable products. Vendors can securely link Drive files to their digital products and sell them through your multi-vendor marketplace with ease.',
+        'title'       => 'Downloadable Google Drive Products',
+        'description' => 'Enable Dokan vendors to use their Google Drive files as downloadable products. Vendors can securely attach Drive files to their digital products and sell them effortlessly through your multi-vendor marketplace.',
         'image'       => get_template_directory_uri() . "/assets/images/connect-drive/dokan/downloadable-connect-drive-products.png",
         'features'    => ['Vendors can link Drive files to their products', 'Secure file delivery after purchase', 'Supports all connect Drive file types', 'Fully compatible with Dokan digital products', 'No need to upload files to WordPress']
     ],
     [
-        'title'       => 'connect Drive Upload Field based on Order Status',
-        'description' => 'Enable Dokan vendors to show or hide the connect Drive upload field on order details based on the order status. This helps vendors collect files from customers at the right stage, like after payment or during processing.',
+        'title'       => 'Google Drive Upload Field based on Order Status',
+        'description' => 'Allow Dokan vendors to display or hide the Google Drive upload field on order details according to the order status. This ensures vendors can collect files from customers at the appropriate stage, such as after payment or during order processing.',
         'image'       => get_template_directory_uri() . "/assets/images/connect-drive/dokan/connect-drive-upload-field-based-on-order-status.png",
         'features'    => [
             'Pending Payment',
@@ -140,8 +140,8 @@ $features_dokans = [
         ],
     ],
     [
-        'title'       => 'connect Drive Upload Field based on Page Locations',
-        'description' => 'Let Dokan vendors display connect Drive upload fields on specific pages like product, checkout, thank you, or account pages. This gives vendors control over when and where customers can upload files during their purchase journey.',
+        'title'       => 'Google Drive Upload Field based on Page Locations',
+        'description' => 'Enable Dokan vendors to display Google Drive upload fields on specific pages, including product, checkout, thank you, or account pages. This provides vendors with precise control over where and when customers can upload files during their purchase journey.',
         'image'       => get_template_directory_uri() . "/assets/images/connect-drive/dokan/connect-drive-upload-field-based-on-page-locations.png",
         'features'    => [
             'Product Page',
@@ -153,10 +153,10 @@ $features_dokans = [
     ],
     [
         'title'       => 'Media Library Integration',
-        'description' => 'Give Dokan vendors access to a powerful, connect Drive-connected Media Library right from their vendor dashboard. Vendors can browse, select, and reuse previously uploaded files without re-uploading—perfect for streamlining product management.',
+        'description' => 'Provide Dokan vendors with a Google Drive-connected Media Library directly in their dashboard. Vendors can easily browse, select, and reuse previously uploaded files without re-uploading, making product management faster and more efficient.',
         'image'       => get_template_directory_uri() . "/assets/images/connect-drive/dokan/media-library-integration.png",
         'features'    => [
-            'connect Drive-powered Media Library for vendors',
+            'Google Drive-powered Media Library for vendors',
             'Browse and reuse uploaded media across products',
             'Access from the Dokan vendor dashboard',
             'Supports images, audio, video, documents, and more',

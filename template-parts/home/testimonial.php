@@ -84,7 +84,7 @@ $testimonials = [
 						<p class="connect-drive-testimonial__desc"><?php echo wp_trim_words($testimonial['description'], 34, "..."); ?></p>
 
 						<div class="connect-drive-testimonial__user-text flex align-center">
-							<img class="img-fluid " src="<?php echo $testimonial['image']; ?>" alt="">
+							<div class="connect-drive-testimonial__user-img <?php echo esc_attr($key); ?>"></div>
 							<span class="connect-drive-testimonial__name"><?php echo $testimonial['name']; ?></span>
 						</div>
 					</div>

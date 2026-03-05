@@ -260,9 +260,8 @@ $main_features_items = [
 				<div class="feature-item-content">
 
 					<h3 class="feature-title">
-						<img class="img-fluid"
-							src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-drive/features/<?php echo $key; ?>-icon.png"
-							alt="<?php echo $feature['title']; ?>"> <?php echo $feature['title']; ?>
+						<span class="feature-icon <?php echo $key; ?>"></span>
+						<?php echo $feature['title']; ?>
 					</h3>
 					<?php if (wp_is_mobile()) { ?>
 						<div class="feature-item-img-mobile">

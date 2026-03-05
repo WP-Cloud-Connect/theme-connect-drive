@@ -32,10 +32,6 @@ $how_to_use_heading = 'Step-by-Step Guide to Using </br> <span>Connect Drive</sp
 $how_to_use_description = 'Boost your productivity with the Connect Drive plugin. Follow our simple, step-by-step guide below to get started and make the most of its powerful features.';
 ?>
 
-
-
-
-
 <section id="connect-drive__how-to-use">
     <div class="container">
         <div class="how-to-use__head text-center">
@@ -49,7 +45,7 @@ $how_to_use_description = 'Boost your productivity with the Connect Drive plugin
 
                 <div class="how-to-use__item flex align-center  how-to-use__<?php echo $key; ?>">
                     <div class="use-img">
-                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-drive/how-to-use//<?php echo $key; ?>-icons.png" alt="<?php echo $howtouse['title']; ?>">
+                        <div class="use-img__icon <?php echo $key; ?>"></div>
                     </div>
                     <div class="how-to-use__item-text">
                         <h4 class="how-to-use__item-title"><?php echo $howtouse['title']; ?></h4>

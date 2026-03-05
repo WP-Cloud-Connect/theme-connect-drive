@@ -12,9 +12,9 @@ get_header();
 <section class="terms-service-policy">
     <div class="container">
         <div class="terms-service-policy__head">
-            <h2 class="terms-service-policy__title">Terms of Service</h2>
+            <h1 class="terms-service-policy__title">Terms of Service</h1>
             <p class="terms-service-policy__description">
-                Welcome to <strong>Connect Drive.</strong> These Terms of Service (“Terms”) govern your use of the Connect Drive product and all associated services provided by <strong>example.com</strong> (“we”, “us”, “our”). By accessing or using Connect Drive, you agree to be bound by these Terms. If you do not agree, you must not use the Product.
+                Welcome to <strong>Connect Drive.</strong> These Terms of Service (“Terms”) govern your use of the Connect Drive product and all associated services provided by <strong>https://wpconnectdrive.com</strong> (“we”, “us”, “our”). By accessing or using Connect Drive, you agree to be bound by these Terms. If you do not agree, you must not use the Product.
             </p>
         </div>
 
@@ -41,7 +41,7 @@ get_header();
             <p>You may not claim intellectual or exclusive ownership of Connect Drive, whether modified or unmodified. All rights, title, and interest in the product remain solely with us.
             </p>
             <p>
-                Connect Drive is provided “as is” without any express or implied warranties. We are not liable for any damages or losses arising from the use of, or inability to use, the product, including direct, indirect, incidental, or consequential damages.
+                Connect Drive is provided as it is, without any guarantees or warranties. We are not liable for any damages or losses arising from the use of, or inability to use, the product, including direct, indirect, incidental, or consequential damages.
             </p>
             <p>
                 User accounts and product licenses are non-transferable. If you are a developer or representative purchasing on behalf of a client, the product must be purchased directly under the end user’s account to ensure proper license management and support access.
@@ -71,7 +71,7 @@ get_header();
             <p>Connect Drive integrates with Google Drive via Google’s APIs. By using Connect Drive to connect your Google Drive account, you acknowledge and agree that:</p>
             <ul>
                 <li>You remain responsible for all actions taken through your Google account.</li>
-                <li>You must comply with Google’s Terms of Service, including any additional terms for Google Drive.</li>
+                <li>You must comply with <a href="https://policies.google.com/terms?hl=en-US">Google’s Terms of Service</a>, including any additional terms for Google Drive.</li>
                 <li>We are not responsible for Google’s operation, availability, privacy practices, or policies.</li>
             </ul>
             <p>We do not control Google’s policies and do not guarantee continued compatibility with Google services.</p>
@@ -128,7 +128,7 @@ get_header();
 
         <div class="terms-service-policy__main">
             <h3>Contact Us</h3>
-            <p>If you have any questions about this terms-service Policy, You can contact us by visiting this page on our website: <a href="/contact/">https://wp-cloud-connect.com/contact/</a></p>
+            <p>If you have any questions about this terms-service Policy, You can contact us by visiting this page on our website: <a href="/contact/">https://wpconnectdrive.com/contact/</a></p>
             
         </div>
 

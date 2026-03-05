@@ -12,7 +12,7 @@ get_header();
 <section class="refund-policy">
     <div class="container">
         <div class="refund-policy__head">
-            <h2 class="refund-policy__title">Refund Policy</h2>
+            <h1 class="refund-policy__title">Refund Policy</h1>
             <p class="refund-policy__description">
                 We offer a fair and transparent refund policy. If you’re not satisfied with your purchase, you may request a refund within a specified period, provided the product or service meets our refund conditions.
             </p>

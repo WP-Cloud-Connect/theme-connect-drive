@@ -466,26 +466,26 @@
       // backdrop-filter: blur(12px);
     }
     .pricing-table-lifetime {
-      border-top: 6px solid #3283fe;
-      border-right: 1px solid #3283fe;
-      border-bottom: 1px solid #3283fe;
+      border-top: 6px solid #1bc1ff;
+      border-right: 1px solid #1bc1ff;
+      border-bottom: 1px solid #1bc1ff;
       background: #fff;
       .price-value {
-        color: #3283fe;
+        color: #1bc1ff;
       }
       // .features-btn {
-      //   color: #3283fe !important;
+      //   color: #1BC1FF !important;
       // }
       .buy-btn-pro {
-        background-color: #3283fe;
-        border: 1px solid #3283fe;
+        background-color: #1bc1ff;
+        border: 1px solid #1bc1ff;
         color: #fff;
         &:hover {
           background: transparent;
-          color: #3283fe !important;
+          color: #1bc1ff !important;
           svg {
             path {
-              fill: #3283fe;
+              fill: #1bc1ff;
             }
           }
         }
@@ -1859,9 +1859,9 @@
     margin: 40px auto auto auto;
     .accordion-item {
       border-radius: 16px;
-      border: 1px solid #1c6bcb;
+      border: 1px solid #bbd5ff;
       background: #fff;
-      box-shadow: 0 0 24px 0 rgba(150, 150, 150, 0.16);
+      // box-shadow: 0 0 24px 0 rgba(150, 150, 150, 0.16);
       margin-bottom: 20px;
       padding: 20px 30px;
       .accordion-header {
@@ -1900,12 +1900,14 @@
         transition: all linear 0.4s;
         svg {
           transition: all linear 0.4s;
-          path {
-            fill: $color_primary;
-          }
+          // path {
+          //   fill: $color_primary;
+          // }
         }
       }
       &.active {
+        border: 1px solid #1c6bcb;
+        box-shadow: 0 0 24px 0 rgba(150, 150, 150, 0.16);
         .accordion-body {
           height: auto;
         }

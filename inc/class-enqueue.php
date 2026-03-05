@@ -45,7 +45,7 @@ class Connect_Drive_Enqueue
 		}
 
 		//pricing page assets
-		if (is_page('connect-drive-pricing')) {
+		if (is_page('pricing')) {
 			wp_enqueue_style('pricing', get_theme_file_uri('assets/css/pricing.css'), array(), $theme_version, 'all');
 		}
 

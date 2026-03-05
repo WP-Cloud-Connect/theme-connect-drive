@@ -59,7 +59,7 @@
                                         <h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
                                     </div>
                                     <div class="our-blog-content-butt d-flex justify-content-between align-items-center">
-                                        <span class="blog-item-meta-time"><i class="fa-solid fa-clock"></i><?php echo softlab_get_reading_time(); ?></span>
+                                        <span class="blog-item-meta-time"><i class="fa-solid fa-clock"></i><?php echo connect_drive_get_reading_time(); ?></span>
                                         <a href="<?php the_permalink(); ?>" class="read-more">
                                             <?php _e('View Post', 'connect-drive'); ?>
                                             <i class="fas fa-arrow-right"></i>

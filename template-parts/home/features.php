@@ -2,7 +2,7 @@
 // features
 $features = [
 	'secured-connect-drive-access' => [
-		'title'       => 'Secured Connect Drive Access',
+		'title'       => 'Secured Google Drive Access',
 		'description' => 'You can now connect your Google Drive in the way that works best for you. Choose to give access only to the app’s folder, select a specific folder, or connect your entire drive. This keeps your files private while giving you full control over what’s shared, and what\'s not. It’s simple, safe, and designed to fit your needs.',
 		'video' => '#',
 	],

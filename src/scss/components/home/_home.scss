@@ -17,21 +17,21 @@
     .hero-content__title {
       font-size: 4rem;
       margin-bottom: 1.5rem;
-      font-weight: 600;
+      font-weight: 700;
       line-height: 120%;
       font-family: "Inter", sans-serif;
 
       span {
-        // background: linear-gradient(147deg, #78F 11.6%, #6E6DFF 89.24%);
-        // background-clip: text;
-        // -webkit-background-clip: text;
-        // -webkit-text-fill-color: transparent;
-        color: #6e6dff;
-        background: url("../images/home/solutions-border.png") no-repeat left center;
-        padding: 12px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
+        background: linear-gradient(295deg, #1c6bcb 2.71%, #2d7cff 96.32%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        // background: url("../images/home/solutions-border.png") no-repeat left
+        //   center;
+        // padding: 12px;
+        // background-position: center;
+        // background-repeat: no-repeat;
+        // background-size: contain;
       }
     }
 
@@ -368,7 +368,7 @@
 
     .connect-drive-feature__title {
       font-weight: 700;
-      font-size: 3.5rem;
+      font-size: 3rem;
       color: #111;
       margin-bottom: 20px;
 
@@ -1735,7 +1735,7 @@
 
     .how-to-use__title {
       font-weight: 700;
-      font-size: 3.5rem;
+      font-size: 3rem;
       line-height: 120%;
       color: #111;
       padding-bottom: 20px;
@@ -2266,7 +2266,7 @@
 
     .connect-drive-testimonial__heading-title {
       font-weight: 700;
-      font-size: 3.5rem;
+      font-size: 3rem;
       line-height: 120%;
       color: #111;
 
@@ -2502,12 +2502,12 @@
   padding: 100px 0 0px 0;
 
   .connect-drive-pricing__hero-content {
-    max-width: 700px;
+    max-width: 780px;
     margin: auto;
 
     .connect-drive-pricing__hero-title {
       font-weight: 700;
-      font-size: 3.5rem;
+      font-size: 3rem;
       line-height: 120%;
       color: #111;
     }
@@ -2998,30 +2998,29 @@
     }
 
     .pricing-table-lifetime {
-      border-top: 6px solid #3283fe;
-      border-right: 1px solid #3283fe;
-      border-bottom: 1px solid #3283fe;
+      border-top: 6px solid #1BC1FF;
+      border-right: 1px solid #1BC1FF;
+      border-bottom: 1px solid #1BC1FF;
       background: #fff;
 
       .price-value {
-        color: #3283fe;
+        color: #1BC1FF;
       }
 
       // .features-btn {
-      //   color: #3283fe !important;
+      //   color: #1BC1FF !important;
       // }
       .buy-btn-pro {
-        background-color: #3283fe;
-        border: 1px solid #3283fe;
+        background-color: #1BC1FF;
+        border: 1px solid #1BC1FF;
         color: #fff;
 
         &:hover {
           background: transparent;
-          color: #3283fe !important;
-
+          color: #1BC1FF !important;
           svg {
             path {
-              fill: #3283fe;
+              fill: #1BC1FF;
             }
           }
         }
@@ -3846,9 +3845,9 @@
 
     .accordion-item {
       border-radius: 16px;
-      border: 1px solid #1c6bcb;
+      border: 1px solid #BBD5FF;
       background: #fff;
-      box-shadow: 0 0 24px 0 rgba(150, 150, 150, 0.16);
+      // box-shadow: 0 0 24px 0 rgba(150, 150, 150, 0.16);
       margin-bottom: 20px;
       padding: 20px 30px;
 
@@ -3894,14 +3893,15 @@
 
         svg {
           transition: all linear 0.4s;
-
-          path {
-            fill: $color_primary;
-          }
+          // path {
+          //   fill: $color_primary;
+          // }
         }
       }
 
       &.active {
+        border: 1px solid #1C6BCB;
+        box-shadow: 0 0 24px 0 rgba(150, 150, 150, 0.16);
         .accordion-body {
           height: auto;
         }

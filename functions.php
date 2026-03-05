@@ -206,7 +206,7 @@ if ( ! function_exists( 'connect_drive_article_posted_on' ) ) :
      */
     function connect_drive_article_posted_on() {
         printf(
-                wp_kses_post( __( ' <div> <span class="sep"> Updated on </span><a href="%1$s" title="%2$s" rel="bookmark"><time class="entry-date" datetime="%3$s">%4$s</time></a></div>', 'softlab' ) ),
+                wp_kses_post( __( ' <div> <span class="sep"> Updated on </span><a href="%1$s" title="%2$s" rel="bookmark"><time class="entry-date" datetime="%3$s">%4$s</time></a></div>', 'connect-drive' ) ),
                 esc_url( get_the_permalink() ),
                 esc_attr( get_the_date() . ' - ' . get_the_time() ),
                 esc_attr( get_the_date( 'c' ) ),

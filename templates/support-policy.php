@@ -12,7 +12,7 @@ get_header();
 <section class="support-policy">
     <div class="container">
         <div class="support-policy__head">
-            <h2 class="support-policy__title">Support Policy</h2>
+            <h1 class="support-policy__title">Support Policy</h1>
             <p class="support-policy__description">
                 We are dedicated to delivering outstanding customer support to ensure your experience with our software solutions is seamless, reliable, and satisfying. This Support Policy outlines the terms, scope, and procedures for accessing assistance from our team.
             </p>
@@ -38,8 +38,8 @@ get_header();
             <h3>Support Channels</h3>
             <p>We offer support through the following channels:</p>
             <ul>
-                <li><strong>Support Portal: </strong><a href="#">wp-cloud-connect.com/support</a></li>
-                <li><strong>Live Chat (Messenger): </strong>Available on our website during business hours and through our <a href="#">Official Facebook Page.</a></li>
+                <li><strong>Support Portal: </strong><a href="/support">https://wpconnectdrive.com/support</a></li>
+                <li><strong>Live Chat (Messenger): </strong>Available on our website during business hours and through our <a href="https://www.facebook.com/wpcloudconnect">Official Facebook Page.</a></li>
             </ul>
         </div>
 
@@ -57,6 +57,7 @@ get_header();
 
         </div>
 
+
         <div class="support-policy__main">
             <h3>Customer Responsibilities</h3>
             <p>To help us serve you better, we ask that you:</p>
@@ -71,7 +72,7 @@ get_header();
         <div class="support-policy__main">
             <h3>What Our Support Does Not Cover</h3>
             <ul>
-                <li>Third-party software, plugins, or integrations not developed or officially purchased from SoftLab.</li>
+                <li>Third-party software, plugins, or integrations not developed or officially purchased from Connect Drive.</li>
                 <li>Websites or applications related to adult content, gambling, illegal activities, or other restricted industries.</li>
                 <li>Custom code or unauthorized modifications made to our software.</li>
                 <li>Outdated or deprecated versions of our software.</li>
@@ -83,11 +84,11 @@ get_header();
         </div>
         <div class="support-policy__main">
             <h3>Feedback & Escalations</h3>
-            <p>If you are unsatisfied with the support you’ve received, please escalate the matter by emailing contact@softlabbd.com. We value your feedback and use it to improve our services continuously.</p>
+            <p>If you are unsatisfied with the support you’ve received, please escalate the matter by emailing wpcloudconnect@gmail.com. We value your feedback and use it to improve our services continuously.</p>
         </div>
         <div class="support-policy__main">
             <h3>Policy Updates</h3>
-            <p>SoftLab reserves the right to update this policy at any time. Changes will be posted on this page with an updated effective date.</p>
+            <p>Connect Drive reserves the right to update this policy at any time. Changes will be posted on this page with an updated effective date.</p>
         </div>
 
 

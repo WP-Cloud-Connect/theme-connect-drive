@@ -9,7 +9,7 @@ class Connect_Drive_Hooks {
     private static $instance = null;
 
     public function __construct() {
-        add_action('wp_head', [$this, 'preload_assets']);
+        // add_action('wp_head', [$this, 'preload_assets']);
         add_filter('softdocs_page_template', [$this, 'docs_page']);
     }
 

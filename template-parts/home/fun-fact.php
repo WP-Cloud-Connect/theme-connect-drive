@@ -9,10 +9,9 @@
         <div class="connect-drive-funfact__main-item">
             <div class="connect-drive-funfact__sub-item">
                 <div class="fun-item mb-20">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-drive/funfact/free-download.png" alt="total-download">
+                    <div class="fun-item__icon download"></div>
 
                     <div class="contant">
-
                         <div class="te-count flex align-center justify-center">
                             <span class="counter">400</span>
                             <h5>k+</h5>
@@ -21,7 +20,7 @@
                     </div>
                 </div>
                 <div class="fun-item mb-20">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-drive/funfact/happy-customers.png" alt="paid-installation">
+                    <div class="fun-item__icon customers"></div>
 
                     <div class="contant">
                         <div class="te-count flex align-center justify-center">
@@ -32,7 +31,7 @@
                     </div>
                 </div>
                 <div class="fun-item mb-20">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-drive/funfact/active-installation.png" alt="active-installation">
+                    <div class="fun-item__icon installation"></div>
 
                     <div class="contant">
                         <div class="te-count flex align-center justify-center">
@@ -43,7 +42,7 @@
                     </div>
                 </div>
                 <div class="fun-item ">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-drive/funfact/positive-rating.png" alt="positive-rating">
+                    <div class="fun-item__icon rating"></div>
 
                     <div class="contant">
                         <div class="te-count flex align-center justify-center">
@@ -54,7 +53,7 @@
                     </div>
                 </div>
                 <div class="fun-item ">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-drive/funfact/countries-worldwide.png" alt="positive-rating">
+                    <div class="fun-item__icon worldwide"></div>
 
                     <div class="contant">
                         <div class="te-count flex align-center justify-center">
@@ -65,7 +64,7 @@
                     </div>
                 </div>
                 <div class="fun-item ">
-                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-drive/funfact/years-experience.png" alt="positive-rating">
+                    <div class="fun-item__icon experience"></div>
 
                     <div class="contant">
                         <div class="te-count flex align-center justify-center">

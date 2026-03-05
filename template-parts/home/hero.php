@@ -4,7 +4,7 @@
 
             <div class="hero-content">
                 <h1 class="hero-content__title">
-                    <?php _e('Seamless Google Drive Integration for WordPress', 'connect-drive') ?>
+                    <?php _e('Seamless <span>Google Drive</span> Integration for WordPress', 'connect-drive') ?>
                 </h1>
 
 
@@ -12,7 +12,7 @@
                     <div class="hero-content__image-mobile text-center mb-5">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-drive/hero-image-1.png" fetchpriority="high" alt="" class="img-fluid w-75 w-md-100">
                         <div class="hero-image__play__btn ripple">
-                            <a class="my-btn-primary" href="https://www.youtube.com/embed/6DrYur4KGLA?si=f9GFhgplgivy0gag" data-lity>
+                            <a class="my-btn-primary" href="#" data-lity>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="23" height="20" viewBox="0 0 23 29" fill="none">
                                     <path d="M21.5466 15.9072C22.7328 15.1136 22.7298 13.3686 21.541 12.579L3.10656 0.334762C1.77723 -0.548189 0 0.420111 0 2.01596C0 19.7249 0 12.9512 0 26.5645C0 28.1634 1.78335 29.1314 3.11223 28.2422L21.5466 15.9072Z" fill="white" />
                                 </svg>
@@ -43,7 +43,7 @@
             <div class="hero-image text-end ">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-drive/hero-image-1.png" fetchpriority="high" alt="" class="img-fluid w-75 w-md-100">
                 <div class="hero-image__play__btn ripple">
-                    <a class="my-btn-primary" href="https://www.youtube.com/embed/6DrYur4KGLA?si=f9GFhgplgivy0gag" data-lity>
+                    <a class="my-btn-primary" href="#" data-lity>
                         <svg xmlns="http://www.w3.org/2000/svg" width="23" height="29" viewBox="0 0 23 29" fill="none">
                             <path d="M21.5466 15.9072C22.7328 15.1136 22.7298 13.3686 21.541 12.579L3.10656 0.334762C1.77723 -0.548189 0 0.420111 0 2.01596C0 19.7249 0 12.9512 0 26.5645C0 28.1634 1.78335 29.1314 3.11223 28.2422L21.5466 15.9072Z" fill="white" />
                         </svg>

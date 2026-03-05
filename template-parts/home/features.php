@@ -2,7 +2,7 @@
 // features
 $features = [
 	'secured-connect-drive-access' => [
-		'title'       => 'Secured Connect Drive Access',
+		'title'       => 'Secured Google Drive Access',
 		'description' => 'You can now connect your Google Drive in the way that works best for you. Choose to give access only to the app’s folder, select a specific folder, or connect your entire drive. This keeps your files private while giving you full control over what’s shared, and what\'s not. It’s simple, safe, and designed to fit your needs.',
 		'video' => '#',
 	],
@@ -260,9 +260,8 @@ $main_features_items = [
 				<div class="feature-item-content">
 
 					<h3 class="feature-title">
-						<img class="img-fluid"
-							src="<?php echo get_template_directory_uri(); ?>/assets/images/connect-drive/features/<?php echo $key; ?>-icon.png"
-							alt="<?php echo $feature['title']; ?>"> <?php echo $feature['title']; ?>
+						<span class="feature-icon <?php echo $key; ?>"></span>
+						<?php echo $feature['title']; ?>
 					</h3>
 					<?php if (wp_is_mobile()) { ?>
 						<div class="feature-item-img-mobile">
